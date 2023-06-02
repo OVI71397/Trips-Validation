@@ -1,0 +1,1891 @@
+from_city,to_city,url,price
+Brussels,Amsterdam,https://www.thetrainline.com/en/train-times/brussels-to-amsterdam,from €26
+Brussels,Paris,https://www.thetrainline.com/en/train-times/brussels-to-paris,from €9
+Paris,Barcelona,https://www.thetrainline.com/en/train-times/paris-to-barcelona,from €29
+Barcelona,Madrid,https://www.thetrainline.com/en/train-times/barcelona-to-madrid,from €6
+Madrid,Sevilla,https://www.thetrainline.com/en/train-times/madrid-to-sevilla,from €7
+Barcelona,Sevilla,https://www.thetrainline.com/en/train-times/barcelona-to-sevilla,from €13.45
+Lyon,Clermont-Ferrand,https://www.thetrainline.com/en/train-times/lyon-to-clermont-ferrand,from €17
+Geneva,Lyon,https://www.thetrainline.com/en/train-times/geneva-to-lyon,from €14.70
+Venice,Milan,https://www.thetrainline.com/en/train-times/venice-to-milan,from €9
+Milan,Lyon,https://www.thetrainline.com/en/train-times/milan-to-lyon,from €25
+Constanta,Bucharest,https://www.thetrainline.com/en/train-times/constanta-to-bucharest,NA
+Bristol,Southampton,https://www.thetrainline.com/en/train-times/bristol-to-southampton,NA
+Pescara,Bologna,https://www.thetrainline.com/en/train-times/pescara-to-bologna,from €9.90
+Pescara,Ancona,https://www.thetrainline.com/en/train-times/pescara-to-ancona,from €7.90
+Iasi,Chisinau,https://www.thetrainline.com/en/train-times/iasi-to-chisinau,NA
+Valencia,Alicante,https://www.thetrainline.com/en/train-times/valencia-to-alicante,from €2.55
+Madrid,Valladolid,https://www.thetrainline.com/en/train-times/madrid-to-valladolid,from €9.85
+Bilbao,Valladolid,https://www.thetrainline.com/en/train-times/bilbao-to-valladolid,from €12.55
+Genoa,Milan,https://www.thetrainline.com/en/train-times/genoa-to-milan,from €9.90
+Innsbruck,Zurich,https://www.thetrainline.com/en/train-times/innsbruck-to-zurich,NA
+Munich,Paris,https://www.thetrainline.com/en/train-times/munich-to-paris,from €16.90
+Paris,London,https://www.thetrainline.com/en/train-times/paris-to-london,from €38.50
+Innsbruck,Amsterdam,https://www.thetrainline.com/en/train-times/innsbruck-to-amsterdam,NA
+Amsterdam,London,https://www.thetrainline.com/en/train-times/amsterdam-to-london,from €55
+Valladolid,Madrid,https://www.thetrainline.com/en/train-times/valladolid-to-madrid,from €9.85
+Valladolid,Bilbao,https://www.thetrainline.com/en/train-times/valladolid-to-bilbao,from €12.55
+Madrid,Salamanca,https://www.thetrainline.com/en/train-times/madrid-to-salamanca,from €22.60
+Valladolid,Salamanca,https://www.thetrainline.com/en/train-times/valladolid-to-salamanca,from €5
+Warsaw,Berlin,https://www.thetrainline.com/en/train-times/warsaw-to-berlin,from €27.90
+Berlin,Frankfurt,https://www.thetrainline.com/en/train-times/berlin-to-frankfurt,NA
+Frankfurt,Bordeaux,https://www.thetrainline.com/en/train-times/frankfurt-to-bordeaux,NA
+Rome,Venice,https://www.thetrainline.com/en/train-times/rome-to-venice,from €10.90
+Vienna,Graz,https://www.thetrainline.com/en/train-times/vienna-to-graz,from €9.90
+Frankfurt,Stuttgart,https://www.thetrainline.com/en/train-times/frankfurt-to-stuttgart,NA
+Munich,Stuttgart,https://www.thetrainline.com/en/train-times/munich-to-stuttgart,from €12.90
+Hamburg,Stuttgart,https://www.thetrainline.com/en/train-times/hamburg-to-stuttgart,from €9.99
+Rostock,Hamburg,https://www.thetrainline.com/en/train-times/rostock-to-hamburg,from €12.90
+Rostock,Berlin,https://www.thetrainline.com/en/train-times/rostock-to-berlin,from €12.90
+Bremen,Hamburg,https://www.thetrainline.com/en/train-times/bremen-to-hamburg,from €7.99
+Hamburg,Aarhus,https://www.thetrainline.com/en/train-times/hamburg-to-aarhus,from €28.90
+Aarhus,Aalborg,https://www.thetrainline.com/en/train-times/aarhus-to-aalborg,NA
+Groningen,Amsterdam,https://www.thetrainline.com/en/train-times/groningen-to-amsterdam,from €29
+Nantes,Paris,https://www.thetrainline.com/en/train-times/nantes-to-paris,from €1
+London,Plymouth,https://www.thetrainline.com/en/train-times/london-to-plymouth,from €46.52
+Cardiff,Bristol,https://www.thetrainline.com/en/train-times/cardiff-to-bristol,NA
+Bristol,Plymouth,https://www.thetrainline.com/en/train-times/bristol-to-plymouth,NA
+Exeter,Plymouth,https://www.thetrainline.com/en/train-times/exeter-to-plymouth,from €6.12
+Inverness,Aberdeen,https://www.thetrainline.com/en/train-times/inverness-to-aberdeen,from €9.79
+Inverness,Edinburgh,https://www.thetrainline.com/en/train-times/inverness-to-edinburgh,from €11.14
+Edinburgh,Plymouth,https://www.thetrainline.com/en/train-times/edinburgh-to-plymouth,from €100.75
+Cardiff,Plymouth,https://www.thetrainline.com/en/train-times/cardiff-to-plymouth,NA
+Maastricht,Liege,https://www.thetrainline.com/en/train-times/maastricht-to-liege,from €7.30
+Liege,Brussels,https://www.thetrainline.com/en/train-times/liege-to-brussels,from €17.40
+Paris,Clermont-Ferrand,https://www.thetrainline.com/en/train-times/paris-to-clermont-ferrand,from €15
+Liege,Paris,https://www.thetrainline.com/en/train-times/liege-to-paris,from €29
+Saarbruecken,Salzburg,https://www.thetrainline.com/en/train-times/saarbruecken-to-salzburg,NA
+Salzburg,Vienna,https://www.thetrainline.com/en/train-times/salzburg-to-vienna,NA
+Saarbruecken,Mannheim,https://www.thetrainline.com/en/train-times/saarbruecken-to-mannheim,NA
+Mannheim,Munich,https://www.thetrainline.com/en/train-times/mannheim-to-munich,from €12.90
+Munich,Vienna,https://www.thetrainline.com/en/train-times/munich-to-vienna,from €2
+Mannheim,Frankfurt,https://www.thetrainline.com/en/train-times/mannheim-to-frankfurt,NA
+Mannheim,Stuttgart,https://www.thetrainline.com/en/train-times/mannheim-to-stuttgart,from €4.99
+Linz,Vienna,https://www.thetrainline.com/en/train-times/linz-to-vienna,from €2
+Saarbruecken,Strasbourg,https://www.thetrainline.com/en/train-times/saarbruecken-to-strasbourg,NA
+Nice,Marseille,https://www.thetrainline.com/en/train-times/nice-to-marseille,from €16.40
+Bratislava,Budapest,https://www.thetrainline.com/en/train-times/bratislava-to-budapest,from €18.80
+Geneva,Marseille,https://www.thetrainline.com/en/train-times/geneva-to-marseille,from €32
+Bratislava,Zurich,https://www.thetrainline.com/en/train-times/bratislava-to-zurich,from €39.70
+Zurich,Geneva,https://www.thetrainline.com/en/train-times/zurich-to-geneva,from €75.20
+Vienna,Genoa,https://www.thetrainline.com/en/train-times/vienna-to-genoa,from €28.80
+Esbjerg,Copenhagen,https://www.thetrainline.com/en/train-times/esbjerg-to-copenhagen,NA
+Esbjerg,Aarhus,https://www.thetrainline.com/en/train-times/esbjerg-to-aarhus,NA
+Ronneby,Copenhagen,https://www.thetrainline.com/en/train-times/ronneby-to-copenhagen,NA
+Barcelona,Alicante,https://www.thetrainline.com/en/train-times/barcelona-to-alicante,from €5.35
+Copenhagen,Hamburg,https://www.thetrainline.com/en/train-times/copenhagen-to-hamburg,from €28.90
+Madrid,Alicante,https://www.thetrainline.com/en/train-times/madrid-to-alicante,from €7
+Malmo,Hamburg,https://www.thetrainline.com/en/train-times/malmo-to-hamburg,NA
+Barcelona,Valencia,https://www.thetrainline.com/en/train-times/barcelona-to-valencia,from €2.15
+Brussels,Antwerp,https://www.thetrainline.com/en/train-times/brussels-to-antwerp,from €9.70
+Stuttgart,Munich,https://www.thetrainline.com/en/train-times/stuttgart-to-munich,from €12.90
+Munich,Salzburg,https://www.thetrainline.com/en/train-times/munich-to-salzburg,NA
+Salzburg,Klagenfurt,https://www.thetrainline.com/en/train-times/salzburg-to-klagenfurt,NA
+Stuttgart,Salzburg,https://www.thetrainline.com/en/train-times/stuttgart-to-salzburg,NA
+Basel,Zurich,https://www.thetrainline.com/en/train-times/basel-to-zurich,from €8.92
+Helsinki,Tampere,https://www.thetrainline.com/en/train-times/helsinki-to-tampere,NA
+Turku,Tampere,https://www.thetrainline.com/en/train-times/turku-to-tampere,NA
+Cagliari,Olbia,https://www.thetrainline.com/en/train-times/cagliari-to-olbia,from €18
+Manchester,Leeds,https://www.thetrainline.com/en/train-times/manchester-to-leeds,from €4.28
+Manchester,London,https://www.thetrainline.com/en/train-times/manchester-to-london,from €34.28
+Manchester,Liverpool,https://www.thetrainline.com/en/train-times/manchester-to-liverpool,from €3.55
+Salzburg,Graz,https://www.thetrainline.com/en/train-times/salzburg-to-graz,NA
+Budapest,Graz,https://www.thetrainline.com/en/train-times/budapest-to-graz,from €18.50
+Malmo,Copenhagen,https://www.thetrainline.com/en/train-times/malmo-to-copenhagen,NA
+Malmo,Salzburg,https://www.thetrainline.com/en/train-times/malmo-to-salzburg,NA
+Bologna,Venice,https://www.thetrainline.com/en/train-times/bologna-to-venice,from €7.90
+Venice,Trieste,https://www.thetrainline.com/en/train-times/venice-to-trieste,from €5.90
+Verona,Trieste,https://www.thetrainline.com/en/train-times/verona-to-trieste,NA
+Budapest,Vienna,https://www.thetrainline.com/en/train-times/budapest-to-vienna,from €9
+Krakow,Warsaw,https://www.thetrainline.com/en/train-times/krakow-to-warsaw,NA
+Verona,Milan,https://www.thetrainline.com/en/train-times/verona-to-milan,NA
+Exeter,Bristol,https://www.thetrainline.com/en/train-times/exeter-to-bristol,NA
+Tallinn,Tartu,https://www.thetrainline.com/en/train-times/tallinn-to-tartu,NA
+Bristol,Cardiff,https://www.thetrainline.com/en/train-times/bristol-to-cardiff,NA
+Exeter,London,https://www.thetrainline.com/en/train-times/exeter-to-london,from €17.02
+London,Brussels,https://www.thetrainline.com/en/train-times/london-to-brussels,from €58
+Salamanca,Madrid,https://www.thetrainline.com/en/train-times/salamanca-to-madrid,from €23.90
+Madrid,Zaragoza,https://www.thetrainline.com/en/train-times/madrid-to-zaragoza,from €7
+Rimini,Bologna,https://www.thetrainline.com/en/train-times/rimini-to-bologna,from €7.90
+Bologna,Florence,https://www.thetrainline.com/en/train-times/bologna-to-florence,from €7.90
+Bologna,Rome,https://www.thetrainline.com/en/train-times/bologna-to-rome,from €9.90
+Vienna,Bucharest,https://www.thetrainline.com/en/train-times/vienna-to-bucharest,NA
+London,Bournemouth,https://www.thetrainline.com/en/train-times/london-to-bournemouth,from €13.83
+Antwerp,Rotterdam,https://www.thetrainline.com/en/train-times/antwerp-to-rotterdam,from €14
+Antwerp,Amsterdam,https://www.thetrainline.com/en/train-times/antwerp-to-amsterdam,from €21
+Antwerp,Brussels,https://www.thetrainline.com/en/train-times/antwerp-to-brussels,from €9.70
+Glasgow,Edinburgh,https://www.thetrainline.com/en/train-times/glasgow-to-edinburgh,from €7.22
+Brussels,London,https://www.thetrainline.com/en/train-times/brussels-to-london,from €57
+London,Edinburgh,https://www.thetrainline.com/en/train-times/london-to-edinburgh,from €24.36
+Zurich,Bratislava,https://www.thetrainline.com/en/train-times/zurich-to-bratislava,from €37.40
+Vienna,Ostrava,https://www.thetrainline.com/en/train-times/vienna-to-ostrava,NA
+Budapest,Ostrava,https://www.thetrainline.com/en/train-times/budapest-to-ostrava,NA
+Stockholm,Norrkoping,https://www.thetrainline.com/en/train-times/stockholm-to-norrkoping,NA
+Copenhagen,Norrkoping,https://www.thetrainline.com/en/train-times/copenhagen-to-norrkoping,NA
+Katowice,Krakow,https://www.thetrainline.com/en/train-times/katowice-to-krakow,NA
+Warsaw,Krakow,https://www.thetrainline.com/en/train-times/warsaw-to-krakow,NA
+Wroclaw,Krakow,https://www.thetrainline.com/en/train-times/wroclaw-to-krakow,NA
+Vienna,Krakow,https://www.thetrainline.com/en/train-times/vienna-to-krakow,NA
+Venice,Florence,https://www.thetrainline.com/en/train-times/venice-to-florence,from €8.90
+Verona,Florence,https://www.thetrainline.com/en/train-times/verona-to-florence,NA
+Zaragoza,Barcelona,https://www.thetrainline.com/en/train-times/zaragoza-to-barcelona,from €7
+Zaragoza,Madrid,https://www.thetrainline.com/en/train-times/zaragoza-to-madrid,from €5
+Helsinki,Turku,https://www.thetrainline.com/en/train-times/helsinki-to-turku,NA
+Lappeenranta,Helsinki,https://www.thetrainline.com/en/train-times/lappeenranta-to-helsinki,NA
+Naples,Lamezia Terme,https://www.thetrainline.com/en/train-times/naples-to-lamezia-terme,from €9.90
+Florence,Lamezia Terme,https://www.thetrainline.com/en/train-times/florence-to-lamezia-terme,from €9.50
+Wroclaw,Warsaw,https://www.thetrainline.com/en/train-times/wroclaw-to-warsaw,NA
+Aberdeen,Edinburgh,https://www.thetrainline.com/en/train-times/aberdeen-to-edinburgh,from €11.14
+Aberdeen,Glasgow,https://www.thetrainline.com/en/train-times/aberdeen-to-glasgow,from €11.14
+Strasbourg,Metz,https://www.thetrainline.com/en/train-times/strasbourg-to-metz,from €10
+Paris,Metz,https://www.thetrainline.com/en/train-times/paris-to-metz,from €16
+Salamanca,Valladolid,https://www.thetrainline.com/en/train-times/salamanca-to-valladolid,from €10
+Clermont-Ferrand,Lyon,https://www.thetrainline.com/en/train-times/clermont-ferrand-to-lyon,from €18.60
+Turin,Lyon,https://www.thetrainline.com/en/train-times/turin-to-lyon,from €25
+Turku,Helsinki,https://www.thetrainline.com/en/train-times/turku-to-helsinki,NA
+Stockholm,Berlin,https://www.thetrainline.com/en/train-times/stockholm-to-berlin,NA
+Aalborg,Copenhagen,https://www.thetrainline.com/en/train-times/aalborg-to-copenhagen,NA
+Aalborg,Aarhus,https://www.thetrainline.com/en/train-times/aalborg-to-aarhus,NA
+Aarhus,Hamburg,https://www.thetrainline.com/en/train-times/aarhus-to-hamburg,from €28.90
+Vienna,Bratislava,https://www.thetrainline.com/en/train-times/vienna-to-bratislava,from €9.80
+Hamburg,Vienna,https://www.thetrainline.com/en/train-times/hamburg-to-vienna,from €28.20
+Newcastle,Edinburgh,https://www.thetrainline.com/en/train-times/newcastle-to-edinburgh,from €9.67
+Edinburgh,Glasgow,https://www.thetrainline.com/en/train-times/edinburgh-to-glasgow,from €7.22
+Westerland,Hamburg,https://www.thetrainline.com/en/train-times/westerland-to-hamburg,NA
+Copenhagen,Stockholm,https://www.thetrainline.com/en/train-times/copenhagen-to-stockholm,NA
+Hamburg,Stockholm,https://www.thetrainline.com/en/train-times/hamburg-to-stockholm,NA
+Florence,Bologna,https://www.thetrainline.com/en/train-times/florence-to-bologna,from €7.90
+Florence,Rome,https://www.thetrainline.com/en/train-times/florence-to-rome,from €8.90
+Florence,Pisa,https://www.thetrainline.com/en/train-times/florence-to-pisa,from €7.90
+Florence,Venice,https://www.thetrainline.com/en/train-times/florence-to-venice,from €8.90
+Florence,Milan,https://www.thetrainline.com/en/train-times/florence-to-milan,from €8.90
+London,Birmingham,https://www.thetrainline.com/en/train-times/london-to-birmingham,from €7.83
+Manchester,Birmingham,https://www.thetrainline.com/en/train-times/manchester-to-birmingham,from €21.55
+Zurich,Basel,https://www.thetrainline.com/en/train-times/zurich-to-basel,from €8.77
+Palermo,Rome,https://www.thetrainline.com/en/train-times/palermo-to-rome,from €16.90
+Rome,Bologna,https://www.thetrainline.com/en/train-times/rome-to-bologna,from €9.90
+Innsbruck,Dortmund,https://www.thetrainline.com/en/train-times/innsbruck-to-dortmund,NA
+Bergen,Oslo,https://www.thetrainline.com/en/train-times/bergen-to-oslo,NA
+Brno,Bratislava,https://www.thetrainline.com/en/train-times/brno-to-bratislava,NA
+Plymouth,Bristol,https://www.thetrainline.com/en/train-times/plymouth-to-bristol,NA
+Plymouth,Birmingham,https://www.thetrainline.com/en/train-times/plymouth-to-birmingham,from €70.39
+Plymouth,London,https://www.thetrainline.com/en/train-times/plymouth-to-london,from €46.52
+London,Lille,https://www.thetrainline.com/en/train-times/london-to-lille,from €58
+Bilbao,Barcelona,https://www.thetrainline.com/en/train-times/bilbao-to-barcelona,from €17.45
+Frankfurt,Duesseldorf,https://www.thetrainline.com/en/train-times/frankfurt-to-duesseldorf,NA
+Cologne,Duesseldorf,https://www.thetrainline.com/en/train-times/cologne-to-duesseldorf,NA
+Ancona,Rome,https://www.thetrainline.com/en/train-times/ancona-to-rome,from €9.90
+Ancona,Bologna,https://www.thetrainline.com/en/train-times/ancona-to-bologna,from €9.90
+Kosice,Poprad,https://www.thetrainline.com/en/train-times/kosice-to-poprad,NA
+Bratislava,Poprad,https://www.thetrainline.com/en/train-times/bratislava-to-poprad,NA
+Ostrava,Poprad,https://www.thetrainline.com/en/train-times/ostrava-to-poprad,NA
+Bologna,Milan,https://www.thetrainline.com/en/train-times/bologna-to-milan,from €8.90
+Salzburg,Bratislava,https://www.thetrainline.com/en/train-times/salzburg-to-bratislava,NA
+Sofia,Burgas,https://www.thetrainline.com/en/train-times/sofia-to-burgas,NA
+Lyon,Geneva,https://www.thetrainline.com/en/train-times/lyon-to-geneva,from €14.70
+Lyon,Turin,https://www.thetrainline.com/en/train-times/lyon-to-turin,from €25
+Lyon,Milan,https://www.thetrainline.com/en/train-times/lyon-to-milan,from €25
+Hamburg,Rostock,https://www.thetrainline.com/en/train-times/hamburg-to-rostock,from €12.90
+Berlin,Rostock,https://www.thetrainline.com/en/train-times/berlin-to-rostock,from €12.90
+Munich,Berlin,https://www.thetrainline.com/en/train-times/munich-to-berlin,from €17.90
+Split,Zagreb,https://www.thetrainline.com/en/train-times/split-to-zagreb,NA
+Zagreb,Munich,https://www.thetrainline.com/en/train-times/zagreb-to-munich,from €29.20
+Split,Vienna,https://www.thetrainline.com/en/train-times/split-to-vienna,NA
+Vienna,Rostock,https://www.thetrainline.com/en/train-times/vienna-to-rostock,from €36.30
+Amsterdam,Antwerp,https://www.thetrainline.com/en/train-times/amsterdam-to-antwerp,from €21
+Hamburg,Copenhagen,https://www.thetrainline.com/en/train-times/hamburg-to-copenhagen,from €28.90
+Madrid,Santiago de Compostela,https://www.thetrainline.com/en/train-times/madrid-to-santiago-de-compostela,from €17.20
+Budapest,Munich,https://www.thetrainline.com/en/train-times/budapest-to-munich,from €28.90
+Budapest,Zurich,https://www.thetrainline.com/en/train-times/budapest-to-zurich,from €9.90
+Frankfurt,Paris,https://www.thetrainline.com/en/train-times/frankfurt-to-paris,NA
+Paris,Nantes,https://www.thetrainline.com/en/train-times/paris-to-nantes,from €1
+Bucharest,Budapest,https://www.thetrainline.com/en/train-times/bucharest-to-budapest,NA
+Cork,Dublin,https://www.thetrainline.com/en/train-times/cork-to-dublin,NA
+Burgas,Sofia,https://www.thetrainline.com/en/train-times/burgas-to-sofia,NA
+Doncaster,Manchester,https://www.thetrainline.com/en/train-times/doncaster-to-manchester,from €10.77
+Leeds,Manchester,https://www.thetrainline.com/en/train-times/leeds-to-manchester,from €4.28
+Liverpool,Manchester,https://www.thetrainline.com/en/train-times/liverpool-to-manchester,from €3.55
+London,Manchester,https://www.thetrainline.com/en/train-times/london-to-manchester,from €34.28
+Edinburgh,Newcastle,https://www.thetrainline.com/en/train-times/edinburgh-to-newcastle,from €9.67
+Leeds,Newcastle,https://www.thetrainline.com/en/train-times/leeds-to-newcastle,from €14.45
+London,Newcastle,https://www.thetrainline.com/en/train-times/london-to-newcastle,from €26.81
+Birmingham,Newcastle,https://www.thetrainline.com/en/train-times/birmingham-to-newcastle,from €64.27
+Liverpool,Newcastle,https://www.thetrainline.com/en/train-times/liverpool-to-newcastle,from €25.95
+London,Amsterdam,https://www.thetrainline.com/en/train-times/london-to-amsterdam,from €57
+Amsterdam,Berlin,https://www.thetrainline.com/en/train-times/amsterdam-to-berlin,from €29.90
+Berlin,Stockholm,https://www.thetrainline.com/en/train-times/berlin-to-stockholm,NA
+Stockholm,Umea,https://www.thetrainline.com/en/train-times/stockholm-to-umea,NA
+London,Rotterdam,https://www.thetrainline.com/en/train-times/london-to-rotterdam,from €57
+Gothenburg,Umea,https://www.thetrainline.com/en/train-times/gothenburg-to-umea,NA
+Brno,Vienna,https://www.thetrainline.com/en/train-times/brno-to-vienna,NA
+Brno,Prague,https://www.thetrainline.com/en/train-times/brno-to-prague,NA
+Brno,Budapest,https://www.thetrainline.com/en/train-times/brno-to-budapest,NA
+Hamburg,Berlin,https://www.thetrainline.com/en/train-times/hamburg-to-berlin,from €7.99
+Bucharest,Iasi,https://www.thetrainline.com/en/train-times/bucharest-to-iasi,NA
+Liege,Maastricht,https://www.thetrainline.com/en/train-times/liege-to-maastricht,from €7.30
+Brussels,Liege,https://www.thetrainline.com/en/train-times/brussels-to-liege,from €17.40
+Verona,Bologna,https://www.thetrainline.com/en/train-times/verona-to-bologna,NA
+Verona,Venice,https://www.thetrainline.com/en/train-times/verona-to-venice,NA
+Metz,Luxembourg,https://www.thetrainline.com/en/train-times/metz-to-luxembourg,from €15
+Frankfurt,Cologne,https://www.thetrainline.com/en/train-times/frankfurt-to-cologne,NA
+Salzburg,Ljubljana,https://www.thetrainline.com/en/train-times/salzburg-to-ljubljana,NA
+Mannheim,Augsburg,https://www.thetrainline.com/en/train-times/mannheim-to-augsburg,from €12.90
+Augsburg,Ljubljana,https://www.thetrainline.com/en/train-times/augsburg-to-ljubljana,from €27.90
+Stuttgart,Friedrichshafen,https://www.thetrainline.com/en/train-times/stuttgart-to-friedrichshafen,from €12.90
+Vienna,Klagenfurt,https://www.thetrainline.com/en/train-times/vienna-to-klagenfurt,NA
+London,Cardiff,https://www.thetrainline.com/en/train-times/london-to-cardiff,NA
+Palermo,Catania,https://www.thetrainline.com/en/train-times/palermo-to-catania,from €14.90
+Rome,Milan,https://www.thetrainline.com/en/train-times/rome-to-milan,from €10.90
+Southampton,Bristol,https://www.thetrainline.com/en/train-times/southampton-to-bristol,NA
+Bucharest,Constanta,https://www.thetrainline.com/en/train-times/bucharest-to-constanta,NA
+Warsaw,Budapest,https://www.thetrainline.com/en/train-times/warsaw-to-budapest,from €51.80
+Budapest,Bucharest,https://www.thetrainline.com/en/train-times/budapest-to-bucharest,NA
+Amsterdam,Frankfurt,https://www.thetrainline.com/en/train-times/amsterdam-to-frankfurt,NA
+Frankfurt,Vienna,https://www.thetrainline.com/en/train-times/frankfurt-to-vienna,NA
+Vienna,Zagreb,https://www.thetrainline.com/en/train-times/vienna-to-zagreb,from €28.60
+Zagreb,Split,https://www.thetrainline.com/en/train-times/zagreb-to-split,NA
+Karlovy Vary,Prague,https://www.thetrainline.com/en/train-times/karlovy-vary-to-prague,from €34.80
+Prague,Krakow,https://www.thetrainline.com/en/train-times/prague-to-krakow,NA
+Katowice,Warsaw,https://www.thetrainline.com/en/train-times/katowice-to-warsaw,NA
+Katowice,Vienna,https://www.thetrainline.com/en/train-times/katowice-to-vienna,from €9.90
+Bologna,Ancona,https://www.thetrainline.com/en/train-times/bologna-to-ancona,from €9.90
+Venice,Bologna,https://www.thetrainline.com/en/train-times/venice-to-bologna,from €7.90
+Rome,Ancona,https://www.thetrainline.com/en/train-times/rome-to-ancona,from €1.95
+Lugano,Zurich,https://www.thetrainline.com/en/train-times/lugano-to-zurich,from €17.12
+Norwich,London,https://www.thetrainline.com/en/train-times/norwich-to-london,from €12.24
+Norwich,Manchester,https://www.thetrainline.com/en/train-times/norwich-to-manchester,from €34.28
+Pisa,Florence,https://www.thetrainline.com/en/train-times/pisa-to-florence,from €7.90
+Chambery-Savoie,Milan,https://www.thetrainline.com/en/train-times/chambery-savoie-to-milan,NA
+Milan,Florence,https://www.thetrainline.com/en/train-times/milan-to-florence,from €8.90
+Valladolid,Zaragoza,https://www.thetrainline.com/en/train-times/valladolid-to-zaragoza,from €13.75
+Gdansk,Berlin,https://www.thetrainline.com/en/train-times/gdansk-to-berlin,NA
+Brussels,Nantes,https://www.thetrainline.com/en/train-times/brussels-to-nantes,from €60
+Budapest,Bratislava,https://www.thetrainline.com/en/train-times/budapest-to-bratislava,from €18.80
+Metz,Saarbruecken,https://www.thetrainline.com/en/train-times/metz-to-saarbruecken,NA
+Metz,Strasbourg,https://www.thetrainline.com/en/train-times/metz-to-strasbourg,from €10
+Strasbourg,Basel,https://www.thetrainline.com/en/train-times/strasbourg-to-basel,from €10
+Copenhagen,Gothenburg,https://www.thetrainline.com/en/train-times/copenhagen-to-gothenburg,NA
+Vienna,Hamburg,https://www.thetrainline.com/en/train-times/vienna-to-hamburg,from €27.29
+Hamburg,Gothenburg,https://www.thetrainline.com/en/train-times/hamburg-to-gothenburg,NA
+Budapest,Hamburg,https://www.thetrainline.com/en/train-times/budapest-to-hamburg,from €16.90
+Antwerp,Chambery-Savoie,https://www.thetrainline.com/en/train-times/antwerp-to-chambery-savoie,NA
+Chambery-Savoie,Turin,https://www.thetrainline.com/en/train-times/chambery-savoie-to-turin,NA
+Milan,Turin,https://www.thetrainline.com/en/train-times/milan-to-turin,from €5.90
+Faro,Lisbon,https://www.thetrainline.com/en/train-times/faro-to-lisbon,NA
+Berlin,Ostrava,https://www.thetrainline.com/en/train-times/berlin-to-ostrava,NA
+Barcelona,Paris,https://www.thetrainline.com/en/train-times/barcelona-to-paris,from €39
+Paris,Brussels,https://www.thetrainline.com/en/train-times/paris-to-brussels,from €23
+Brussels,Ostend,https://www.thetrainline.com/en/train-times/brussels-to-ostend,from €19.40
+Lille,Kortrijk,https://www.thetrainline.com/en/train-times/lille-to-kortrijk,from €5.30
+Kortrijk,Ostend,https://www.thetrainline.com/en/train-times/kortrijk-to-ostend,from €13.20
+Antwerp,Ostend,https://www.thetrainline.com/en/train-times/antwerp-to-ostend,from €20.80
+Podgorica,Belgrade,https://www.thetrainline.com/en/train-times/podgorica-to-belgrade,NA
+Rotterdam,London,https://www.thetrainline.com/en/train-times/rotterdam-to-london,from €55
+Milan,Basel,https://www.thetrainline.com/en/train-times/milan-to-basel,from €34
+Rome,Salzburg,https://www.thetrainline.com/en/train-times/rome-to-salzburg,NA
+Salzburg,Malmo,https://www.thetrainline.com/en/train-times/salzburg-to-malmo,NA
+Cherbourg,Paris,https://www.thetrainline.com/en/train-times/cherbourg-to-paris,from €20
+Paris,Luxembourg,https://www.thetrainline.com/en/train-times/paris-to-luxembourg,from €31
+Bristol,Exeter,https://www.thetrainline.com/en/train-times/bristol-to-exeter,NA
+London,Exeter,https://www.thetrainline.com/en/train-times/london-to-exeter,from €17.02
+Berlin,Dortmund,https://www.thetrainline.com/en/train-times/berlin-to-dortmund,from €9.99
+Dortmund,Brussels,https://www.thetrainline.com/en/train-times/dortmund-to-brussels,from €16
+Sofia,Istanbul,https://www.thetrainline.com/en/train-times/sofia-to-istanbul,NA
+Bologna,Verona,https://www.thetrainline.com/en/train-times/bologna-to-verona,NA
+Toulouse,Bordeaux,https://www.thetrainline.com/en/train-times/toulouse-to-bordeaux,from €10
+Toulouse,Paris,https://www.thetrainline.com/en/train-times/toulouse-to-paris,from €15
+Paris,Duesseldorf,https://www.thetrainline.com/en/train-times/paris-to-duesseldorf,NA
+Duesseldorf,Hamburg,https://www.thetrainline.com/en/train-times/duesseldorf-to-hamburg,NA
+Gothenburg,Oslo,https://www.thetrainline.com/en/train-times/gothenburg-to-oslo,NA
+Toulouse,Lyon,https://www.thetrainline.com/en/train-times/toulouse-to-lyon,from €24
+Zweibruecken,Saarbruecken,https://www.thetrainline.com/en/train-times/zweibruecken-to-saarbruecken,NA
+Mannheim,Basel,https://www.thetrainline.com/en/train-times/mannheim-to-basel,from €9.99
+Copenhagen,Malmo,https://www.thetrainline.com/en/train-times/copenhagen-to-malmo,NA
+Amsterdam,Rotterdam,https://www.thetrainline.com/en/train-times/amsterdam-to-rotterdam,from €17.80
+Eindhoven,Rotterdam,https://www.thetrainline.com/en/train-times/eindhoven-to-rotterdam,from €21.20
+Chambery-Savoie,Rotterdam,https://www.thetrainline.com/en/train-times/chambery-savoie-to-rotterdam,NA
+Bremen,Hannover,https://www.thetrainline.com/en/train-times/bremen-to-hannover,from €12.90
+Budapest,Salzburg,https://www.thetrainline.com/en/train-times/budapest-to-salzburg,NA
+Budapest,Ljubljana,https://www.thetrainline.com/en/train-times/budapest-to-ljubljana,from €27.70
+Strasbourg,Paris,https://www.thetrainline.com/en/train-times/strasbourg-to-paris,from €16
+Zagreb,Stuttgart,https://www.thetrainline.com/en/train-times/zagreb-to-stuttgart,from €29.20
+Stuttgart,Paris,https://www.thetrainline.com/en/train-times/stuttgart-to-paris,from €16.90
+Tampere,Helsinki,https://www.thetrainline.com/en/train-times/tampere-to-helsinki,NA
+London,Norwich,https://www.thetrainline.com/en/train-times/london-to-norwich,from €12.24
+Basel,Strasbourg,https://www.thetrainline.com/en/train-times/basel-to-strasbourg,from €10
+Frankfurt,Mannheim,https://www.thetrainline.com/en/train-times/frankfurt-to-mannheim,NA
+Mannheim,Strasbourg,https://www.thetrainline.com/en/train-times/mannheim-to-strasbourg,from €21.90
+Luxembourg,Strasbourg,https://www.thetrainline.com/en/train-times/luxembourg-to-strasbourg,from €20.50
+Hannover,Hamburg,https://www.thetrainline.com/en/train-times/hannover-to-hamburg,from €4.99
+Hannover,Berlin,https://www.thetrainline.com/en/train-times/hannover-to-berlin,from €9.99
+Brussels,Vienna,https://www.thetrainline.com/en/train-times/brussels-to-vienna,from €29.20
+Vienna,Split,https://www.thetrainline.com/en/train-times/vienna-to-split,NA
+Southampton,Bournemouth,https://www.thetrainline.com/en/train-times/southampton-to-bournemouth,from €5.02
+Almeria,Madrid,https://www.thetrainline.com/en/train-times/almeria-to-madrid,from €11.85
+Bournemouth,London,https://www.thetrainline.com/en/train-times/bournemouth-to-london,from €13.83
+Rotterdam,Groningen,https://www.thetrainline.com/en/train-times/rotterdam-to-groningen,from €29
+Amsterdam,Groningen,https://www.thetrainline.com/en/train-times/amsterdam-to-groningen,from €29
+Hamburg,Bremen,https://www.thetrainline.com/en/train-times/hamburg-to-bremen,from €7.99
+Amsterdam,Eindhoven,https://www.thetrainline.com/en/train-times/amsterdam-to-eindhoven,from €22.60
+Lille,Brussels,https://www.thetrainline.com/en/train-times/lille-to-brussels,from €3.20
+Marseille,Rotterdam,https://www.thetrainline.com/en/train-times/marseille-to-rotterdam,from €52.20
+Rotterdam,Eindhoven,https://www.thetrainline.com/en/train-times/rotterdam-to-eindhoven,from €21.20
+Nice,Paris,https://www.thetrainline.com/en/train-times/nice-to-paris,from €19
+Paris,Antwerp,https://www.thetrainline.com/en/train-times/paris-to-antwerp,from €29
+Augsburg,Munich,https://www.thetrainline.com/en/train-times/augsburg-to-munich,from €12.90
+Barcelona,Zaragoza,https://www.thetrainline.com/en/train-times/barcelona-to-zaragoza,from €7
+Augsburg,Paris,https://www.thetrainline.com/en/train-times/augsburg-to-paris,from €21.90
+Dortmund,Duesseldorf,https://www.thetrainline.com/en/train-times/dortmund-to-duesseldorf,NA
+Munich,Duesseldorf,https://www.thetrainline.com/en/train-times/munich-to-duesseldorf,NA
+Katowice,Gdansk,https://www.thetrainline.com/en/train-times/katowice-to-gdansk,NA
+Warsaw,Gdansk,https://www.thetrainline.com/en/train-times/warsaw-to-gdansk,NA
+Ljubljana,Innsbruck,https://www.thetrainline.com/en/train-times/ljubljana-to-innsbruck,NA
+Wroclaw,Vienna,https://www.thetrainline.com/en/train-times/wroclaw-to-vienna,NA
+Wroclaw,Budapest,https://www.thetrainline.com/en/train-times/wroclaw-to-budapest,NA
+Kosice,Bratislava,https://www.thetrainline.com/en/train-times/kosice-to-bratislava,NA
+Vienna,Frankfurt,https://www.thetrainline.com/en/train-times/vienna-to-frankfurt,NA
+Frankfurt,Amsterdam,https://www.thetrainline.com/en/train-times/frankfurt-to-amsterdam,NA
+Vienna,Amsterdam,https://www.thetrainline.com/en/train-times/vienna-to-amsterdam,from €29.20
+London,Newquay,https://www.thetrainline.com/en/train-times/london-to-newquay,from €51.41
+Birmingham,Plymouth,https://www.thetrainline.com/en/train-times/birmingham-to-plymouth,from €70.39
+Bristol,Newquay,https://www.thetrainline.com/en/train-times/bristol-to-newquay,NA
+Linz,Salzburg,https://www.thetrainline.com/en/train-times/linz-to-salzburg,NA
+Linz,Munich,https://www.thetrainline.com/en/train-times/linz-to-munich,from €13.98
+Linz,Graz,https://www.thetrainline.com/en/train-times/linz-to-graz,from €14.89
+Bern,Basel,https://www.thetrainline.com/en/train-times/bern-to-basel,from €10.82
+Basel,Mannheim,https://www.thetrainline.com/en/train-times/basel-to-mannheim,from €7.99
+Girona,Barcelona,https://www.thetrainline.com/en/train-times/girona-to-barcelona,from €7
+Girona,Paris,https://www.thetrainline.com/en/train-times/girona-to-paris,from €39
+Girona,Montpellier,https://www.thetrainline.com/en/train-times/girona-to-montpellier,from €7.15
+Zurich,Vienna,https://www.thetrainline.com/en/train-times/zurich-to-vienna,from €27.60
+Trieste,Turin,https://www.thetrainline.com/en/train-times/trieste-to-turin,from €14.05
+Stuttgart,Mannheim,https://www.thetrainline.com/en/train-times/stuttgart-to-mannheim,from €4.99
+Hamburg,Hannover,https://www.thetrainline.com/en/train-times/hamburg-to-hannover,from €4.99
+Hamburg,Mannheim,https://www.thetrainline.com/en/train-times/hamburg-to-mannheim,from €9.99
+Frankfurt,Hamburg,https://www.thetrainline.com/en/train-times/frankfurt-to-hamburg,NA
+Bremen,Berlin,https://www.thetrainline.com/en/train-times/bremen-to-berlin,from €12.90
+Wroclaw,Ostrava,https://www.thetrainline.com/en/train-times/wroclaw-to-ostrava,NA
+Dublin,Cork,https://www.thetrainline.com/en/train-times/dublin-to-cork,NA
+Umea,Stockholm,https://www.thetrainline.com/en/train-times/umea-to-stockholm,NA
+Umea,Gothenburg,https://www.thetrainline.com/en/train-times/umea-to-gothenburg,NA
+Ljubljana,Vienna,https://www.thetrainline.com/en/train-times/ljubljana-to-vienna,from €23.30
+London,Doncaster,https://www.thetrainline.com/en/train-times/london-to-doncaster,from €16.51
+Lille,London,https://www.thetrainline.com/en/train-times/lille-to-london,from €57
+Girona,Madrid,https://www.thetrainline.com/en/train-times/girona-to-madrid,from €15
+Bologna,Rimini,https://www.thetrainline.com/en/train-times/bologna-to-rimini,from €7.90
+Ancona,Rimini,https://www.thetrainline.com/en/train-times/ancona-to-rimini,from €7.90
+Milan,Rimini,https://www.thetrainline.com/en/train-times/milan-to-rimini,from €9.90
+Hamburg,Frankfurt,https://www.thetrainline.com/en/train-times/hamburg-to-frankfurt,NA
+Aberdeen,Inverness,https://www.thetrainline.com/en/train-times/aberdeen-to-inverness,from €9.79
+Edinburgh,Inverness,https://www.thetrainline.com/en/train-times/edinburgh-to-inverness,from €11.14
+Glasgow,Inverness,https://www.thetrainline.com/en/train-times/glasgow-to-inverness,from €11.14
+Newcastle,Inverness,https://www.thetrainline.com/en/train-times/newcastle-to-inverness,from €23.38
+Leeds,Doncaster,https://www.thetrainline.com/en/train-times/leeds-to-doncaster,from €4.28
+Leeds,London,https://www.thetrainline.com/en/train-times/leeds-to-london,from €26.20
+Brussels,Cologne,https://www.thetrainline.com/en/train-times/brussels-to-cologne,NA
+Cologne,Hamburg,https://www.thetrainline.com/en/train-times/cologne-to-hamburg,NA
+Ljubljana,Stuttgart,https://www.thetrainline.com/en/train-times/ljubljana-to-stuttgart,from €29.20
+Bournemouth,Southampton,https://www.thetrainline.com/en/train-times/bournemouth-to-southampton,from €5.02
+Prague,Bratislava,https://www.thetrainline.com/en/train-times/prague-to-bratislava,from €10.90
+Basel,Hamburg,https://www.thetrainline.com/en/train-times/basel-to-hamburg,from €19.90
+Verona,Hamburg,https://www.thetrainline.com/en/train-times/verona-to-hamburg,NA
+Zurich,Innsbruck,https://www.thetrainline.com/en/train-times/zurich-to-innsbruck,NA
+Bordeaux,Paris,https://www.thetrainline.com/en/train-times/bordeaux-to-paris,from €10
+Paris,Zurich,https://www.thetrainline.com/en/train-times/paris-to-zurich,from €29
+Faro,Porto,https://www.thetrainline.com/en/train-times/faro-to-porto,NA
+Katowice,Bratislava,https://www.thetrainline.com/en/train-times/katowice-to-bratislava,from €16.60
+Bratislava,Zagreb,https://www.thetrainline.com/en/train-times/bratislava-to-zagreb,from €29.90
+Cardiff,Birmingham,https://www.thetrainline.com/en/train-times/cardiff-to-birmingham,NA
+Cardiff,London,https://www.thetrainline.com/en/train-times/cardiff-to-london,NA
+Montpellier,Toulouse,https://www.thetrainline.com/en/train-times/montpellier-to-toulouse,from €1
+Montpellier,Barcelona,https://www.thetrainline.com/en/train-times/montpellier-to-barcelona,from €39
+Montpellier,Marseille,https://www.thetrainline.com/en/train-times/montpellier-to-marseille,from €10
+Duesseldorf,Brussels,https://www.thetrainline.com/en/train-times/duesseldorf-to-brussels,NA
+Brussels,Kortrijk,https://www.thetrainline.com/en/train-times/brussels-to-kortrijk,from €15.30
+Antwerp,Kortrijk,https://www.thetrainline.com/en/train-times/antwerp-to-kortrijk,from €18
+Lyon,Lille,https://www.thetrainline.com/en/train-times/lyon-to-lille,from €16
+Frankfurt,Brussels,https://www.thetrainline.com/en/train-times/frankfurt-to-brussels,NA
+Cologne,Brussels,https://www.thetrainline.com/en/train-times/cologne-to-brussels,NA
+Manchester,Doncaster,https://www.thetrainline.com/en/train-times/manchester-to-doncaster,from €10.77
+Klagenfurt,Vienna,https://www.thetrainline.com/en/train-times/klagenfurt-to-vienna,NA
+Zurich,Stuttgart,https://www.thetrainline.com/en/train-times/zurich-to-stuttgart,from €19.90
+Lugano,Milan,https://www.thetrainline.com/en/train-times/lugano-to-milan,from €12
+Milan,Venice,https://www.thetrainline.com/en/train-times/milan-to-venice,from €9.90
+Paris,Bordeaux,https://www.thetrainline.com/en/train-times/paris-to-bordeaux,from €10
+Montpellier,Bordeaux,https://www.thetrainline.com/en/train-times/montpellier-to-bordeaux,from €16
+Verona,Genoa,https://www.thetrainline.com/en/train-times/verona-to-genoa,NA
+Vienna,Gdansk,https://www.thetrainline.com/en/train-times/vienna-to-gdansk,NA
+Munich,Linz,https://www.thetrainline.com/en/train-times/munich-to-linz,from €13.98
+Cluj-Napoca,Vienna,https://www.thetrainline.com/en/train-times/cluj-napoca-to-vienna,NA
+Vienna,Linz,https://www.thetrainline.com/en/train-times/vienna-to-linz,from €2
+Stuttgart,Strasbourg,https://www.thetrainline.com/en/train-times/stuttgart-to-strasbourg,from €16.90
+Memmingen,Munich,https://www.thetrainline.com/en/train-times/memmingen-to-munich,from €12.90
+Graz,Vienna,https://www.thetrainline.com/en/train-times/graz-to-vienna,from €9.90
+Hannover,Bremen,https://www.thetrainline.com/en/train-times/hannover-to-bremen,from €12.90
+Basel,Hannover,https://www.thetrainline.com/en/train-times/basel-to-hannover,from €19.90
+Zurich,Bremen,https://www.thetrainline.com/en/train-times/zurich-to-bremen,from €19.90
+Milan,Genoa,https://www.thetrainline.com/en/train-times/milan-to-genoa,from €7.90
+Chisinau,Bucharest,https://www.thetrainline.com/en/train-times/chisinau-to-bucharest,NA
+Bilbao,Madrid,https://www.thetrainline.com/en/train-times/bilbao-to-madrid,from €15.40
+Newquay,Bristol,https://www.thetrainline.com/en/train-times/newquay-to-bristol,NA
+Newquay,London,https://www.thetrainline.com/en/train-times/newquay-to-london,from €51.41
+Budapest,Debrecen,https://www.thetrainline.com/en/train-times/budapest-to-debrecen,NA
+Bordeaux,Mannheim,https://www.thetrainline.com/en/train-times/bordeaux-to-mannheim,from €57.90
+Hannover,Munich,https://www.thetrainline.com/en/train-times/hannover-to-munich,from €17.90
+Hannover,Augsburg,https://www.thetrainline.com/en/train-times/hannover-to-augsburg,from €17.90
+Augsburg,Venice,https://www.thetrainline.com/en/train-times/augsburg-to-venice,from €28.90
+Hannover,Verona,https://www.thetrainline.com/en/train-times/hannover-to-verona,NA
+Mannheim,Saarbruecken,https://www.thetrainline.com/en/train-times/mannheim-to-saarbruecken,NA
+Saarbruecken,Metz,https://www.thetrainline.com/en/train-times/saarbruecken-to-metz,NA
+Hamburg,Malmo,https://www.thetrainline.com/en/train-times/hamburg-to-malmo,NA
+Salzburg,Munich,https://www.thetrainline.com/en/train-times/salzburg-to-munich,NA
+Rome,Naples,https://www.thetrainline.com/en/train-times/rome-to-naples,from €7.90
+Salzburg,Innsbruck,https://www.thetrainline.com/en/train-times/salzburg-to-innsbruck,NA
+Salzburg,Rome,https://www.thetrainline.com/en/train-times/salzburg-to-rome,NA
+Stuttgart,Frankfurt,https://www.thetrainline.com/en/train-times/stuttgart-to-frankfurt,NA
+Stuttgart,Nuremberg,https://www.thetrainline.com/en/train-times/stuttgart-to-nuremberg,from €12.90
+Milan,Lamezia Terme,https://www.thetrainline.com/en/train-times/milan-to-lamezia-terme,from €22.90
+Genoa,Lamezia Terme,https://www.thetrainline.com/en/train-times/genoa-to-lamezia-terme,from €13.45
+Barcelona,Reus,https://www.thetrainline.com/en/train-times/barcelona-to-reus,from €9.55
+Doncaster,Leeds,https://www.thetrainline.com/en/train-times/doncaster-to-leeds,from €4.28
+Doncaster,London,https://www.thetrainline.com/en/train-times/doncaster-to-london,from €16.53
+London,Paris,https://www.thetrainline.com/en/train-times/london-to-paris,from €58
+Bologna,Turin,https://www.thetrainline.com/en/train-times/bologna-to-turin,from €12.45
+Berlin,Dresden,https://www.thetrainline.com/en/train-times/berlin-to-dresden,from €4.99
+Edinburgh,Aberdeen,https://www.thetrainline.com/en/train-times/edinburgh-to-aberdeen,from €11.14
+London,Aberdeen,https://www.thetrainline.com/en/train-times/london-to-aberdeen,from €53.74
+Karlstad,Gothenburg,https://www.thetrainline.com/en/train-times/karlstad-to-gothenburg,NA
+Karlstad,Stockholm,https://www.thetrainline.com/en/train-times/karlstad-to-stockholm,NA
+Strasbourg,Stuttgart,https://www.thetrainline.com/en/train-times/strasbourg-to-stuttgart,from €20.90
+Rome,Catania,https://www.thetrainline.com/en/train-times/rome-to-catania,from €14.90
+Liverpool,Birmingham,https://www.thetrainline.com/en/train-times/liverpool-to-birmingham,from €13.47
+Belfast,Dublin,https://www.thetrainline.com/en/train-times/belfast-to-dublin,NA
+Doncaster,Exeter,https://www.thetrainline.com/en/train-times/doncaster-to-exeter,from €74.80
+Bristol,Swansea,https://www.thetrainline.com/en/train-times/bristol-to-swansea,NA
+London,Swansea,https://www.thetrainline.com/en/train-times/london-to-swansea,from €39.17
+Birmingham,Bristol,https://www.thetrainline.com/en/train-times/birmingham-to-bristol,NA
+Prague,Linz,https://www.thetrainline.com/en/train-times/prague-to-linz,from €19
+Linz,Innsbruck,https://www.thetrainline.com/en/train-times/linz-to-innsbruck,NA
+Prague,Munich,https://www.thetrainline.com/en/train-times/prague-to-munich,from €18.90
+Munich,Milan,https://www.thetrainline.com/en/train-times/munich-to-milan,from €33.80
+Granada,Malaga,https://www.thetrainline.com/en/train-times/granada-to-malaga,from €20.29
+Granada,Madrid,https://www.thetrainline.com/en/train-times/granada-to-madrid,from €16.95
+Madrid,Malaga,https://www.thetrainline.com/en/train-times/madrid-to-malaga,from €7
+Salzburg,Linz,https://www.thetrainline.com/en/train-times/salzburg-to-linz,NA
+Iasi,Cluj-Napoca,https://www.thetrainline.com/en/train-times/iasi-to-cluj-napoca,NA
+Lamezia Terme,Naples,https://www.thetrainline.com/en/train-times/lamezia-terme-to-naples,from €9.90
+Lamezia Terme,Rome,https://www.thetrainline.com/en/train-times/lamezia-terme-to-rome,from €10.90
+Reus,Barcelona,https://www.thetrainline.com/en/train-times/reus-to-barcelona,from €8.40
+Saarbruecken,Paris,https://www.thetrainline.com/en/train-times/saarbruecken-to-paris,NA
+Mannheim,Bordeaux,https://www.thetrainline.com/en/train-times/mannheim-to-bordeaux,from €54.90
+Rome,Lamezia Terme,https://www.thetrainline.com/en/train-times/rome-to-lamezia-terme,from €9.50
+Naples,Rome,https://www.thetrainline.com/en/train-times/naples-to-rome,from €7.90
+Naples,Venice,https://www.thetrainline.com/en/train-times/naples-to-venice,from €10.90
+Venice,Vienna,https://www.thetrainline.com/en/train-times/venice-to-vienna,from €10
+Vienna,Budapest,https://www.thetrainline.com/en/train-times/vienna-to-budapest,from €9
+Rome,Vienna,https://www.thetrainline.com/en/train-times/rome-to-vienna,from €28.80
+Hamburg,Duesseldorf,https://www.thetrainline.com/en/train-times/hamburg-to-duesseldorf,NA
+Duesseldorf,Paris,https://www.thetrainline.com/en/train-times/duesseldorf-to-paris,NA
+Gothenburg,Hamburg,https://www.thetrainline.com/en/train-times/gothenburg-to-hamburg,NA
+Strasbourg,Nantes,https://www.thetrainline.com/en/train-times/strasbourg-to-nantes,from €26
+Munich,Nuremberg,https://www.thetrainline.com/en/train-times/munich-to-nuremberg,from €12.90
+Norrkoping,Stockholm,https://www.thetrainline.com/en/train-times/norrkoping-to-stockholm,NA
+Pardubice,Prague,https://www.thetrainline.com/en/train-times/pardubice-to-prague,NA
+Pardubice,Vienna,https://www.thetrainline.com/en/train-times/pardubice-to-vienna,NA
+Lisbon,Faro,https://www.thetrainline.com/en/train-times/lisbon-to-faro,NA
+Prague,Frankfurt,https://www.thetrainline.com/en/train-times/prague-to-frankfurt,NA
+Bern,Hamburg,https://www.thetrainline.com/en/train-times/bern-to-hamburg,from €19.90
+Bern,Zurich,https://www.thetrainline.com/en/train-times/bern-to-zurich,from €47.60
+Zurich,Hamburg,https://www.thetrainline.com/en/train-times/zurich-to-hamburg,from €19.90
+Aarhus,Copenhagen,https://www.thetrainline.com/en/train-times/aarhus-to-copenhagen,from €57.20
+Nuremberg,Frankfurt,https://www.thetrainline.com/en/train-times/nuremberg-to-frankfurt,NA
+Nuremberg,Munich,https://www.thetrainline.com/en/train-times/nuremberg-to-munich,from €12.90
+Munich,Hannover,https://www.thetrainline.com/en/train-times/munich-to-hannover,from €17.90
+Prague,Pardubice,https://www.thetrainline.com/en/train-times/prague-to-pardubice,NA
+Vienna,Pardubice,https://www.thetrainline.com/en/train-times/vienna-to-pardubice,NA
+Budapest,Pardubice,https://www.thetrainline.com/en/train-times/budapest-to-pardubice,NA
+Warsaw,Pardubice,https://www.thetrainline.com/en/train-times/warsaw-to-pardubice,NA
+Norrkoping,Berlin,https://www.thetrainline.com/en/train-times/norrkoping-to-berlin,NA
+Norrkoping,Malmo,https://www.thetrainline.com/en/train-times/norrkoping-to-malmo,NA
+Paris,Cherbourg,https://www.thetrainline.com/en/train-times/paris-to-cherbourg,from €20
+Frankfurt,Milan,https://www.thetrainline.com/en/train-times/frankfurt-to-milan,NA
+Berlin,Hannover,https://www.thetrainline.com/en/train-times/berlin-to-hannover,from €9.99
+Cologne,Hannover,https://www.thetrainline.com/en/train-times/cologne-to-hannover,NA
+Milan,Frankfurt,https://www.thetrainline.com/en/train-times/milan-to-frankfurt,NA
+Frankfurt,Hannover,https://www.thetrainline.com/en/train-times/frankfurt-to-hannover,NA
+Rome,Verona,https://www.thetrainline.com/en/train-times/rome-to-verona,NA
+Verona,Hannover,https://www.thetrainline.com/en/train-times/verona-to-hannover,NA
+Graz,Ljubljana,https://www.thetrainline.com/en/train-times/graz-to-ljubljana,from €9.70
+Bristol,London,https://www.thetrainline.com/en/train-times/bristol-to-london,NA
+Bristol,Birmingham,https://www.thetrainline.com/en/train-times/bristol-to-birmingham,NA
+Stockholm,Malmo,https://www.thetrainline.com/en/train-times/stockholm-to-malmo,NA
+Venice,Stuttgart,https://www.thetrainline.com/en/train-times/venice-to-stuttgart,from €28.90
+Hannover,Rostock,https://www.thetrainline.com/en/train-times/hannover-to-rostock,from €22.90
+Frankfurt,Dortmund,https://www.thetrainline.com/en/train-times/frankfurt-to-dortmund,NA
+Duesseldorf,Dortmund,https://www.thetrainline.com/en/train-times/duesseldorf-to-dortmund,NA
+Cologne,Dortmund,https://www.thetrainline.com/en/train-times/cologne-to-dortmund,NA
+Paderborn,Dortmund,https://www.thetrainline.com/en/train-times/paderborn-to-dortmund,from €17.90
+Rotterdam,Amsterdam,https://www.thetrainline.com/en/train-times/rotterdam-to-amsterdam,from €17.80
+Rotterdam,Antwerp,https://www.thetrainline.com/en/train-times/rotterdam-to-antwerp,from €14
+Ljubljana,Rijeka,https://www.thetrainline.com/en/train-times/ljubljana-to-rijeka,NA
+Birmingham,London,https://www.thetrainline.com/en/train-times/birmingham-to-london,from €7.83
+Turin,Milan,https://www.thetrainline.com/en/train-times/turin-to-milan,from €5.90
+Turin,Chambery-Savoie,https://www.thetrainline.com/en/train-times/turin-to-chambery-savoie,NA
+Chambery-Savoie,Geneva,https://www.thetrainline.com/en/train-times/chambery-savoie-to-geneva,NA
+Leeds,Liverpool,https://www.thetrainline.com/en/train-times/leeds-to-liverpool,from €13.47
+London,Liverpool,https://www.thetrainline.com/en/train-times/london-to-liverpool,from €17.14
+Marseille,Nice,https://www.thetrainline.com/en/train-times/marseille-to-nice,from €16.40
+Prague,Ostrava,https://www.thetrainline.com/en/train-times/prague-to-ostrava,NA
+Amsterdam,Vienna,https://www.thetrainline.com/en/train-times/amsterdam-to-vienna,from €29.20
+Varna,Sofia,https://www.thetrainline.com/en/train-times/varna-to-sofia,NA
+Klagenfurt,Salzburg,https://www.thetrainline.com/en/train-times/klagenfurt-to-salzburg,NA
+Paderborn,Duesseldorf,https://www.thetrainline.com/en/train-times/paderborn-to-duesseldorf,NA
+Liepaja,Riga,https://www.thetrainline.com/en/train-times/liepaja-to-riga,NA
+Geneva,Chambery-Savoie,https://www.thetrainline.com/en/train-times/geneva-to-chambery-savoie,NA
+Hamburg,Basel,https://www.thetrainline.com/en/train-times/hamburg-to-basel,from €17.98
+Basel,Milan,https://www.thetrainline.com/en/train-times/basel-to-milan,from €34
+Vienna,Venice,https://www.thetrainline.com/en/train-times/vienna-to-venice,from €13.90
+Venice,Turin,https://www.thetrainline.com/en/train-times/venice-to-turin,from €12.45
+Hamburg,Zurich,https://www.thetrainline.com/en/train-times/hamburg-to-zurich,from €19.90
+Zurich,Lugano,https://www.thetrainline.com/en/train-times/zurich-to-lugano,from €17.16
+Helsinki,Lappeenranta,https://www.thetrainline.com/en/train-times/helsinki-to-lappeenranta,NA
+Budapest,Warsaw,https://www.thetrainline.com/en/train-times/budapest-to-warsaw,from €66.90
+Budapest,Brno,https://www.thetrainline.com/en/train-times/budapest-to-brno,NA
+Budapest,Katowice,https://www.thetrainline.com/en/train-times/budapest-to-katowice,from €21.80
+Zagreb,Budapest,https://www.thetrainline.com/en/train-times/zagreb-to-budapest,from €51
+Budapest,Cluj-Napoca,https://www.thetrainline.com/en/train-times/budapest-to-cluj-napoca,NA
+Valencia,Murcia,https://www.thetrainline.com/en/train-times/valencia-to-murcia,from €10.55
+Madrid,Murcia,https://www.thetrainline.com/en/train-times/madrid-to-murcia,from €16.85
+Athens,Thessaloniki,https://www.thetrainline.com/en/train-times/athens-to-thessaloniki,NA
+Bucharest,Vienna,https://www.thetrainline.com/en/train-times/bucharest-to-vienna,NA
+Dresden,Berlin,https://www.thetrainline.com/en/train-times/dresden-to-berlin,from €4.99
+Manchester,Swansea,https://www.thetrainline.com/en/train-times/manchester-to-swansea,from €28.40
+Sofia,Varna,https://www.thetrainline.com/en/train-times/sofia-to-varna,NA
+Zurich,Budapest,https://www.thetrainline.com/en/train-times/zurich-to-budapest,from €29.90
+Milan,Vienna,https://www.thetrainline.com/en/train-times/milan-to-vienna,from €12.75
+Vienna,Debrecen,https://www.thetrainline.com/en/train-times/vienna-to-debrecen,from €22.50
+Munich,Mannheim,https://www.thetrainline.com/en/train-times/munich-to-mannheim,from €12.90
+Graz,Brno,https://www.thetrainline.com/en/train-times/graz-to-brno,NA
+Vienna,Brno,https://www.thetrainline.com/en/train-times/vienna-to-brno,NA
+Glasgow,Aberdeen,https://www.thetrainline.com/en/train-times/glasgow-to-aberdeen,from €11.14
+Alicante,Madrid,https://www.thetrainline.com/en/train-times/alicante-to-madrid,from €7
+Plymouth,Aberdeen,https://www.thetrainline.com/en/train-times/plymouth-to-aberdeen,from €153.27
+Newcastle,Aberdeen,https://www.thetrainline.com/en/train-times/newcastle-to-aberdeen,from €23.38
+Stockholm,Hamburg,https://www.thetrainline.com/en/train-times/stockholm-to-hamburg,NA
+Hamburg,Cologne,https://www.thetrainline.com/en/train-times/hamburg-to-cologne,NA
+Turin,Trieste,https://www.thetrainline.com/en/train-times/turin-to-trieste,from €13.55
+Madrid,Girona,https://www.thetrainline.com/en/train-times/madrid-to-girona,from €15
+Alicante,Murcia,https://www.thetrainline.com/en/train-times/alicante-to-murcia,from €5.75
+Frankfurt,Munich,https://www.thetrainline.com/en/train-times/frankfurt-to-munich,NA
+Oviedo,Madrid,https://www.thetrainline.com/en/train-times/oviedo-to-madrid,from €7.75
+Prague,Mannheim,https://www.thetrainline.com/en/train-times/prague-to-mannheim,from €18.90
+Mannheim,Paris,https://www.thetrainline.com/en/train-times/mannheim-to-paris,from €16.90
+Innsbruck,Salzburg,https://www.thetrainline.com/en/train-times/innsbruck-to-salzburg,NA
+Lamezia Terme,Venice,https://www.thetrainline.com/en/train-times/lamezia-terme-to-venice,from €44.80
+Almeria,Granada,https://www.thetrainline.com/en/train-times/almeria-to-granada,from €20.80
+Riga,Liepaja,https://www.thetrainline.com/en/train-times/riga-to-liepaja,NA
+Paris,Mannheim,https://www.thetrainline.com/en/train-times/paris-to-mannheim,from €26
+Mannheim,Berlin,https://www.thetrainline.com/en/train-times/mannheim-to-berlin,from €9.99
+Frankfurt,Lugano,https://www.thetrainline.com/en/train-times/frankfurt-to-lugano,NA
+Hamburg,Verona,https://www.thetrainline.com/en/train-times/hamburg-to-verona,NA
+Vienna,Ljubljana,https://www.thetrainline.com/en/train-times/vienna-to-ljubljana,from €14.30
+Barcelona,Malaga,https://www.thetrainline.com/en/train-times/barcelona-to-malaga,from €18
+Liege,Cologne,https://www.thetrainline.com/en/train-times/liege-to-cologne,NA
+Liege,Frankfurt,https://www.thetrainline.com/en/train-times/liege-to-frankfurt,NA
+Cologne,Berlin,https://www.thetrainline.com/en/train-times/cologne-to-berlin,NA
+Poznan,Berlin,https://www.thetrainline.com/en/train-times/poznan-to-berlin,from €18.90
+Poznan,Warsaw,https://www.thetrainline.com/en/train-times/poznan-to-warsaw,NA
+Ostrava,Bratislava,https://www.thetrainline.com/en/train-times/ostrava-to-bratislava,NA
+Alicante,Valencia,https://www.thetrainline.com/en/train-times/alicante-to-valencia,from €2.55
+Alicante,Barcelona,https://www.thetrainline.com/en/train-times/alicante-to-barcelona,from €5.35
+Milan,Bologna,https://www.thetrainline.com/en/train-times/milan-to-bologna,from €7.90
+Bologna,Pescara,https://www.thetrainline.com/en/train-times/bologna-to-pescara,from €9.90
+Liverpool,Leeds,https://www.thetrainline.com/en/train-times/liverpool-to-leeds,from €13.47
+Liverpool,London,https://www.thetrainline.com/en/train-times/liverpool-to-london,from €17.14
+Duesseldorf,Paderborn,https://www.thetrainline.com/en/train-times/duesseldorf-to-paderborn,NA
+Granada,Barcelona,https://www.thetrainline.com/en/train-times/granada-to-barcelona,from €24.95
+Zurich,Genoa,https://www.thetrainline.com/en/train-times/zurich-to-genoa,from €37.45
+London,Inverness,https://www.thetrainline.com/en/train-times/london-to-inverness,from €56.56
+Ostend,Brussels,https://www.thetrainline.com/en/train-times/ostend-to-brussels,from €19.40
+Ostend,Antwerp,https://www.thetrainline.com/en/train-times/ostend-to-antwerp,from €20.80
+Graz,Ostrava,https://www.thetrainline.com/en/train-times/graz-to-ostrava,NA
+Zagreb,Vienna,https://www.thetrainline.com/en/train-times/zagreb-to-vienna,from €28.60
+Zagreb,Bratislava,https://www.thetrainline.com/en/train-times/zagreb-to-bratislava,from €29.90
+Bratislava,Ostrava,https://www.thetrainline.com/en/train-times/bratislava-to-ostrava,NA
+Glasgow,London,https://www.thetrainline.com/en/train-times/glasgow-to-london,from €42.85
+Vaxjo,Copenhagen,https://www.thetrainline.com/en/train-times/vaxjo-to-copenhagen,NA
+Malmo,Munich,https://www.thetrainline.com/en/train-times/malmo-to-munich,NA
+Marseille,Montpellier,https://www.thetrainline.com/en/train-times/marseille-to-montpellier,from €10
+Kosice,Budapest,https://www.thetrainline.com/en/train-times/kosice-to-budapest,NA
+Budapest,Zagreb,https://www.thetrainline.com/en/train-times/budapest-to-zagreb,from €51
+Oslo,Bergen,https://www.thetrainline.com/en/train-times/oslo-to-bergen,NA
+Copenhagen,Aalborg,https://www.thetrainline.com/en/train-times/copenhagen-to-aalborg,NA
+Bremen,Frankfurt,https://www.thetrainline.com/en/train-times/bremen-to-frankfurt,NA
+Rome,Florence,https://www.thetrainline.com/en/train-times/rome-to-florence,from €8.90
+Ljubljana,Budapest,https://www.thetrainline.com/en/train-times/ljubljana-to-budapest,from €35.70
+Nuremberg,Stuttgart,https://www.thetrainline.com/en/train-times/nuremberg-to-stuttgart,from €12.90
+Madrid,Valencia,https://www.thetrainline.com/en/train-times/madrid-to-valencia,from €4
+Bremen,Duesseldorf,https://www.thetrainline.com/en/train-times/bremen-to-duesseldorf,NA
+Bremen,Cologne,https://www.thetrainline.com/en/train-times/bremen-to-cologne,NA
+Bremen,Mannheim,https://www.thetrainline.com/en/train-times/bremen-to-mannheim,from €17.90
+Basel,Lugano,https://www.thetrainline.com/en/train-times/basel-to-lugano,from €23.44
+Ancona,Venice,https://www.thetrainline.com/en/train-times/ancona-to-venice,from €16.90
+Prague,Dresden,https://www.thetrainline.com/en/train-times/prague-to-dresden,from €13.90
+Paris,Frankfurt,https://www.thetrainline.com/en/train-times/paris-to-frankfurt,NA
+Stockholm,Gothenburg,https://www.thetrainline.com/en/train-times/stockholm-to-gothenburg,NA
+Stockholm,Copenhagen,https://www.thetrainline.com/en/train-times/stockholm-to-copenhagen,NA
+Newcastle,Leeds,https://www.thetrainline.com/en/train-times/newcastle-to-leeds,from €14.45
+Newcastle,London,https://www.thetrainline.com/en/train-times/newcastle-to-london,from €26.78
+Eindhoven,Amsterdam,https://www.thetrainline.com/en/train-times/eindhoven-to-amsterdam,from €22.60
+Berlin,Basel,https://www.thetrainline.com/en/train-times/berlin-to-basel,from €9.99
+Basel,Bern,https://www.thetrainline.com/en/train-times/basel-to-bern,from €10.86
+Venice,Verona,https://www.thetrainline.com/en/train-times/venice-to-verona,NA
+Milan,Verona,https://www.thetrainline.com/en/train-times/milan-to-verona,NA
+Brussels,Lille,https://www.thetrainline.com/en/train-times/brussels-to-lille,from €16.60
+Amsterdam,Brussels,https://www.thetrainline.com/en/train-times/amsterdam-to-brussels,from €26
+Graz,Stuttgart,https://www.thetrainline.com/en/train-times/graz-to-stuttgart,from €34.90
+London,Southampton,https://www.thetrainline.com/en/train-times/london-to-southampton,from €7.34
+Constanta,Timisoara,https://www.thetrainline.com/en/train-times/constanta-to-timisoara,NA
+Zaragoza,Sevilla,https://www.thetrainline.com/en/train-times/zaragoza-to-sevilla,from €18
+Milan,Chambery-Savoie,https://www.thetrainline.com/en/train-times/milan-to-chambery-savoie,NA
+Marseille,Lyon,https://www.thetrainline.com/en/train-times/marseille-to-lyon,from €10
+Lyon,Chambery-Savoie,https://www.thetrainline.com/en/train-times/lyon-to-chambery-savoie,NA
+Geneva,Paris,https://www.thetrainline.com/en/train-times/geneva-to-paris,from €24.70
+Chambery-Savoie,Bordeaux,https://www.thetrainline.com/en/train-times/chambery-savoie-to-bordeaux,NA
+Olbia,Cagliari,https://www.thetrainline.com/en/train-times/olbia-to-cagliari,from €18
+Ostrava,Wroclaw,https://www.thetrainline.com/en/train-times/ostrava-to-wroclaw,NA
+Copenhagen,Esbjerg,https://www.thetrainline.com/en/train-times/copenhagen-to-esbjerg,NA
+Aarhus,Esbjerg,https://www.thetrainline.com/en/train-times/aarhus-to-esbjerg,NA
+Berlin,Hamburg,https://www.thetrainline.com/en/train-times/berlin-to-hamburg,from €7.99
+Paris,Saarbruecken,https://www.thetrainline.com/en/train-times/paris-to-saarbruecken,NA
+Saarbruecken,Zweibruecken,https://www.thetrainline.com/en/train-times/saarbruecken-to-zweibruecken,NA
+Strasbourg,Saarbruecken,https://www.thetrainline.com/en/train-times/strasbourg-to-saarbruecken,NA
+Hannover,Frankfurt,https://www.thetrainline.com/en/train-times/hannover-to-frankfurt,NA
+Exeter,Birmingham,https://www.thetrainline.com/en/train-times/exeter-to-birmingham,from €56.43
+Birmingham,Manchester,https://www.thetrainline.com/en/train-times/birmingham-to-manchester,from €11.63
+Munich,Memmingen,https://www.thetrainline.com/en/train-times/munich-to-memmingen,from €12.90
+Zurich,Memmingen,https://www.thetrainline.com/en/train-times/zurich-to-memmingen,from €21.90
+Rijeka,Ljubljana,https://www.thetrainline.com/en/train-times/rijeka-to-ljubljana,NA
+Ljubljana,Graz,https://www.thetrainline.com/en/train-times/ljubljana-to-graz,from €9.70
+Basel,Frankfurt,https://www.thetrainline.com/en/train-times/basel-to-frankfurt,NA
+Vienna,Prague,https://www.thetrainline.com/en/train-times/vienna-to-prague,from €7.70
+Linz,Prague,https://www.thetrainline.com/en/train-times/linz-to-prague,from €19
+Cologne,Dresden,https://www.thetrainline.com/en/train-times/cologne-to-dresden,NA
+Kortrijk,Lille,https://www.thetrainline.com/en/train-times/kortrijk-to-lille,from €5.30
+Kortrijk,Antwerp,https://www.thetrainline.com/en/train-times/kortrijk-to-antwerp,from €18
+Florence,Naples,https://www.thetrainline.com/en/train-times/florence-to-naples,from €9.90
+Malaga,Granada,https://www.thetrainline.com/en/train-times/malaga-to-granada,from €20.45
+Barcelona,Granada,https://www.thetrainline.com/en/train-times/barcelona-to-granada,from €24.95
+Zaragoza,Granada,https://www.thetrainline.com/en/train-times/zaragoza-to-granada,from €20.90
+Milan,Zurich,https://www.thetrainline.com/en/train-times/milan-to-zurich,from €24
+Pescara,Venice,https://www.thetrainline.com/en/train-times/pescara-to-venice,from €18.80
+Milan,Paris,https://www.thetrainline.com/en/train-times/milan-to-paris,from €7.50
+Turin,Paris,https://www.thetrainline.com/en/train-times/turin-to-paris,from €29
+Chambery-Savoie,Lyon,https://www.thetrainline.com/en/train-times/chambery-savoie-to-lyon,NA
+Lyon,Strasbourg,https://www.thetrainline.com/en/train-times/lyon-to-strasbourg,from €20
+Geneva,Bern,https://www.thetrainline.com/en/train-times/geneva-to-bern,from €13.71
+Munich,Frankfurt,https://www.thetrainline.com/en/train-times/munich-to-frankfurt,NA
+Madrid,Oviedo,https://www.thetrainline.com/en/train-times/madrid-to-oviedo,from €7.75
+Memmingen,Duesseldorf,https://www.thetrainline.com/en/train-times/memmingen-to-duesseldorf,NA
+Memmingen,Augsburg,https://www.thetrainline.com/en/train-times/memmingen-to-augsburg,from €12.90
+Augsburg,Duesseldorf,https://www.thetrainline.com/en/train-times/augsburg-to-duesseldorf,NA
+Madrid,Almeria,https://www.thetrainline.com/en/train-times/madrid-to-almeria,from €11.85
+Lyon,Marseille,https://www.thetrainline.com/en/train-times/lyon-to-marseille,from €10
+Pescara,Milan,https://www.thetrainline.com/en/train-times/pescara-to-milan,from €10.90
+Linz,Nuremberg,https://www.thetrainline.com/en/train-times/linz-to-nuremberg,from €17.20
+Linz,Venice,https://www.thetrainline.com/en/train-times/linz-to-venice,from €10.99
+Gothenburg,Stockholm,https://www.thetrainline.com/en/train-times/gothenburg-to-stockholm,NA
+Bologna,Munich,https://www.thetrainline.com/en/train-times/bologna-to-munich,from €27.90
+Munich,Paderborn,https://www.thetrainline.com/en/train-times/munich-to-paderborn,from €17.90
+Luxembourg,Paris,https://www.thetrainline.com/en/train-times/luxembourg-to-paris,from €31
+Vienna,Salzburg,https://www.thetrainline.com/en/train-times/vienna-to-salzburg,NA
+Salzburg,Stuttgart,https://www.thetrainline.com/en/train-times/salzburg-to-stuttgart,NA
+Paris,Toulouse,https://www.thetrainline.com/en/train-times/paris-to-toulouse,from €15
+Nuremberg,Vienna,https://www.thetrainline.com/en/train-times/nuremberg-to-vienna,from €24.89
+Vienna,Warsaw,https://www.thetrainline.com/en/train-times/vienna-to-warsaw,from €69
+Wroclaw,Katowice,https://www.thetrainline.com/en/train-times/wroclaw-to-katowice,NA
+Friedrichshafen,Stuttgart,https://www.thetrainline.com/en/train-times/friedrichshafen-to-stuttgart,from €17.90
+Murcia,Valencia,https://www.thetrainline.com/en/train-times/murcia-to-valencia,from €10.55
+Murcia,Madrid,https://www.thetrainline.com/en/train-times/murcia-to-madrid,from €16.55
+Frankfurt,Dresden,https://www.thetrainline.com/en/train-times/frankfurt-to-dresden,NA
+Birmingham,Liverpool,https://www.thetrainline.com/en/train-times/birmingham-to-liverpool,from €13.47
+Strasbourg,Luxembourg,https://www.thetrainline.com/en/train-times/strasbourg-to-luxembourg,from €19
+Oslo,Stavanger,https://www.thetrainline.com/en/train-times/oslo-to-stavanger,NA
+Madrid,Barcelona,https://www.thetrainline.com/en/train-times/madrid-to-barcelona,from €4
+Plovdiv,Istanbul,https://www.thetrainline.com/en/train-times/plovdiv-to-istanbul,NA
+Graz,Zurich,https://www.thetrainline.com/en/train-times/graz-to-zurich,from €27.60
+Paris,Stuttgart,https://www.thetrainline.com/en/train-times/paris-to-stuttgart,from €19.90
+Stuttgart,Augsburg,https://www.thetrainline.com/en/train-times/stuttgart-to-augsburg,from €12.90
+Porto,Lisbon,https://www.thetrainline.com/en/train-times/porto-to-lisbon,from €84.45
+Strasbourg,Montpellier,https://www.thetrainline.com/en/train-times/strasbourg-to-montpellier,from €41.20
+Swansea,Cardiff,https://www.thetrainline.com/en/train-times/swansea-to-cardiff,NA
+Swansea,London,https://www.thetrainline.com/en/train-times/swansea-to-london,from €39.17
+Swansea,Bristol,https://www.thetrainline.com/en/train-times/swansea-to-bristol,NA
+Budapest,Linz,https://www.thetrainline.com/en/train-times/budapest-to-linz,from €14.89
+Inverness,London,https://www.thetrainline.com/en/train-times/inverness-to-london,from €60.84
+Bucharest,Cluj-Napoca,https://www.thetrainline.com/en/train-times/bucharest-to-cluj-napoca,NA
+Brussels,Dortmund,https://www.thetrainline.com/en/train-times/brussels-to-dortmund,from €18.90
+Dortmund,Hamburg,https://www.thetrainline.com/en/train-times/dortmund-to-hamburg,from €9.98
+Venice,Naples,https://www.thetrainline.com/en/train-times/venice-to-naples,from €9.90
+Vienna,Florence,https://www.thetrainline.com/en/train-times/vienna-to-florence,from €24.90
+Ostrava,Vienna,https://www.thetrainline.com/en/train-times/ostrava-to-vienna,NA
+Ostrava,Brno,https://www.thetrainline.com/en/train-times/ostrava-to-brno,NA
+Ostrava,Prague,https://www.thetrainline.com/en/train-times/ostrava-to-prague,NA
+Ostrava,Budapest,https://www.thetrainline.com/en/train-times/ostrava-to-budapest,NA
+Venice,Ancona,https://www.thetrainline.com/en/train-times/venice-to-ancona,from €7.90
+Valencia,Barcelona,https://www.thetrainline.com/en/train-times/valencia-to-barcelona,from €2.15
+Valencia,Madrid,https://www.thetrainline.com/en/train-times/valencia-to-madrid,from €7
+Southampton,London,https://www.thetrainline.com/en/train-times/southampton-to-london,from €7.34
+Zurich,Munich,https://www.thetrainline.com/en/train-times/zurich-to-munich,from €19.90
+Paris,Munich,https://www.thetrainline.com/en/train-times/paris-to-munich,from €29.90
+Zurich,Prague,https://www.thetrainline.com/en/train-times/zurich-to-prague,from €14.40
+Warsaw,Ostrava,https://www.thetrainline.com/en/train-times/warsaw-to-ostrava,NA
+Brno,Ostrava,https://www.thetrainline.com/en/train-times/brno-to-ostrava,NA
+Berlin,Cologne,https://www.thetrainline.com/en/train-times/berlin-to-cologne,from €48.25
+Duesseldorf,Cologne,https://www.thetrainline.com/en/train-times/duesseldorf-to-cologne,NA
+Debrecen,Budapest,https://www.thetrainline.com/en/train-times/debrecen-to-budapest,NA
+Dortmund,Cologne,https://www.thetrainline.com/en/train-times/dortmund-to-cologne,NA
+Dortmund,Frankfurt,https://www.thetrainline.com/en/train-times/dortmund-to-frankfurt,NA
+Dortmund,Paris,https://www.thetrainline.com/en/train-times/dortmund-to-paris,from €32
+Paris,Nice,https://www.thetrainline.com/en/train-times/paris-to-nice,from €19
+Strasbourg,Nice,https://www.thetrainline.com/en/train-times/strasbourg-to-nice,from €35
+Graz,Budapest,https://www.thetrainline.com/en/train-times/graz-to-budapest,from €18.50
+Duesseldorf,Mannheim,https://www.thetrainline.com/en/train-times/duesseldorf-to-mannheim,NA
+Paris,Lyon,https://www.thetrainline.com/en/train-times/paris-to-lyon,from €1
+Lille,Lyon,https://www.thetrainline.com/en/train-times/lille-to-lyon,from €16
+Sevilla,Granada,https://www.thetrainline.com/en/train-times/sevilla-to-granada,from €27.60
+Florence,Rimini,https://www.thetrainline.com/en/train-times/florence-to-rimini,from €10.50
+Amsterdam,Zurich,https://www.thetrainline.com/en/train-times/amsterdam-to-zurich,from €39.90
+Zurich,Venice,https://www.thetrainline.com/en/train-times/zurich-to-venice,from €40.90
+London,Leeds,https://www.thetrainline.com/en/train-times/london-to-leeds,from €26.16
+Paris,Lille,https://www.thetrainline.com/en/train-times/paris-to-lille,from €10
+Rome,Turin,https://www.thetrainline.com/en/train-times/rome-to-turin,from €12.45
+Oslo,Stockholm,https://www.thetrainline.com/en/train-times/oslo-to-stockholm,NA
+Brussels,Frankfurt,https://www.thetrainline.com/en/train-times/brussels-to-frankfurt,NA
+Tartu,Tallinn,https://www.thetrainline.com/en/train-times/tartu-to-tallinn,NA
+Frankfurt,Lyon,https://www.thetrainline.com/en/train-times/frankfurt-to-lyon,NA
+Bern,Geneva,https://www.thetrainline.com/en/train-times/bern-to-geneva,from €13.51
+Warsaw,Vienna,https://www.thetrainline.com/en/train-times/warsaw-to-vienna,from €29.90
+Duesseldorf,Bremen,https://www.thetrainline.com/en/train-times/duesseldorf-to-bremen,NA
+Frankfurt,Bremen,https://www.thetrainline.com/en/train-times/frankfurt-to-bremen,NA
+Marseille,Toulouse,https://www.thetrainline.com/en/train-times/marseille-to-toulouse,from €16
+Krakow,Katowice,https://www.thetrainline.com/en/train-times/krakow-to-katowice,NA
+Krakow,Wroclaw,https://www.thetrainline.com/en/train-times/krakow-to-wroclaw,NA
+Krakow,Vienna,https://www.thetrainline.com/en/train-times/krakow-to-vienna,NA
+Berlin,Zurich,https://www.thetrainline.com/en/train-times/berlin-to-zurich,from €19.90
+Clermont-Ferrand,Paris,https://www.thetrainline.com/en/train-times/clermont-ferrand-to-paris,from €15
+Strasbourg,Lille,https://www.thetrainline.com/en/train-times/strasbourg-to-lille,from €37.50
+Verona,Rome,https://www.thetrainline.com/en/train-times/verona-to-rome,NA
+Barcelona,Montpellier,https://www.thetrainline.com/en/train-times/barcelona-to-montpellier,from €14.15
+Montpellier,Lille,https://www.thetrainline.com/en/train-times/montpellier-to-lille,from €16
+Geneva,Zurich,https://www.thetrainline.com/en/train-times/geneva-to-zurich,from €75.20
+Zaragoza,Valencia,https://www.thetrainline.com/en/train-times/zaragoza-to-valencia,from €14
+Salzburg,Zurich,https://www.thetrainline.com/en/train-times/salzburg-to-zurich,NA
+Manchester,Bournemouth,https://www.thetrainline.com/en/train-times/manchester-to-bournemouth,from €65.62
+Birmingham,Bournemouth,https://www.thetrainline.com/en/train-times/birmingham-to-bournemouth,from €44.93
+Copenhagen,Vaxjo,https://www.thetrainline.com/en/train-times/copenhagen-to-vaxjo,NA
+Bordeaux,Frankfurt,https://www.thetrainline.com/en/train-times/bordeaux-to-frankfurt,NA
+Brussels,Duesseldorf,https://www.thetrainline.com/en/train-times/brussels-to-duesseldorf,NA
+Brussels,Linz,https://www.thetrainline.com/en/train-times/brussels-to-linz,from €24.89
+Augsburg,Stuttgart,https://www.thetrainline.com/en/train-times/augsburg-to-stuttgart,from €12.90
+Augsburg,Nuremberg,https://www.thetrainline.com/en/train-times/augsburg-to-nuremberg,from €12.90
+Gothenburg,Copenhagen,https://www.thetrainline.com/en/train-times/gothenburg-to-copenhagen,NA
+Brno,Pardubice,https://www.thetrainline.com/en/train-times/brno-to-pardubice,NA
+Bratislava,Pardubice,https://www.thetrainline.com/en/train-times/bratislava-to-pardubice,NA
+Copenhagen,Aarhus,https://www.thetrainline.com/en/train-times/copenhagen-to-aarhus,from €57.20
+Cologne,Mannheim,https://www.thetrainline.com/en/train-times/cologne-to-mannheim,NA
+Poznan,Krakow,https://www.thetrainline.com/en/train-times/poznan-to-krakow,NA
+Ostrava,Kosice,https://www.thetrainline.com/en/train-times/ostrava-to-kosice,NA
+Santiago de Compostela,Madrid,https://www.thetrainline.com/en/train-times/santiago-de-compostela-to-madrid,from €9.65
+Santiago de Compostela,Barcelona,https://www.thetrainline.com/en/train-times/santiago-de-compostela-to-barcelona,from €18.40
+Turin,Lamezia Terme,https://www.thetrainline.com/en/train-times/turin-to-lamezia-terme,from €7.90
+Zurich,Linz,https://www.thetrainline.com/en/train-times/zurich-to-linz,from €10.99
+Venice,Linz,https://www.thetrainline.com/en/train-times/venice-to-linz,from €23.60
+Linz,Frankfurt,https://www.thetrainline.com/en/train-times/linz-to-frankfurt,NA
+Brno,Graz,https://www.thetrainline.com/en/train-times/brno-to-graz,NA
+London,Bristol,https://www.thetrainline.com/en/train-times/london-to-bristol,NA
+Budapest,Timisoara,https://www.thetrainline.com/en/train-times/budapest-to-timisoara,NA
+Basel,Paris,https://www.thetrainline.com/en/train-times/basel-to-paris,from €29
+Poprad,Ostrava,https://www.thetrainline.com/en/train-times/poprad-to-ostrava,NA
+Ostrava,Berlin,https://www.thetrainline.com/en/train-times/ostrava-to-berlin,NA
+Liverpool,Doncaster,https://www.thetrainline.com/en/train-times/liverpool-to-doncaster,from €16.28
+Valencia,Girona,https://www.thetrainline.com/en/train-times/valencia-to-girona,from €22
+Madrid,Granada,https://www.thetrainline.com/en/train-times/madrid-to-granada,from €16.95
+Vienna,Munich,https://www.thetrainline.com/en/train-times/vienna-to-munich,from €2
+Augsburg,Frankfurt,https://www.thetrainline.com/en/train-times/augsburg-to-frankfurt,NA
+Milan,Bern,https://www.thetrainline.com/en/train-times/milan-to-bern,from €29
+Frankfurt,Nuremberg,https://www.thetrainline.com/en/train-times/frankfurt-to-nuremberg,NA
+Berlin,Nuremberg,https://www.thetrainline.com/en/train-times/berlin-to-nuremberg,from €16.90
+Cologne,Liege,https://www.thetrainline.com/en/train-times/cologne-to-liege,NA
+Duesseldorf,Liege,https://www.thetrainline.com/en/train-times/duesseldorf-to-liege,NA
+Frankfurt,Liege,https://www.thetrainline.com/en/train-times/frankfurt-to-liege,NA
+Bordeaux,Toulouse,https://www.thetrainline.com/en/train-times/bordeaux-to-toulouse,from €10
+Warsaw,Katowice,https://www.thetrainline.com/en/train-times/warsaw-to-katowice,NA
+Berlin,Wroclaw,https://www.thetrainline.com/en/train-times/berlin-to-wroclaw,NA
+Dortmund,Paderborn,https://www.thetrainline.com/en/train-times/dortmund-to-paderborn,from €12.90
+Innsbruck,Zagreb,https://www.thetrainline.com/en/train-times/innsbruck-to-zagreb,NA
+Antwerp,Paris,https://www.thetrainline.com/en/train-times/antwerp-to-paris,from €29
+Paris,Basel,https://www.thetrainline.com/en/train-times/paris-to-basel,from €29
+Paris,Turin,https://www.thetrainline.com/en/train-times/paris-to-turin,from €29
+Chambery-Savoie,Paris,https://www.thetrainline.com/en/train-times/chambery-savoie-to-paris,NA
+Chambery-Savoie,Lille,https://www.thetrainline.com/en/train-times/chambery-savoie-to-lille,NA
+Vienna,Cluj-Napoca,https://www.thetrainline.com/en/train-times/vienna-to-cluj-napoca,NA
+Venice,Rome,https://www.thetrainline.com/en/train-times/venice-to-rome,from €10.90
+Bratislava,Vienna,https://www.thetrainline.com/en/train-times/bratislava-to-vienna,from €9.80
+Birmingham,Cardiff,https://www.thetrainline.com/en/train-times/birmingham-to-cardiff,NA
+Turin,Florence,https://www.thetrainline.com/en/train-times/turin-to-florence,from €8.90
+Munich,Florence,https://www.thetrainline.com/en/train-times/munich-to-florence,from €9.45
+Hannover,Cologne,https://www.thetrainline.com/en/train-times/hannover-to-cologne,NA
+Venice,Geneva,https://www.thetrainline.com/en/train-times/venice-to-geneva,from €48
+Belgrade,Podgorica,https://www.thetrainline.com/en/train-times/belgrade-to-podgorica,NA
+Barcelona,Girona,https://www.thetrainline.com/en/train-times/barcelona-to-girona,from €7
+Paris,Girona,https://www.thetrainline.com/en/train-times/paris-to-girona,from €39
+Florence,Verona,https://www.thetrainline.com/en/train-times/florence-to-verona,NA
+Pisa,Genoa,https://www.thetrainline.com/en/train-times/pisa-to-genoa,from €7.90
+Warsaw,Poznan,https://www.thetrainline.com/en/train-times/warsaw-to-poznan,NA
+Paris,Dortmund,https://www.thetrainline.com/en/train-times/paris-to-dortmund,from €29.90
+Prague,Karlovy Vary,https://www.thetrainline.com/en/train-times/prague-to-karlovy-vary,from €34.80
+Graz,Zagreb,https://www.thetrainline.com/en/train-times/graz-to-zagreb,from €19.30
+Berlin,Graz,https://www.thetrainline.com/en/train-times/berlin-to-graz,from €29.10
+Montpellier,Lyon,https://www.thetrainline.com/en/train-times/montpellier-to-lyon,from €10
+Lyon,Mannheim,https://www.thetrainline.com/en/train-times/lyon-to-mannheim,from €29.90
+Basel,Berlin,https://www.thetrainline.com/en/train-times/basel-to-berlin,from €9.99
+Munich,Rome,https://www.thetrainline.com/en/train-times/munich-to-rome,from €29.30
+Catania,Milan,https://www.thetrainline.com/en/train-times/catania-to-milan,from €41.90
+Prague,Brno,https://www.thetrainline.com/en/train-times/prague-to-brno,NA
+Granada,Almeria,https://www.thetrainline.com/en/train-times/granada-to-almeria,from €20.80
+Vienna,Hannover,https://www.thetrainline.com/en/train-times/vienna-to-hannover,from €31.89
+Nuremberg,Augsburg,https://www.thetrainline.com/en/train-times/nuremberg-to-augsburg,from €12.90
+Lyon,Montpellier,https://www.thetrainline.com/en/train-times/lyon-to-montpellier,from €10
+Trieste,Venice,https://www.thetrainline.com/en/train-times/trieste-to-venice,from €5.90
+Birmingham,Leeds,https://www.thetrainline.com/en/train-times/birmingham-to-leeds,from €35.50
+Newcastle,Manchester,https://www.thetrainline.com/en/train-times/newcastle-to-manchester,from €25.22
+Vienna,Berlin,https://www.thetrainline.com/en/train-times/vienna-to-berlin,from €5.50
+Plymouth,Cardiff,https://www.thetrainline.com/en/train-times/plymouth-to-cardiff,NA
+Bratislava,Kosice,https://www.thetrainline.com/en/train-times/bratislava-to-kosice,NA
+Timisoara,Budapest,https://www.thetrainline.com/en/train-times/timisoara-to-budapest,NA
+Vienna,Brussels,https://www.thetrainline.com/en/train-times/vienna-to-brussels,from €29.20
+Gothenburg,Karlstad,https://www.thetrainline.com/en/train-times/gothenburg-to-karlstad,NA
+Stockholm,Karlstad,https://www.thetrainline.com/en/train-times/stockholm-to-karlstad,NA
+Vienna,Zurich,https://www.thetrainline.com/en/train-times/vienna-to-zurich,from €27.60
+Leeds,Birmingham,https://www.thetrainline.com/en/train-times/leeds-to-birmingham,from €35.50
+Brussels,Luxembourg,https://www.thetrainline.com/en/train-times/brussels-to-luxembourg,from €21.80
+Hamburg,Norrkoping,https://www.thetrainline.com/en/train-times/hamburg-to-norrkoping,NA
+Lille,Paris,https://www.thetrainline.com/en/train-times/lille-to-paris,from €7
+Milan,Rome,https://www.thetrainline.com/en/train-times/milan-to-rome,from €9.90
+Turin,Genoa,https://www.thetrainline.com/en/train-times/turin-to-genoa,from €7.90
+Kortrijk,Brussels,https://www.thetrainline.com/en/train-times/kortrijk-to-brussels,from €15.30
+Genoa,Zurich,https://www.thetrainline.com/en/train-times/genoa-to-zurich,from €33.90
+Zurich,Amsterdam,https://www.thetrainline.com/en/train-times/zurich-to-amsterdam,from €39.90
+Catania,Rome,https://www.thetrainline.com/en/train-times/catania-to-rome,from €12.50
+Genoa,Salzburg,https://www.thetrainline.com/en/train-times/genoa-to-salzburg,NA
+Genoa,Munich,https://www.thetrainline.com/en/train-times/genoa-to-munich,from €29.30
+Milan,Mannheim,https://www.thetrainline.com/en/train-times/milan-to-mannheim,from €50.90
+Ancona,Milan,https://www.thetrainline.com/en/train-times/ancona-to-milan,from €10.90
+Toulouse,Montpellier,https://www.thetrainline.com/en/train-times/toulouse-to-montpellier,from €1
+Katowice,Budapest,https://www.thetrainline.com/en/train-times/katowice-to-budapest,from €55.20
+Hamburg,Dortmund,https://www.thetrainline.com/en/train-times/hamburg-to-dortmund,from €9.98
+Oslo,Gothenburg,https://www.thetrainline.com/en/train-times/oslo-to-gothenburg,NA
+Ancona,Pescara,https://www.thetrainline.com/en/train-times/ancona-to-pescara,from €7.90
+Duesseldorf,Basel,https://www.thetrainline.com/en/train-times/duesseldorf-to-basel,NA
+Duesseldorf,Zurich,https://www.thetrainline.com/en/train-times/duesseldorf-to-zurich,NA
+Duesseldorf,Frankfurt,https://www.thetrainline.com/en/train-times/duesseldorf-to-frankfurt,NA
+Tampere,Turku,https://www.thetrainline.com/en/train-times/tampere-to-turku,NA
+Lille,Strasbourg,https://www.thetrainline.com/en/train-times/lille-to-strasbourg,from €37.50
+Bern,Duesseldorf,https://www.thetrainline.com/en/train-times/bern-to-duesseldorf,NA
+Duesseldorf,Berlin,https://www.thetrainline.com/en/train-times/duesseldorf-to-berlin,NA
+Berlin,Norrkoping,https://www.thetrainline.com/en/train-times/berlin-to-norrkoping,NA
+Mannheim,Duesseldorf,https://www.thetrainline.com/en/train-times/mannheim-to-duesseldorf,NA
+Rostock,Hannover,https://www.thetrainline.com/en/train-times/rostock-to-hannover,from €23.90
+Innsbruck,Vienna,https://www.thetrainline.com/en/train-times/innsbruck-to-vienna,NA
+Vienna,Wroclaw,https://www.thetrainline.com/en/train-times/vienna-to-wroclaw,NA
+Bratislava,Brno,https://www.thetrainline.com/en/train-times/bratislava-to-brno,NA
+Genoa,Vienna,https://www.thetrainline.com/en/train-times/genoa-to-vienna,from €22.95
+Maastricht,Eindhoven,https://www.thetrainline.com/en/train-times/maastricht-to-eindhoven,from €19.60
+Brussels,Chambery-Savoie,https://www.thetrainline.com/en/train-times/brussels-to-chambery-savoie,NA
+Duesseldorf,Hannover,https://www.thetrainline.com/en/train-times/duesseldorf-to-hannover,NA
+Zagreb,Salzburg,https://www.thetrainline.com/en/train-times/zagreb-to-salzburg,NA
+Milan,Naples,https://www.thetrainline.com/en/train-times/milan-to-naples,from €16.90
+Klagenfurt,Venice,https://www.thetrainline.com/en/train-times/klagenfurt-to-venice,NA
+Cologne,Frankfurt,https://www.thetrainline.com/en/train-times/cologne-to-frankfurt,NA
+Cologne,Munich,https://www.thetrainline.com/en/train-times/cologne-to-munich,NA
+Lamezia Terme,Turin,https://www.thetrainline.com/en/train-times/lamezia-terme-to-turin,from €12.45
+Bournemouth,Birmingham,https://www.thetrainline.com/en/train-times/bournemouth-to-birmingham,from €44.93
+Nuremberg,Dortmund,https://www.thetrainline.com/en/train-times/nuremberg-to-dortmund,from €17.90
+Catania,Naples,https://www.thetrainline.com/en/train-times/catania-to-naples,from €10.90
+Katowice,Wroclaw,https://www.thetrainline.com/en/train-times/katowice-to-wroclaw,NA
+Warsaw,Wroclaw,https://www.thetrainline.com/en/train-times/warsaw-to-wroclaw,NA
+Bratislava,Warsaw,https://www.thetrainline.com/en/train-times/bratislava-to-warsaw,from €72.90
+Milan,Geneva,https://www.thetrainline.com/en/train-times/milan-to-geneva,from €29
+Hannover,Nuremberg,https://www.thetrainline.com/en/train-times/hannover-to-nuremberg,from €16.90
+Zagreb,Frankfurt,https://www.thetrainline.com/en/train-times/zagreb-to-frankfurt,NA
+Bristol,Leeds,https://www.thetrainline.com/en/train-times/bristol-to-leeds,NA
+Cardiff,Manchester,https://www.thetrainline.com/en/train-times/cardiff-to-manchester,NA
+Eindhoven,Maastricht,https://www.thetrainline.com/en/train-times/eindhoven-to-maastricht,from €19.60
+Poprad,Bratislava,https://www.thetrainline.com/en/train-times/poprad-to-bratislava,NA
+Ljubljana,Zagreb,https://www.thetrainline.com/en/train-times/ljubljana-to-zagreb,from €25
+Palermo,Naples,https://www.thetrainline.com/en/train-times/palermo-to-naples,from €14.90
+Lamezia Terme,Milan,https://www.thetrainline.com/en/train-times/lamezia-terme-to-milan,from €25.80
+Granada,Sevilla,https://www.thetrainline.com/en/train-times/granada-to-sevilla,from €27.60
+Plymouth,Exeter,https://www.thetrainline.com/en/train-times/plymouth-to-exeter,from €6.12
+Norrkoping,Copenhagen,https://www.thetrainline.com/en/train-times/norrkoping-to-copenhagen,NA
+Rome,Munich,https://www.thetrainline.com/en/train-times/rome-to-munich,from €17.90
+Naples,Catania,https://www.thetrainline.com/en/train-times/naples-to-catania,from €10.90
+Salamanca,Zaragoza,https://www.thetrainline.com/en/train-times/salamanca-to-zaragoza,from €15.60
+Zurich,Milan,https://www.thetrainline.com/en/train-times/zurich-to-milan,from €24
+Milan,Ancona,https://www.thetrainline.com/en/train-times/milan-to-ancona,from €10.90
+Turin,Ancona,https://www.thetrainline.com/en/train-times/turin-to-ancona,from €12.45
+Turin,Bologna,https://www.thetrainline.com/en/train-times/turin-to-bologna,from €12.45
+Vienna,Innsbruck,https://www.thetrainline.com/en/train-times/vienna-to-innsbruck,NA
+Vienna,Paris,https://www.thetrainline.com/en/train-times/vienna-to-paris,from €29.40
+Rotterdam,Brussels,https://www.thetrainline.com/en/train-times/rotterdam-to-brussels,from €19
+Clermont-Ferrand,Toulouse,https://www.thetrainline.com/en/train-times/clermont-ferrand-to-toulouse,from €30
+Malaga,Zaragoza,https://www.thetrainline.com/en/train-times/malaga-to-zaragoza,from €14
+Malaga,Barcelona,https://www.thetrainline.com/en/train-times/malaga-to-barcelona,from €16
+Sevilla,Zaragoza,https://www.thetrainline.com/en/train-times/sevilla-to-zaragoza,from €14
+Sevilla,Barcelona,https://www.thetrainline.com/en/train-times/sevilla-to-barcelona,from €13.45
+Turin,Venice,https://www.thetrainline.com/en/train-times/turin-to-venice,from €11
+Genoa,Turin,https://www.thetrainline.com/en/train-times/genoa-to-turin,from €7.90
+Salzburg,Budapest,https://www.thetrainline.com/en/train-times/salzburg-to-budapest,NA
+Paris,Milan,https://www.thetrainline.com/en/train-times/paris-to-milan,from €27.50
+Strasbourg,Mannheim,https://www.thetrainline.com/en/train-times/strasbourg-to-mannheim,from €24.90
+Stuttgart,Zagreb,https://www.thetrainline.com/en/train-times/stuttgart-to-zagreb,from €23.90
+Lugano,Basel,https://www.thetrainline.com/en/train-times/lugano-to-basel,from €23.17
+Zurich,Paris,https://www.thetrainline.com/en/train-times/zurich-to-paris,from €29
+London,Glasgow,https://www.thetrainline.com/en/train-times/london-to-glasgow,from €42.85
+Sevilla,Madrid,https://www.thetrainline.com/en/train-times/sevilla-to-madrid,from €7
+Plymouth,Glasgow,https://www.thetrainline.com/en/train-times/plymouth-to-glasgow,from €165.63
+Dublin,Belfast,https://www.thetrainline.com/en/train-times/dublin-to-belfast,NA
+Inverness,Glasgow,https://www.thetrainline.com/en/train-times/inverness-to-glasgow,from €11.14
+Zurich,Bern,https://www.thetrainline.com/en/train-times/zurich-to-bern,from €47.60
+Vienna,Nuremberg,https://www.thetrainline.com/en/train-times/vienna-to-nuremberg,from €24.90
+Nuremberg,Berlin,https://www.thetrainline.com/en/train-times/nuremberg-to-berlin,from €17.90
+Brussels,Lyon,https://www.thetrainline.com/en/train-times/brussels-to-lyon,from €33.90
+Rostock,Dresden,https://www.thetrainline.com/en/train-times/rostock-to-dresden,from €17.90
+Prague,Vienna,https://www.thetrainline.com/en/train-times/prague-to-vienna,from €11.90
+Montpellier,Girona,https://www.thetrainline.com/en/train-times/montpellier-to-girona,from €29
+Milan,Pisa,https://www.thetrainline.com/en/train-times/milan-to-pisa,from €8.10
+Thessaloniki,Athens,https://www.thetrainline.com/en/train-times/thessaloniki-to-athens,NA
+Stavanger,Oslo,https://www.thetrainline.com/en/train-times/stavanger-to-oslo,NA
+Zurich,Graz,https://www.thetrainline.com/en/train-times/zurich-to-graz,from €27.60
+Brussels,Rotterdam,https://www.thetrainline.com/en/train-times/brussels-to-rotterdam,from €19
+Paris,Rotterdam,https://www.thetrainline.com/en/train-times/paris-to-rotterdam,from €35
+Murcia,Barcelona,https://www.thetrainline.com/en/train-times/murcia-to-barcelona,from €17.95
+Berlin,Copenhagen,https://www.thetrainline.com/en/train-times/berlin-to-copenhagen,from €41.90
+Birmingham,Exeter,https://www.thetrainline.com/en/train-times/birmingham-to-exeter,from €46.76
+Glasgow,Exeter,https://www.thetrainline.com/en/train-times/glasgow-to-exeter,from €131.60
+Munich,Bologna,https://www.thetrainline.com/en/train-times/munich-to-bologna,from €19.90
+Bologna,Catania,https://www.thetrainline.com/en/train-times/bologna-to-catania,from €35.80
+Valladolid,Oviedo,https://www.thetrainline.com/en/train-times/valladolid-to-oviedo,from €7.35
+Constanta,Cluj-Napoca,https://www.thetrainline.com/en/train-times/constanta-to-cluj-napoca,NA
+Naples,Palermo,https://www.thetrainline.com/en/train-times/naples-to-palermo,from €14.90
+Augsburg,Vienna,https://www.thetrainline.com/en/train-times/augsburg-to-vienna,from €24.90
+Genoa,Catania,https://www.thetrainline.com/en/train-times/genoa-to-catania,from €37.80
+Prague,Berlin,https://www.thetrainline.com/en/train-times/prague-to-berlin,from €18.90
+Berlin,Amsterdam,https://www.thetrainline.com/en/train-times/berlin-to-amsterdam,from €29.90
+Chisinau,Iasi,https://www.thetrainline.com/en/train-times/chisinau-to-iasi,NA
+Cologne,Basel,https://www.thetrainline.com/en/train-times/cologne-to-basel,NA
+Genoa,Pisa,https://www.thetrainline.com/en/train-times/genoa-to-pisa,from €7.90
+Malaga,Madrid,https://www.thetrainline.com/en/train-times/malaga-to-madrid,from €7
+Katowice,Berlin,https://www.thetrainline.com/en/train-times/katowice-to-berlin,from €27.90
+Doncaster,Newcastle,https://www.thetrainline.com/en/train-times/doncaster-to-newcastle,from €14.45
+Copenhagen,Ronneby,https://www.thetrainline.com/en/train-times/copenhagen-to-ronneby,NA
+Munich,Malmo,https://www.thetrainline.com/en/train-times/munich-to-malmo,NA
+Cardiff,Swansea,https://www.thetrainline.com/en/train-times/cardiff-to-swansea,NA
+Paris,Vienna,https://www.thetrainline.com/en/train-times/paris-to-vienna,from €29.40
+Wroclaw,Berlin,https://www.thetrainline.com/en/train-times/wroclaw-to-berlin,NA
+Dresden,Basel,https://www.thetrainline.com/en/train-times/dresden-to-basel,from €14.98
+Montpellier,Strasbourg,https://www.thetrainline.com/en/train-times/montpellier-to-strasbourg,from €35
+Gdansk,Warsaw,https://www.thetrainline.com/en/train-times/gdansk-to-warsaw,NA
+Cardiff,Southampton,https://www.thetrainline.com/en/train-times/cardiff-to-southampton,NA
+Naples,Turin,https://www.thetrainline.com/en/train-times/naples-to-turin,from €12.45
+Barcelona,Salamanca,https://www.thetrainline.com/en/train-times/barcelona-to-salamanca,from €18.05
+Groningen,Rotterdam,https://www.thetrainline.com/en/train-times/groningen-to-rotterdam,from €29
+Naples,Milan,https://www.thetrainline.com/en/train-times/naples-to-milan,from €12.90
+Manchester,Norwich,https://www.thetrainline.com/en/train-times/manchester-to-norwich,from €37.95
+Trieste,Milan,https://www.thetrainline.com/en/train-times/trieste-to-milan,from €10.90
+Ljubljana,Zurich,https://www.thetrainline.com/en/train-times/ljubljana-to-zurich,from €28.20
+Bratislava,Hamburg,https://www.thetrainline.com/en/train-times/bratislava-to-hamburg,from €38.80
+Krakow,Berlin,https://www.thetrainline.com/en/train-times/krakow-to-berlin,NA
+Duesseldorf,Verona,https://www.thetrainline.com/en/train-times/duesseldorf-to-verona,NA
+Metz,Paris,https://www.thetrainline.com/en/train-times/metz-to-paris,from €16
+Toulouse,Clermont-Ferrand,https://www.thetrainline.com/en/train-times/toulouse-to-clermont-ferrand,from €26.50
+Munich,Augsburg,https://www.thetrainline.com/en/train-times/munich-to-augsburg,from €12.90
+Frankfurt,Augsburg,https://www.thetrainline.com/en/train-times/frankfurt-to-augsburg,NA
+Milan,Trieste,https://www.thetrainline.com/en/train-times/milan-to-trieste,from €12.90
+Vienna,Stuttgart,https://www.thetrainline.com/en/train-times/vienna-to-stuttgart,from €27.88
+Malmo,Berlin,https://www.thetrainline.com/en/train-times/malmo-to-berlin,NA
+Vienna,Katowice,https://www.thetrainline.com/en/train-times/vienna-to-katowice,from €9.90
+Rome,Palermo,https://www.thetrainline.com/en/train-times/rome-to-palermo,from €16.90
+Brussels,Nuremberg,https://www.thetrainline.com/en/train-times/brussels-to-nuremberg,from €19.90
+Innsbruck,Nuremberg,https://www.thetrainline.com/en/train-times/innsbruck-to-nuremberg,NA
+Bucharest,Chisinau,https://www.thetrainline.com/en/train-times/bucharest-to-chisinau,NA
+Venice,Rimini,https://www.thetrainline.com/en/train-times/venice-to-rimini,from €8.90
+Dresden,Zurich,https://www.thetrainline.com/en/train-times/dresden-to-zurich,from €19.90
+Munich,Venice,https://www.thetrainline.com/en/train-times/munich-to-venice,from €10
+Amsterdam,Chambery-Savoie,https://www.thetrainline.com/en/train-times/amsterdam-to-chambery-savoie,NA
+Manchester,Edinburgh,https://www.thetrainline.com/en/train-times/manchester-to-edinburgh,from €17.24
+Lyon,Brussels,https://www.thetrainline.com/en/train-times/lyon-to-brussels,from €32.60
+Girona,Zaragoza,https://www.thetrainline.com/en/train-times/girona-to-zaragoza,from €9
+Poznan,Katowice,https://www.thetrainline.com/en/train-times/poznan-to-katowice,NA
+Prague,Budapest,https://www.thetrainline.com/en/train-times/prague-to-budapest,from €15.90
+Graz,Salzburg,https://www.thetrainline.com/en/train-times/graz-to-salzburg,NA
+Graz,Linz,https://www.thetrainline.com/en/train-times/graz-to-linz,from €14.89
+Linz,Brussels,https://www.thetrainline.com/en/train-times/linz-to-brussels,from €45.89
+Bilbao,Zaragoza,https://www.thetrainline.com/en/train-times/bilbao-to-zaragoza,from €10.80
+Marseille,Paris,https://www.thetrainline.com/en/train-times/marseille-to-paris,from €16
+Marseille,Antwerp,https://www.thetrainline.com/en/train-times/marseille-to-antwerp,from €40.70
+Turin,Rome,https://www.thetrainline.com/en/train-times/turin-to-rome,from €12.45
+Cluj-Napoca,Constanta,https://www.thetrainline.com/en/train-times/cluj-napoca-to-constanta,NA
+Cluj-Napoca,Bucharest,https://www.thetrainline.com/en/train-times/cluj-napoca-to-bucharest,NA
+Inverness,Newcastle,https://www.thetrainline.com/en/train-times/inverness-to-newcastle,from €36.48
+Venice,Lamezia Terme,https://www.thetrainline.com/en/train-times/venice-to-lamezia-terme,from €13.85
+Leeds,Edinburgh,https://www.thetrainline.com/en/train-times/leeds-to-edinburgh,from €25.95
+Augsburg,Mannheim,https://www.thetrainline.com/en/train-times/augsburg-to-mannheim,from €17.90
+Duesseldorf,Munich,https://www.thetrainline.com/en/train-times/duesseldorf-to-munich,NA
+Nuremberg,Cologne,https://www.thetrainline.com/en/train-times/nuremberg-to-cologne,NA
+Montpellier,Luxembourg,https://www.thetrainline.com/en/train-times/montpellier-to-luxembourg,from €59
+Reus,Zaragoza,https://www.thetrainline.com/en/train-times/reus-to-zaragoza,from €11.85
+Trieste,Naples,https://www.thetrainline.com/en/train-times/trieste-to-naples,from €7.90
+Dortmund,Berlin,https://www.thetrainline.com/en/train-times/dortmund-to-berlin,from €9.99
+Ankara,Istanbul,https://www.thetrainline.com/en/train-times/ankara-to-istanbul,NA
+Paris,Marseille,https://www.thetrainline.com/en/train-times/paris-to-marseille,from €16
+Frankfurt,Marseille,https://www.thetrainline.com/en/train-times/frankfurt-to-marseille,NA
+Swansea,Manchester,https://www.thetrainline.com/en/train-times/swansea-to-manchester,from €28.40
+Strasbourg,Brussels,https://www.thetrainline.com/en/train-times/strasbourg-to-brussels,from €27.90
+Kosice,Vienna,https://www.thetrainline.com/en/train-times/kosice-to-vienna,NA
+Rimini,Ancona,https://www.thetrainline.com/en/train-times/rimini-to-ancona,from €7.90
+Paris,Strasbourg,https://www.thetrainline.com/en/train-times/paris-to-strasbourg,from €16
+Berlin,Duesseldorf,https://www.thetrainline.com/en/train-times/berlin-to-duesseldorf,NA
+Rotterdam,Paris,https://www.thetrainline.com/en/train-times/rotterdam-to-paris,from €35
+Genoa,Venice,https://www.thetrainline.com/en/train-times/genoa-to-venice,from €10.90
+Duesseldorf,Vienna,https://www.thetrainline.com/en/train-times/duesseldorf-to-vienna,NA
+Cologne,Rostock,https://www.thetrainline.com/en/train-times/cologne-to-rostock,NA
+Brussels,Montpellier,https://www.thetrainline.com/en/train-times/brussels-to-montpellier,from €58
+Ostend,Kortrijk,https://www.thetrainline.com/en/train-times/ostend-to-kortrijk,from €13.20
+Munich,Saarbruecken,https://www.thetrainline.com/en/train-times/munich-to-saarbruecken,NA
+Linz,Zurich,https://www.thetrainline.com/en/train-times/linz-to-zurich,from €27.60
+Malmo,Stockholm,https://www.thetrainline.com/en/train-times/malmo-to-stockholm,NA
+Ljubljana,Munich,https://www.thetrainline.com/en/train-times/ljubljana-to-munich,from €27.68
+Munich,Hamburg,https://www.thetrainline.com/en/train-times/munich-to-hamburg,from €17.90
+Chambery-Savoie,Brussels,https://www.thetrainline.com/en/train-times/chambery-savoie-to-brussels,NA
+Basel,Cologne,https://www.thetrainline.com/en/train-times/basel-to-cologne,NA
+Zurich,Berlin,https://www.thetrainline.com/en/train-times/zurich-to-berlin,from €19.90
+Warsaw,Bratislava,https://www.thetrainline.com/en/train-times/warsaw-to-bratislava,from €107.90
+Ljubljana,Trieste,https://www.thetrainline.com/en/train-times/ljubljana-to-trieste,from €9.90
+Lyon,Frankfurt,https://www.thetrainline.com/en/train-times/lyon-to-frankfurt,NA
+Bern,Hannover,https://www.thetrainline.com/en/train-times/bern-to-hannover,from €19.90
+Murcia,Alicante,https://www.thetrainline.com/en/train-times/murcia-to-alicante,from €5.75
+Frankfurt,Innsbruck,https://www.thetrainline.com/en/train-times/frankfurt-to-innsbruck,NA
+Hamburg,Westerland,https://www.thetrainline.com/en/train-times/hamburg-to-westerland,NA
+Edinburgh,Doncaster,https://www.thetrainline.com/en/train-times/edinburgh-to-doncaster,from €26.44
+Milan,Lugano,https://www.thetrainline.com/en/train-times/milan-to-lugano,from €12
+Budapest,Prague,https://www.thetrainline.com/en/train-times/budapest-to-prague,from €15.90
+Debrecen,Vienna,https://www.thetrainline.com/en/train-times/debrecen-to-vienna,from €22.50
+Linz,Hamburg,https://www.thetrainline.com/en/train-times/linz-to-hamburg,from €22.89
+Linz,Berlin,https://www.thetrainline.com/en/train-times/linz-to-berlin,from €22.89
+Bordeaux,Marseille,https://www.thetrainline.com/en/train-times/bordeaux-to-marseille,from €20
+Krakow,Graz,https://www.thetrainline.com/en/train-times/krakow-to-graz,NA
+Gothenburg,Malmo,https://www.thetrainline.com/en/train-times/gothenburg-to-malmo,NA
+Marseille,Frankfurt,https://www.thetrainline.com/en/train-times/marseille-to-frankfurt,NA
+Frankfurt,Saarbruecken,https://www.thetrainline.com/en/train-times/frankfurt-to-saarbruecken,NA
+Cologne,Paris,https://www.thetrainline.com/en/train-times/cologne-to-paris,NA
+Luxembourg,Marseille,https://www.thetrainline.com/en/train-times/luxembourg-to-marseille,from €49.70
+Exeter,Newquay,https://www.thetrainline.com/en/train-times/exeter-to-newquay,from €10.41
+Budapest,Kosice,https://www.thetrainline.com/en/train-times/budapest-to-kosice,NA
+Berlin,Mannheim,https://www.thetrainline.com/en/train-times/berlin-to-mannheim,from €9.99
+Edinburgh,London,https://www.thetrainline.com/en/train-times/edinburgh-to-london,from €33.91
+Aberdeen,London,https://www.thetrainline.com/en/train-times/aberdeen-to-london,from €53.74
+Hannover,Duesseldorf,https://www.thetrainline.com/en/train-times/hannover-to-duesseldorf,NA
+Malmo,Innsbruck,https://www.thetrainline.com/en/train-times/malmo-to-innsbruck,NA
+Graz,Augsburg,https://www.thetrainline.com/en/train-times/graz-to-augsburg,from €24.90
+Salzburg,Augsburg,https://www.thetrainline.com/en/train-times/salzburg-to-augsburg,NA
+Linz,Augsburg,https://www.thetrainline.com/en/train-times/linz-to-augsburg,from €18.90
+Prague,Zurich,https://www.thetrainline.com/en/train-times/prague-to-zurich,from €39.90
+Pescara,Turin,https://www.thetrainline.com/en/train-times/pescara-to-turin,from €12.45
+Zagreb,Rijeka,https://www.thetrainline.com/en/train-times/zagreb-to-rijeka,NA
+Cluj-Napoca,Budapest,https://www.thetrainline.com/en/train-times/cluj-napoca-to-budapest,NA
+Mannheim,Dortmund,https://www.thetrainline.com/en/train-times/mannheim-to-dortmund,from €12.90
+Basel,Dortmund,https://www.thetrainline.com/en/train-times/basel-to-dortmund,from €19.90
+Ljubljana,Salzburg,https://www.thetrainline.com/en/train-times/ljubljana-to-salzburg,NA
+Chambery-Savoie,Amsterdam,https://www.thetrainline.com/en/train-times/chambery-savoie-to-amsterdam,NA
+Milan,Catania,https://www.thetrainline.com/en/train-times/milan-to-catania,from €30.90
+Frankfurt,Westerland,https://www.thetrainline.com/en/train-times/frankfurt-to-westerland,NA
+Genoa,Verona,https://www.thetrainline.com/en/train-times/genoa-to-verona,NA
+Graz,Frankfurt,https://www.thetrainline.com/en/train-times/graz-to-frankfurt,NA
+Venice,Munich,https://www.thetrainline.com/en/train-times/venice-to-munich,from €18.99
+Timisoara,Bucharest,https://www.thetrainline.com/en/train-times/timisoara-to-bucharest,NA
+Lyon,Toulouse,https://www.thetrainline.com/en/train-times/lyon-to-toulouse,from €24
+Rostock,Bremen,https://www.thetrainline.com/en/train-times/rostock-to-bremen,from €23.90
+Montpellier,Metz,https://www.thetrainline.com/en/train-times/montpellier-to-metz,from €35
+Madrid,Bilbao,https://www.thetrainline.com/en/train-times/madrid-to-bilbao,from €15.40
+Stuttgart,Budapest,https://www.thetrainline.com/en/train-times/stuttgart-to-budapest,from €29.90
+Strasbourg,Bordeaux,https://www.thetrainline.com/en/train-times/strasbourg-to-bordeaux,from €47
+Brussels,Marseille,https://www.thetrainline.com/en/train-times/brussels-to-marseille,from €45.60
+Venice,Klagenfurt,https://www.thetrainline.com/en/train-times/venice-to-klagenfurt,NA
+Milan,Klagenfurt,https://www.thetrainline.com/en/train-times/milan-to-klagenfurt,NA
+Liege,Vienna,https://www.thetrainline.com/en/train-times/liege-to-vienna,from €53.89
+Manchester,Newcastle,https://www.thetrainline.com/en/train-times/manchester-to-newcastle,from €25.22
+Strasbourg,Linz,https://www.thetrainline.com/en/train-times/strasbourg-to-linz,from €42.90
+Dortmund,Bremen,https://www.thetrainline.com/en/train-times/dortmund-to-bremen,from €12.90
+Berlin,Bratislava,https://www.thetrainline.com/en/train-times/berlin-to-bratislava,from €29.79
+Granada,Zaragoza,https://www.thetrainline.com/en/train-times/granada-to-zaragoza,from €20.90
+Mannheim,Prague,https://www.thetrainline.com/en/train-times/mannheim-to-prague,from €18.90
+Vienna,Rome,https://www.thetrainline.com/en/train-times/vienna-to-rome,from €28.80
+Geneva,Milan,https://www.thetrainline.com/en/train-times/geneva-to-milan,from €29
+Amsterdam,Duesseldorf,https://www.thetrainline.com/en/train-times/amsterdam-to-duesseldorf,NA
+Catania,Palermo,https://www.thetrainline.com/en/train-times/catania-to-palermo,from €14.90
+Cologne,Verona,https://www.thetrainline.com/en/train-times/cologne-to-verona,NA
+Innsbruck,Munich,https://www.thetrainline.com/en/train-times/innsbruck-to-munich,NA
+Oviedo,Alicante,https://www.thetrainline.com/en/train-times/oviedo-to-alicante,from €21.95
+Oslo,Karlstad,https://www.thetrainline.com/en/train-times/oslo-to-karlstad,NA
+Ostrava,Warsaw,https://www.thetrainline.com/en/train-times/ostrava-to-warsaw,NA
+Budapest,Stuttgart,https://www.thetrainline.com/en/train-times/budapest-to-stuttgart,from €29.90
+Stuttgart,Saarbruecken,https://www.thetrainline.com/en/train-times/stuttgart-to-saarbruecken,NA
+Frankfurt,Berlin,https://www.thetrainline.com/en/train-times/frankfurt-to-berlin,NA
+Bern,Berlin,https://www.thetrainline.com/en/train-times/bern-to-berlin,from €19.90
+Trieste,Rimini,https://www.thetrainline.com/en/train-times/trieste-to-rimini,from €14.90
+Rimini,Milan,https://www.thetrainline.com/en/train-times/rimini-to-milan,from €10.80
+Turin,Naples,https://www.thetrainline.com/en/train-times/turin-to-naples,from €9.50
+Porto,Faro,https://www.thetrainline.com/en/train-times/porto-to-faro,NA
+Norrkoping,Hamburg,https://www.thetrainline.com/en/train-times/norrkoping-to-hamburg,NA
+Pardubice,Budapest,https://www.thetrainline.com/en/train-times/pardubice-to-budapest,NA
+Marseille,Geneva,https://www.thetrainline.com/en/train-times/marseille-to-geneva,from €32
+Bologna,Zurich,https://www.thetrainline.com/en/train-times/bologna-to-zurich,from €38.90
+Berlin,Budapest,https://www.thetrainline.com/en/train-times/berlin-to-budapest,from €29.90
+Valladolid,Valencia,https://www.thetrainline.com/en/train-times/valladolid-to-valencia,from €12.80
+Bremen,Dresden,https://www.thetrainline.com/en/train-times/bremen-to-dresden,from €17.90
+Bremen,Nuremberg,https://www.thetrainline.com/en/train-times/bremen-to-nuremberg,NA
+Rostock,Frankfurt,https://www.thetrainline.com/en/train-times/rostock-to-frankfurt,NA
+Salzburg,Mannheim,https://www.thetrainline.com/en/train-times/salzburg-to-mannheim,NA
+Trieste,Ancona,https://www.thetrainline.com/en/train-times/trieste-to-ancona,from €14.05
+Nuremberg,Brussels,https://www.thetrainline.com/en/train-times/nuremberg-to-brussels,from €19.90
+Graz,Munich,https://www.thetrainline.com/en/train-times/graz-to-munich,from €24.90
+Rotterdam,Chambery-Savoie,https://www.thetrainline.com/en/train-times/rotterdam-to-chambery-savoie,NA
+Prague,Warsaw,https://www.thetrainline.com/en/train-times/prague-to-warsaw,from €46.90
+Glasgow,Manchester,https://www.thetrainline.com/en/train-times/glasgow-to-manchester,from €17.24
+Poprad,Prague,https://www.thetrainline.com/en/train-times/poprad-to-prague,NA
+Hamburg,Innsbruck,https://www.thetrainline.com/en/train-times/hamburg-to-innsbruck,NA
+Berlin,Munich,https://www.thetrainline.com/en/train-times/berlin-to-munich,from €17.90
+Augsburg,Dortmund,https://www.thetrainline.com/en/train-times/augsburg-to-dortmund,from €17.90
+Aberdeen,Bristol,https://www.thetrainline.com/en/train-times/aberdeen-to-bristol,NA
+Linz,Bratislava,https://www.thetrainline.com/en/train-times/linz-to-bratislava,from €18.40
+Bratislava,Katowice,https://www.thetrainline.com/en/train-times/bratislava-to-katowice,from €16.90
+Dresden,Stuttgart,https://www.thetrainline.com/en/train-times/dresden-to-stuttgart,from €17.90
+Verona,Duesseldorf,https://www.thetrainline.com/en/train-times/verona-to-duesseldorf,NA
+Dortmund,Augsburg,https://www.thetrainline.com/en/train-times/dortmund-to-augsburg,from €17.90
+Dortmund,Munich,https://www.thetrainline.com/en/train-times/dortmund-to-munich,from €17.90
+Mannheim,Hannover,https://www.thetrainline.com/en/train-times/mannheim-to-hannover,from €14.98
+Luxembourg,Montpellier,https://www.thetrainline.com/en/train-times/luxembourg-to-montpellier,from €57
+Munich,Dortmund,https://www.thetrainline.com/en/train-times/munich-to-dortmund,from €17.90
+Montpellier,Paris,https://www.thetrainline.com/en/train-times/montpellier-to-paris,from €16
+Zurich,Salzburg,https://www.thetrainline.com/en/train-times/zurich-to-salzburg,NA
+Prague,Basel,https://www.thetrainline.com/en/train-times/prague-to-basel,from €39.90
+Bordeaux,Strasbourg,https://www.thetrainline.com/en/train-times/bordeaux-to-strasbourg,from €32
+Zagreb,Zurich,https://www.thetrainline.com/en/train-times/zagreb-to-zurich,from €28.20
+Innsbruck,Bratislava,https://www.thetrainline.com/en/train-times/innsbruck-to-bratislava,NA
+Bristol,Manchester,https://www.thetrainline.com/en/train-times/bristol-to-manchester,NA
+Graz,Split,https://www.thetrainline.com/en/train-times/graz-to-split,NA
+Zaragoza,Malaga,https://www.thetrainline.com/en/train-times/zaragoza-to-malaga,from €18
+Frankfurt,Salzburg,https://www.thetrainline.com/en/train-times/frankfurt-to-salzburg,NA
+Innsbruck,Ljubljana,https://www.thetrainline.com/en/train-times/innsbruck-to-ljubljana,NA
+Rostock,Duesseldorf,https://www.thetrainline.com/en/train-times/rostock-to-duesseldorf,NA
+Trieste,Rome,https://www.thetrainline.com/en/train-times/trieste-to-rome,from €10.90
+Aberdeen,Plymouth,https://www.thetrainline.com/en/train-times/aberdeen-to-plymouth,from €106.01
+Montpellier,Brussels,https://www.thetrainline.com/en/train-times/montpellier-to-brussels,from €60
+Pescara,Rome,https://www.thetrainline.com/en/train-times/pescara-to-rome,from €14.50
+Leeds,Bristol,https://www.thetrainline.com/en/train-times/leeds-to-bristol,NA
+Basel,Duesseldorf,https://www.thetrainline.com/en/train-times/basel-to-duesseldorf,NA
+Strasbourg,Munich,https://www.thetrainline.com/en/train-times/strasbourg-to-munich,from €24.90
+Geneva,Verona,https://www.thetrainline.com/en/train-times/geneva-to-verona,NA
+Duesseldorf,Rostock,https://www.thetrainline.com/en/train-times/duesseldorf-to-rostock,NA
+Cologne,Bremen,https://www.thetrainline.com/en/train-times/cologne-to-bremen,NA
+Pardubice,Bratislava,https://www.thetrainline.com/en/train-times/pardubice-to-bratislava,NA
+Newcastle,Bristol,https://www.thetrainline.com/en/train-times/newcastle-to-bristol,NA
+Pisa,Milan,https://www.thetrainline.com/en/train-times/pisa-to-milan,from €8.90
+Basel,Amsterdam,https://www.thetrainline.com/en/train-times/basel-to-amsterdam,from €39.90
+Berlin,Vienna,https://www.thetrainline.com/en/train-times/berlin-to-vienna,from €24.40
+Stockholm,Oslo,https://www.thetrainline.com/en/train-times/stockholm-to-oslo,NA
+Marseille,Lille,https://www.thetrainline.com/en/train-times/marseille-to-lille,from €16
+Trieste,Ljubljana,https://www.thetrainline.com/en/train-times/trieste-to-ljubljana,from €9.90
+Venice,Genoa,https://www.thetrainline.com/en/train-times/venice-to-genoa,from €10.90
+Iasi,Bucharest,https://www.thetrainline.com/en/train-times/iasi-to-bucharest,NA
+Ljubljana,Frankfurt,https://www.thetrainline.com/en/train-times/ljubljana-to-frankfurt,NA
+Verona,Zurich,https://www.thetrainline.com/en/train-times/verona-to-zurich,NA
+Mannheim,Hamburg,https://www.thetrainline.com/en/train-times/mannheim-to-hamburg,from €9.99
+Valencia,Zaragoza,https://www.thetrainline.com/en/train-times/valencia-to-zaragoza,from €14
+Bratislava,Berlin,https://www.thetrainline.com/en/train-times/bratislava-to-berlin,from €29.90
+Venice,Zurich,https://www.thetrainline.com/en/train-times/venice-to-zurich,from €32
+Cluj-Napoca,Timisoara,https://www.thetrainline.com/en/train-times/cluj-napoca-to-timisoara,NA
+Munich,Strasbourg,https://www.thetrainline.com/en/train-times/munich-to-strasbourg,from €20.90
+Nantes,Marseille,https://www.thetrainline.com/en/train-times/nantes-to-marseille,from €29
+Paris,Geneva,https://www.thetrainline.com/en/train-times/paris-to-geneva,from €29
+Paris,Amsterdam,https://www.thetrainline.com/en/train-times/paris-to-amsterdam,from €35
+Prague,Graz,https://www.thetrainline.com/en/train-times/prague-to-graz,from €21.80
+Girona,Valencia,https://www.thetrainline.com/en/train-times/girona-to-valencia,from €17.75
+Hannover,Amsterdam,https://www.thetrainline.com/en/train-times/hannover-to-amsterdam,from €19.90
+Strasbourg,Augsburg,https://www.thetrainline.com/en/train-times/strasbourg-to-augsburg,from €24.90
+Zurich,Augsburg,https://www.thetrainline.com/en/train-times/zurich-to-augsburg,from €19.90
+Trieste,Florence,https://www.thetrainline.com/en/train-times/trieste-to-florence,from €10.90
+Innsbruck,Duesseldorf,https://www.thetrainline.com/en/train-times/innsbruck-to-duesseldorf,NA
+Berlin,Innsbruck,https://www.thetrainline.com/en/train-times/berlin-to-innsbruck,NA
+Saarbruecken,Frankfurt,https://www.thetrainline.com/en/train-times/saarbruecken-to-frankfurt,NA
+Hannover,Basel,https://www.thetrainline.com/en/train-times/hannover-to-basel,from €19.90
+Bologna,Lamezia Terme,https://www.thetrainline.com/en/train-times/bologna-to-lamezia-terme,from €24.80
+Edinburgh,Birmingham,https://www.thetrainline.com/en/train-times/edinburgh-to-birmingham,from €25.59
+Edinburgh,Manchester,https://www.thetrainline.com/en/train-times/edinburgh-to-manchester,from €15.79
+Toulouse,Marseille,https://www.thetrainline.com/en/train-times/toulouse-to-marseille,from €14.20
+Turin,Verona,https://www.thetrainline.com/en/train-times/turin-to-verona,NA
+Klagenfurt,Cologne,https://www.thetrainline.com/en/train-times/klagenfurt-to-cologne,NA
+Paderborn,Nuremberg,https://www.thetrainline.com/en/train-times/paderborn-to-nuremberg,from €16.90
+Dortmund,Mannheim,https://www.thetrainline.com/en/train-times/dortmund-to-mannheim,from €12.90
+Augsburg,Basel,https://www.thetrainline.com/en/train-times/augsburg-to-basel,from €19.90
+Graz,Berlin,https://www.thetrainline.com/en/train-times/graz-to-berlin,from €17.90
+Stuttgart,Hamburg,https://www.thetrainline.com/en/train-times/stuttgart-to-hamburg,from €9.99
+Bern,Milan,https://www.thetrainline.com/en/train-times/bern-to-milan,from €29
+Paris,Chambery-Savoie,https://www.thetrainline.com/en/train-times/paris-to-chambery-savoie,NA
+Salzburg,Verona,https://www.thetrainline.com/en/train-times/salzburg-to-verona,NA
+Southampton,Cardiff,https://www.thetrainline.com/en/train-times/southampton-to-cardiff,NA
+Augsburg,Memmingen,https://www.thetrainline.com/en/train-times/augsburg-to-memmingen,from €19.90
+Brussels,Strasbourg,https://www.thetrainline.com/en/train-times/brussels-to-strasbourg,from €27.90
+Hannover,Dortmund,https://www.thetrainline.com/en/train-times/hannover-to-dortmund,from €4.99
+Bucharest,Timisoara,https://www.thetrainline.com/en/train-times/bucharest-to-timisoara,NA
+Zagreb,Augsburg,https://www.thetrainline.com/en/train-times/zagreb-to-augsburg,from €29.20
+Oviedo,Valladolid,https://www.thetrainline.com/en/train-times/oviedo-to-valladolid,from €7.35
+Gdansk,Krakow,https://www.thetrainline.com/en/train-times/gdansk-to-krakow,NA
+Gdansk,Ostrava,https://www.thetrainline.com/en/train-times/gdansk-to-ostrava,NA
+Pardubice,Ostrava,https://www.thetrainline.com/en/train-times/pardubice-to-ostrava,NA
+Lugano,Genoa,https://www.thetrainline.com/en/train-times/lugano-to-genoa,from €20
+Cologne,Zurich,https://www.thetrainline.com/en/train-times/cologne-to-zurich,NA
+Karlstad,Oslo,https://www.thetrainline.com/en/train-times/karlstad-to-oslo,NA
+Hamburg,Dresden,https://www.thetrainline.com/en/train-times/hamburg-to-dresden,from €12.98
+Zurich,Dresden,https://www.thetrainline.com/en/train-times/zurich-to-dresden,from €19.90
+Verona,Cologne,https://www.thetrainline.com/en/train-times/verona-to-cologne,NA
+Stuttgart,Berlin,https://www.thetrainline.com/en/train-times/stuttgart-to-berlin,from €9.99
+Duesseldorf,Nuremberg,https://www.thetrainline.com/en/train-times/duesseldorf-to-nuremberg,NA
+Iasi,Timisoara,https://www.thetrainline.com/en/train-times/iasi-to-timisoara,NA
+Warsaw,Prague,https://www.thetrainline.com/en/train-times/warsaw-to-prague,from €46.90
+Munich,Cologne,https://www.thetrainline.com/en/train-times/munich-to-cologne,NA
+Dortmund,Basel,https://www.thetrainline.com/en/train-times/dortmund-to-basel,from €19.90
+Berlin,Stuttgart,https://www.thetrainline.com/en/train-times/berlin-to-stuttgart,from €9.99
+Strasbourg,Lyon,https://www.thetrainline.com/en/train-times/strasbourg-to-lyon,from €20
+Poznan,Gdansk,https://www.thetrainline.com/en/train-times/poznan-to-gdansk,NA
+Zaragoza,Reus,https://www.thetrainline.com/en/train-times/zaragoza-to-reus,from €16.55
+Murcia,Zaragoza,https://www.thetrainline.com/en/train-times/murcia-to-zaragoza,from €26
+Doncaster,Liverpool,https://www.thetrainline.com/en/train-times/doncaster-to-liverpool,from €16.28
+Zaragoza,Bilbao,https://www.thetrainline.com/en/train-times/zaragoza-to-bilbao,from €10.80
+Budapest,Berlin,https://www.thetrainline.com/en/train-times/budapest-to-berlin,from €20.90
+Frankfurt,Rostock,https://www.thetrainline.com/en/train-times/frankfurt-to-rostock,NA
+Brno,Berlin,https://www.thetrainline.com/en/train-times/brno-to-berlin,NA
+Brno,Dresden,https://www.thetrainline.com/en/train-times/brno-to-dresden,NA
+Dresden,Hannover,https://www.thetrainline.com/en/train-times/dresden-to-hannover,from €12.90
+Genoa,Rome,https://www.thetrainline.com/en/train-times/genoa-to-rome,from €10.90
+Stuttgart,Venice,https://www.thetrainline.com/en/train-times/stuttgart-to-venice,from €28.90
+Graz,Krakow,https://www.thetrainline.com/en/train-times/graz-to-krakow,NA
+Bologna,Lugano,https://www.thetrainline.com/en/train-times/bologna-to-lugano,from €25
+Rome,Pescara,https://www.thetrainline.com/en/train-times/rome-to-pescara,from €14.50
+Innsbruck,Graz,https://www.thetrainline.com/en/train-times/innsbruck-to-graz,NA
+Lille,Rotterdam,https://www.thetrainline.com/en/train-times/lille-to-rotterdam,from €34
+Barcelona,Valladolid,https://www.thetrainline.com/en/train-times/barcelona-to-valladolid,from €17.85
+Newcastle,Doncaster,https://www.thetrainline.com/en/train-times/newcastle-to-doncaster,from €14.45
+Bratislava,Prague,https://www.thetrainline.com/en/train-times/bratislava-to-prague,from €10.90
+Dortmund,Innsbruck,https://www.thetrainline.com/en/train-times/dortmund-to-innsbruck,NA
+Dresden,Cologne,https://www.thetrainline.com/en/train-times/dresden-to-cologne,NA
+Klagenfurt,Rome,https://www.thetrainline.com/en/train-times/klagenfurt-to-rome,NA
+Paris,Montpellier,https://www.thetrainline.com/en/train-times/paris-to-montpellier,from €16
+Ostrava,Pardubice,https://www.thetrainline.com/en/train-times/ostrava-to-pardubice,NA
+Nuremberg,Duesseldorf,https://www.thetrainline.com/en/train-times/nuremberg-to-duesseldorf,NA
+Jonkoping,Gothenburg,https://www.thetrainline.com/en/train-times/jonkoping-to-gothenburg,NA
+Barcelona,Bilbao,https://www.thetrainline.com/en/train-times/barcelona-to-bilbao,from €17.45
+Rome,Pisa,https://www.thetrainline.com/en/train-times/rome-to-pisa,from €8.90
+Gdansk,Poznan,https://www.thetrainline.com/en/train-times/gdansk-to-poznan,NA
+Saarbruecken,Stuttgart,https://www.thetrainline.com/en/train-times/saarbruecken-to-stuttgart,NA
+Dortmund,Hannover,https://www.thetrainline.com/en/train-times/dortmund-to-hannover,from €4.99
+Bristol,Aberdeen,https://www.thetrainline.com/en/train-times/bristol-to-aberdeen,NA
+Salzburg,Bologna,https://www.thetrainline.com/en/train-times/salzburg-to-bologna,NA
+Frankfurt,Prague,https://www.thetrainline.com/en/train-times/frankfurt-to-prague,NA
+Dresden,Saarbruecken,https://www.thetrainline.com/en/train-times/dresden-to-saarbruecken,NA
+Turin,Pisa,https://www.thetrainline.com/en/train-times/turin-to-pisa,from €9.90
+Glasgow,Plymouth,https://www.thetrainline.com/en/train-times/glasgow-to-plymouth,from €141.02
+Amsterdam,Paris,https://www.thetrainline.com/en/train-times/amsterdam-to-paris,from €35
+Florence,Vienna,https://www.thetrainline.com/en/train-times/florence-to-vienna,from €28.80
+Gdansk,Vienna,https://www.thetrainline.com/en/train-times/gdansk-to-vienna,NA
+Vienna,Verona,https://www.thetrainline.com/en/train-times/vienna-to-verona,NA
+Chambery-Savoie,Nantes,https://www.thetrainline.com/en/train-times/chambery-savoie-to-nantes,NA
+Vaxjo,Gothenburg,https://www.thetrainline.com/en/train-times/vaxjo-to-gothenburg,NA
+Venice,Lugano,https://www.thetrainline.com/en/train-times/venice-to-lugano,from €26.90
+Split,Graz,https://www.thetrainline.com/en/train-times/split-to-graz,NA
+Augsburg,Salzburg,https://www.thetrainline.com/en/train-times/augsburg-to-salzburg,NA
+Milan,Pescara,https://www.thetrainline.com/en/train-times/milan-to-pescara,from €10.90
+Florence,Turin,https://www.thetrainline.com/en/train-times/florence-to-turin,from €12.45
+Chambery-Savoie,Antwerp,https://www.thetrainline.com/en/train-times/chambery-savoie-to-antwerp,NA
+Luxembourg,Lyon,https://www.thetrainline.com/en/train-times/luxembourg-to-lyon,from €47
+Munich,Genoa,https://www.thetrainline.com/en/train-times/munich-to-genoa,from €29.30
+Valladolid,Barcelona,https://www.thetrainline.com/en/train-times/valladolid-to-barcelona,from €18.85
+Venice,Pescara,https://www.thetrainline.com/en/train-times/venice-to-pescara,from €13.85
+Manchester,Cardiff,https://www.thetrainline.com/en/train-times/manchester-to-cardiff,NA
+Glasgow,Bristol,https://www.thetrainline.com/en/train-times/glasgow-to-bristol,NA
+Innsbruck,Linz,https://www.thetrainline.com/en/train-times/innsbruck-to-linz,NA
+Milan,Salzburg,https://www.thetrainline.com/en/train-times/milan-to-salzburg,NA
+Linz,Dortmund,https://www.thetrainline.com/en/train-times/linz-to-dortmund,from €28.89
+Prague,Katowice,https://www.thetrainline.com/en/train-times/prague-to-katowice,from €15.80
+Zagreb,Ljubljana,https://www.thetrainline.com/en/train-times/zagreb-to-ljubljana,from €25
+Bournemouth,Manchester,https://www.thetrainline.com/en/train-times/bournemouth-to-manchester,from €65.62
+Paris,Liege,https://www.thetrainline.com/en/train-times/paris-to-liege,from €29
+Constanta,Iasi,https://www.thetrainline.com/en/train-times/constanta-to-iasi,NA
+Nuremberg,Hannover,https://www.thetrainline.com/en/train-times/nuremberg-to-hannover,from €17.90
+Florence,Salzburg,https://www.thetrainline.com/en/train-times/florence-to-salzburg,NA
+Southampton,Manchester,https://www.thetrainline.com/en/train-times/southampton-to-manchester,from €65.62
+Basel,Dresden,https://www.thetrainline.com/en/train-times/basel-to-dresden,from €19.90
+Vienna,Dortmund,https://www.thetrainline.com/en/train-times/vienna-to-dortmund,from €37.89
+Berlin,Malmo,https://www.thetrainline.com/en/train-times/berlin-to-malmo,NA
+Girona,Alicante,https://www.thetrainline.com/en/train-times/girona-to-alicante,from €24
+Bologna,Salzburg,https://www.thetrainline.com/en/train-times/bologna-to-salzburg,NA
+Salzburg,Genoa,https://www.thetrainline.com/en/train-times/salzburg-to-genoa,NA
+Lille,Montpellier,https://www.thetrainline.com/en/train-times/lille-to-montpellier,from €26
+Strasbourg,Marseille,https://www.thetrainline.com/en/train-times/strasbourg-to-marseille,from €39
+Newcastle,Birmingham,https://www.thetrainline.com/en/train-times/newcastle-to-birmingham,from €64.27
+Augsburg,Berlin,https://www.thetrainline.com/en/train-times/augsburg-to-berlin,from €17.90
+Ancona,Trieste,https://www.thetrainline.com/en/train-times/ancona-to-trieste,from €12.70
+Stuttgart,Cologne,https://www.thetrainline.com/en/train-times/stuttgart-to-cologne,NA
+Innsbruck,Hamburg,https://www.thetrainline.com/en/train-times/innsbruck-to-hamburg,NA
+Barcelona,Santiago de Compostela,https://www.thetrainline.com/en/train-times/barcelona-to-santiago-de-compostela,NA
+Wroclaw,Gdansk,https://www.thetrainline.com/en/train-times/wroclaw-to-gdansk,NA
+Birmingham,Edinburgh,https://www.thetrainline.com/en/train-times/birmingham-to-edinburgh,from €25.59
+Manchester,Southampton,https://www.thetrainline.com/en/train-times/manchester-to-southampton,from €65.62
+Lille,Marseille,https://www.thetrainline.com/en/train-times/lille-to-marseille,from €16
+Paris,Salzburg,https://www.thetrainline.com/en/train-times/paris-to-salzburg,NA
+Malmo,Norrkoping,https://www.thetrainline.com/en/train-times/malmo-to-norrkoping,NA
+Nuremberg,Paderborn,https://www.thetrainline.com/en/train-times/nuremberg-to-paderborn,from €17.90
+Augsburg,Amsterdam,https://www.thetrainline.com/en/train-times/augsburg-to-amsterdam,from €36.90
+Amsterdam,Munich,https://www.thetrainline.com/en/train-times/amsterdam-to-munich,from €29.90
+Salzburg,Saarbruecken,https://www.thetrainline.com/en/train-times/salzburg-to-saarbruecken,NA
+Newcastle,Liverpool,https://www.thetrainline.com/en/train-times/newcastle-to-liverpool,from €25.92
+Plymouth,Newcastle,https://www.thetrainline.com/en/train-times/plymouth-to-newcastle,from €120.95
+Hamburg,Nuremberg,https://www.thetrainline.com/en/train-times/hamburg-to-nuremberg,from €17.90
+Split,Bratislava,https://www.thetrainline.com/en/train-times/split-to-bratislava,NA
+Copenhagen,Berlin,https://www.thetrainline.com/en/train-times/copenhagen-to-berlin,from €37.90
+Zurich,Bologna,https://www.thetrainline.com/en/train-times/zurich-to-bologna,from €38.90
+Amsterdam,Hannover,https://www.thetrainline.com/en/train-times/amsterdam-to-hannover,from €19.90
+Duesseldorf,Augsburg,https://www.thetrainline.com/en/train-times/duesseldorf-to-augsburg,NA
+Zurich,Hannover,https://www.thetrainline.com/en/train-times/zurich-to-hannover,from €19.90
+Catania,Bologna,https://www.thetrainline.com/en/train-times/catania-to-bologna,from €36.80
+Zaragoza,Murcia,https://www.thetrainline.com/en/train-times/zaragoza-to-murcia,from €24
+Stuttgart,Basel,https://www.thetrainline.com/en/train-times/stuttgart-to-basel,from €12.98
+Bologna,Vienna,https://www.thetrainline.com/en/train-times/bologna-to-vienna,from €24.89
+Burgas,Plovdiv,https://www.thetrainline.com/en/train-times/burgas-to-plovdiv,NA
+Verona,Munich,https://www.thetrainline.com/en/train-times/verona-to-munich,NA
+Rome,Trieste,https://www.thetrainline.com/en/train-times/rome-to-trieste,from €13.55
+Westerland,Bremen,https://www.thetrainline.com/en/train-times/westerland-to-bremen,NA
+Frankfurt,Strasbourg,https://www.thetrainline.com/en/train-times/frankfurt-to-strasbourg,NA
+Zurich,Zagreb,https://www.thetrainline.com/en/train-times/zurich-to-zagreb,from €28.20
+Basel,Prague,https://www.thetrainline.com/en/train-times/basel-to-prague,from €39.90
+Rome,Genoa,https://www.thetrainline.com/en/train-times/rome-to-genoa,from €10.90
+Cluj-Napoca,Iasi,https://www.thetrainline.com/en/train-times/cluj-napoca-to-iasi,NA
+Manchester,Bristol,https://www.thetrainline.com/en/train-times/manchester-to-bristol,NA
+Prague,Hamburg,https://www.thetrainline.com/en/train-times/prague-to-hamburg,from €18.90
+Ancona,Turin,https://www.thetrainline.com/en/train-times/ancona-to-turin,from €12.45
+Bristol,Glasgow,https://www.thetrainline.com/en/train-times/bristol-to-glasgow,NA
+Bremen,Dortmund,https://www.thetrainline.com/en/train-times/bremen-to-dortmund,from €12.90
+Dortmund,Dresden,https://www.thetrainline.com/en/train-times/dortmund-to-dresden,from €16.90
+Rotterdam,Marseille,https://www.thetrainline.com/en/train-times/rotterdam-to-marseille,from €49.10
+Berlin,Augsburg,https://www.thetrainline.com/en/train-times/berlin-to-augsburg,from €17.90
+Vienna,Cologne,https://www.thetrainline.com/en/train-times/vienna-to-cologne,NA
+Pardubice,Berlin,https://www.thetrainline.com/en/train-times/pardubice-to-berlin,NA
+Zaragoza,Girona,https://www.thetrainline.com/en/train-times/zaragoza-to-girona,from €9
+Hamburg,Saarbruecken,https://www.thetrainline.com/en/train-times/hamburg-to-saarbruecken,NA
+Vienna,Bologna,https://www.thetrainline.com/en/train-times/vienna-to-bologna,from €25.90
+Brno,Hamburg,https://www.thetrainline.com/en/train-times/brno-to-hamburg,NA
+Amsterdam,Cologne,https://www.thetrainline.com/en/train-times/amsterdam-to-cologne,NA
+Naples,Verona,https://www.thetrainline.com/en/train-times/naples-to-verona,NA
+Nuremberg,Hamburg,https://www.thetrainline.com/en/train-times/nuremberg-to-hamburg,from €17.90
+Lugano,Venice,https://www.thetrainline.com/en/train-times/lugano-to-venice,from €17
+Graz,Prague,https://www.thetrainline.com/en/train-times/graz-to-prague,from €19
+Munich,Budapest,https://www.thetrainline.com/en/train-times/munich-to-budapest,from €29.90
+Nuremberg,Rostock,https://www.thetrainline.com/en/train-times/nuremberg-to-rostock,from €17.90
+Vienna,Duesseldorf,https://www.thetrainline.com/en/train-times/vienna-to-duesseldorf,NA
+Amsterdam,Linz,https://www.thetrainline.com/en/train-times/amsterdam-to-linz,from €29.90
+Stuttgart,Dresden,https://www.thetrainline.com/en/train-times/stuttgart-to-dresden,from €17.90
+Prague,Poprad,https://www.thetrainline.com/en/train-times/prague-to-poprad,NA
+Catania,Genoa,https://www.thetrainline.com/en/train-times/catania-to-genoa,from €39.80
+Lisbon,Porto,https://www.thetrainline.com/en/train-times/lisbon-to-porto,from €4.99
+Mannheim,Marseille,https://www.thetrainline.com/en/train-times/mannheim-to-marseille,from €29.90
+Glasgow,Birmingham,https://www.thetrainline.com/en/train-times/glasgow-to-birmingham,from €25.59
+Pardubice,Brno,https://www.thetrainline.com/en/train-times/pardubice-to-brno,NA
+Lille,Chambery-Savoie,https://www.thetrainline.com/en/train-times/lille-to-chambery-savoie,NA
+Exeter,Cardiff,https://www.thetrainline.com/en/train-times/exeter-to-cardiff,NA
+Cardiff,Exeter,https://www.thetrainline.com/en/train-times/cardiff-to-exeter,NA
+Florence,Trieste,https://www.thetrainline.com/en/train-times/florence-to-trieste,from €10.90
+Birmingham,Southampton,https://www.thetrainline.com/en/train-times/birmingham-to-southampton,from €38.56
+Nantes,Brussels,https://www.thetrainline.com/en/train-times/nantes-to-brussels,from €52
+Augsburg,Hannover,https://www.thetrainline.com/en/train-times/augsburg-to-hannover,from €17.90
+Bordeaux,Lille,https://www.thetrainline.com/en/train-times/bordeaux-to-lille,from €16
+Saarbruecken,Berlin,https://www.thetrainline.com/en/train-times/saarbruecken-to-berlin,NA
+Bratislava,Wroclaw,https://www.thetrainline.com/en/train-times/bratislava-to-wroclaw,NA
+Venice,Augsburg,https://www.thetrainline.com/en/train-times/venice-to-augsburg,from €37.90
+Frankfurt,Basel,https://www.thetrainline.com/en/train-times/frankfurt-to-basel,NA
+Nuremberg,Liege,https://www.thetrainline.com/en/train-times/nuremberg-to-liege,from €19.90
+Manchester,Glasgow,https://www.thetrainline.com/en/train-times/manchester-to-glasgow,from €17.26
+Mannheim,Amsterdam,https://www.thetrainline.com/en/train-times/mannheim-to-amsterdam,from €24.90
+Mannheim,Lyon,https://www.thetrainline.com/en/train-times/mannheim-to-lyon,from €29.90
+Munich,Ljubljana,https://www.thetrainline.com/en/train-times/munich-to-ljubljana,from €27.68
+Lamezia Terme,Catania,https://www.thetrainline.com/en/train-times/lamezia-terme-to-catania,from €9.90
+Tampere,Lappeenranta,https://www.thetrainline.com/en/train-times/tampere-to-lappeenranta,NA
+Lyon,Nantes,https://www.thetrainline.com/en/train-times/lyon-to-nantes,from €15
+Zurich,Verona,https://www.thetrainline.com/en/train-times/zurich-to-verona,NA
+Paris,Augsburg,https://www.thetrainline.com/en/train-times/paris-to-augsburg,from €39
+Salzburg,Florence,https://www.thetrainline.com/en/train-times/salzburg-to-florence,NA
+Dresden,Dortmund,https://www.thetrainline.com/en/train-times/dresden-to-dortmund,from €17.90
+Bologna,Naples,https://www.thetrainline.com/en/train-times/bologna-to-naples,from €12.90
+Krakow,Prague,https://www.thetrainline.com/en/train-times/krakow-to-prague,NA
+Dresden,Frankfurt,https://www.thetrainline.com/en/train-times/dresden-to-frankfurt,NA
+Istanbul,Ankara,https://www.thetrainline.com/en/train-times/istanbul-to-ankara,NA
+Gdansk,Katowice,https://www.thetrainline.com/en/train-times/gdansk-to-katowice,NA
+Pardubice,Graz,https://www.thetrainline.com/en/train-times/pardubice-to-graz,NA
+Antwerp,Marseille,https://www.thetrainline.com/en/train-times/antwerp-to-marseille,from €39
+Lyon,Nice,https://www.thetrainline.com/en/train-times/lyon-to-nice,from €10
+Mannheim,Salzburg,https://www.thetrainline.com/en/train-times/mannheim-to-salzburg,NA
+Katowice,Poznan,https://www.thetrainline.com/en/train-times/katowice-to-poznan,NA
+Ostrava,Poznan,https://www.thetrainline.com/en/train-times/ostrava-to-poznan,NA
+Dresden,Rostock,https://www.thetrainline.com/en/train-times/dresden-to-rostock,from €17.90
+Bratislava,Salzburg,https://www.thetrainline.com/en/train-times/bratislava-to-salzburg,NA
+Duesseldorf,Stuttgart,https://www.thetrainline.com/en/train-times/duesseldorf-to-stuttgart,NA
+Saarbruecken,Dresden,https://www.thetrainline.com/en/train-times/saarbruecken-to-dresden,NA
+Rijeka,Zagreb,https://www.thetrainline.com/en/train-times/rijeka-to-zagreb,NA
+Metz,Montpellier,https://www.thetrainline.com/en/train-times/metz-to-montpellier,from €41
+Verona,Vienna,https://www.thetrainline.com/en/train-times/verona-to-vienna,NA
+Bremen,Zurich,https://www.thetrainline.com/en/train-times/bremen-to-zurich,from €19.90
+Bremen,Munich,https://www.thetrainline.com/en/train-times/bremen-to-munich,from €17.90
+Bremen,Basel,https://www.thetrainline.com/en/train-times/bremen-to-basel,from €19.90
+Geneva,Venice,https://www.thetrainline.com/en/train-times/geneva-to-venice,from €43.90
+Krakow,Poznan,https://www.thetrainline.com/en/train-times/krakow-to-poznan,NA
+Lyon,Paris,https://www.thetrainline.com/en/train-times/lyon-to-paris,from €1
+Milan,Munich,https://www.thetrainline.com/en/train-times/milan-to-munich,from €34.80
+Innsbruck,Prague,https://www.thetrainline.com/en/train-times/innsbruck-to-prague,NA
+Nantes,Strasbourg,https://www.thetrainline.com/en/train-times/nantes-to-strasbourg,from €32
+Bordeaux,Nantes,https://www.thetrainline.com/en/train-times/bordeaux-to-nantes,from €15
+Hamburg,Munich,https://www.thetrainline.com/en/train-times/hamburg-to-munich,from €17.90
+Westerland,Hannover,https://www.thetrainline.com/en/train-times/westerland-to-hannover,NA
+Ostrava,Gdansk,https://www.thetrainline.com/en/train-times/ostrava-to-gdansk,NA
+Salzburg,Zagreb,https://www.thetrainline.com/en/train-times/salzburg-to-zagreb,NA
+Graz,Klagenfurt,https://www.thetrainline.com/en/train-times/graz-to-klagenfurt,NA
+Augsburg,Budapest,https://www.thetrainline.com/en/train-times/augsburg-to-budapest,from €29.90
+Strasbourg,Vienna,https://www.thetrainline.com/en/train-times/strasbourg-to-vienna,from €45.90
+Cologne,Stuttgart,https://www.thetrainline.com/en/train-times/cologne-to-stuttgart,NA
+Munich,Basel,https://www.thetrainline.com/en/train-times/munich-to-basel,from €19.90
+Friedrichshafen,Mannheim,https://www.thetrainline.com/en/train-times/friedrichshafen-to-mannheim,NA
+Hannover,Dresden,https://www.thetrainline.com/en/train-times/hannover-to-dresden,from €12.90
+Lyon,Luxembourg,https://www.thetrainline.com/en/train-times/lyon-to-luxembourg,from €48
+Ankara,Izmir,https://www.thetrainline.com/en/train-times/ankara-to-izmir,NA
+Augsburg,Hamburg,https://www.thetrainline.com/en/train-times/augsburg-to-hamburg,from €17.90
+Ljubljana,Augsburg,https://www.thetrainline.com/en/train-times/ljubljana-to-augsburg,from €27.90
+Pisa,Rome,https://www.thetrainline.com/en/train-times/pisa-to-rome,from €8.90
+Pisa,Naples,https://www.thetrainline.com/en/train-times/pisa-to-naples,from €8.90
+Edinburgh,Leeds,https://www.thetrainline.com/en/train-times/edinburgh-to-leeds,from €23.26
+Poprad,Pardubice,https://www.thetrainline.com/en/train-times/poprad-to-pardubice,NA
+Pardubice,Dresden,https://www.thetrainline.com/en/train-times/pardubice-to-dresden,NA
+Lamezia Terme,Genoa,https://www.thetrainline.com/en/train-times/lamezia-terme-to-genoa,NA
+Salzburg,Venice,https://www.thetrainline.com/en/train-times/salzburg-to-venice,NA
+Salzburg,Paris,https://www.thetrainline.com/en/train-times/salzburg-to-paris,NA
+Marseille,Bordeaux,https://www.thetrainline.com/en/train-times/marseille-to-bordeaux,from €20
+Prague,Kosice,https://www.thetrainline.com/en/train-times/prague-to-kosice,NA
+Bern,Dortmund,https://www.thetrainline.com/en/train-times/bern-to-dortmund,from €19.90
+Cologne,Nuremberg,https://www.thetrainline.com/en/train-times/cologne-to-nuremberg,NA
+Timisoara,Iasi,https://www.thetrainline.com/en/train-times/timisoara-to-iasi,NA
+Lamezia Terme,Bologna,https://www.thetrainline.com/en/train-times/lamezia-terme-to-bologna,from €23.80
+Prague,Innsbruck,https://www.thetrainline.com/en/train-times/prague-to-innsbruck,NA
+Linz,Hannover,https://www.thetrainline.com/en/train-times/linz-to-hannover,from €25.89
+Timisoara,Cluj-Napoca,https://www.thetrainline.com/en/train-times/timisoara-to-cluj-napoca,NA
+Paris,Cologne,https://www.thetrainline.com/en/train-times/paris-to-cologne,NA
+Lamezia Terme,Palermo,https://www.thetrainline.com/en/train-times/lamezia-terme-to-palermo,from €12.90
+Duesseldorf,Westerland,https://www.thetrainline.com/en/train-times/duesseldorf-to-westerland,NA
+Linz,Liege,https://www.thetrainline.com/en/train-times/linz-to-liege,from €39.90
+Lyon,Metz,https://www.thetrainline.com/en/train-times/lyon-to-metz,from €39
+Krakow,Ostrava,https://www.thetrainline.com/en/train-times/krakow-to-ostrava,NA
+Hannover,Vienna,https://www.thetrainline.com/en/train-times/hannover-to-vienna,from €29.20
+Malaga,Sevilla,https://www.thetrainline.com/en/train-times/malaga-to-sevilla,from €18
+Marseille,Amsterdam,https://www.thetrainline.com/en/train-times/marseille-to-amsterdam,from €57
+Lille,Amsterdam,https://www.thetrainline.com/en/train-times/lille-to-amsterdam,from €41
+Graz,Mannheim,https://www.thetrainline.com/en/train-times/graz-to-mannheim,NA
+Paderborn,Munich,https://www.thetrainline.com/en/train-times/paderborn-to-munich,from €17.90
+Nice,Lyon,https://www.thetrainline.com/en/train-times/nice-to-lyon,from €10
+Stuttgart,Hannover,https://www.thetrainline.com/en/train-times/stuttgart-to-hannover,from €14.99
+Budapest,Wroclaw,https://www.thetrainline.com/en/train-times/budapest-to-wroclaw,NA
+Klagenfurt,Munich,https://www.thetrainline.com/en/train-times/klagenfurt-to-munich,NA
+Marseille,Metz,https://www.thetrainline.com/en/train-times/marseille-to-metz,from €35
+Basel,Munich,https://www.thetrainline.com/en/train-times/basel-to-munich,from €19.90
+Rimini,Trieste,https://www.thetrainline.com/en/train-times/rimini-to-trieste,from €14.90
+Mannheim,Cologne,https://www.thetrainline.com/en/train-times/mannheim-to-cologne,NA
+Turin,Pescara,https://www.thetrainline.com/en/train-times/turin-to-pescara,from €12.45
+Birmingham,Glasgow,https://www.thetrainline.com/en/train-times/birmingham-to-glasgow,from €25.59
+Kosice,Pardubice,https://www.thetrainline.com/en/train-times/kosice-to-pardubice,NA
+Strasbourg,Frankfurt,https://www.thetrainline.com/en/train-times/strasbourg-to-frankfurt,NA
+Naples,Genoa,https://www.thetrainline.com/en/train-times/naples-to-genoa,from €13.45
+Liege,Dortmund,https://www.thetrainline.com/en/train-times/liege-to-dortmund,from €19.90
+Munich,Zagreb,https://www.thetrainline.com/en/train-times/munich-to-zagreb,from €7.50
+Berlin,Saarbruecken,https://www.thetrainline.com/en/train-times/berlin-to-saarbruecken,NA
+Vienna,Strasbourg,https://www.thetrainline.com/en/train-times/vienna-to-strasbourg,from €29.40
+Basel,Augsburg,https://www.thetrainline.com/en/train-times/basel-to-augsburg,from €29.90
+Sevilla,Malaga,https://www.thetrainline.com/en/train-times/sevilla-to-malaga,from €18
+Innsbruck,Augsburg,https://www.thetrainline.com/en/train-times/innsbruck-to-augsburg,NA
+Augsburg,Innsbruck,https://www.thetrainline.com/en/train-times/augsburg-to-innsbruck,NA
+Newcastle,Glasgow,https://www.thetrainline.com/en/train-times/newcastle-to-glasgow,from €16.99
+Kosice,Ostrava,https://www.thetrainline.com/en/train-times/kosice-to-ostrava,NA
+Izmir,Ankara,https://www.thetrainline.com/en/train-times/izmir-to-ankara,NA
+Genoa,Klagenfurt,https://www.thetrainline.com/en/train-times/genoa-to-klagenfurt,NA
+Lamezia Terme,Florence,https://www.thetrainline.com/en/train-times/lamezia-terme-to-florence,from €20.80
+Lamezia Terme,Pisa,https://www.thetrainline.com/en/train-times/lamezia-terme-to-pisa,from €8.90
+Venice,Salzburg,https://www.thetrainline.com/en/train-times/venice-to-salzburg,NA
+Innsbruck,Malmo,https://www.thetrainline.com/en/train-times/innsbruck-to-malmo,NA
+Berlin,Bremen,https://www.thetrainline.com/en/train-times/berlin-to-bremen,from €12.90
+Doncaster,Edinburgh,https://www.thetrainline.com/en/train-times/doncaster-to-edinburgh,from €26.44
+Vienna,Poprad,https://www.thetrainline.com/en/train-times/vienna-to-poprad,NA
+Timisoara,Constanta,https://www.thetrainline.com/en/train-times/timisoara-to-constanta,NA
+Hannover,Westerland,https://www.thetrainline.com/en/train-times/hannover-to-westerland,NA
+Turin,Rimini,https://www.thetrainline.com/en/train-times/turin-to-rimini,from €10.80
+Hamburg,Augsburg,https://www.thetrainline.com/en/train-times/hamburg-to-augsburg,from €17.90
+Verona,Naples,https://www.thetrainline.com/en/train-times/verona-to-naples,NA
+Bordeaux,Montpellier,https://www.thetrainline.com/en/train-times/bordeaux-to-montpellier,from €16
+Stuttgart,Vienna,https://www.thetrainline.com/en/train-times/stuttgart-to-vienna,from €23.99
+Innsbruck,Budapest,https://www.thetrainline.com/en/train-times/innsbruck-to-budapest,NA
+Amsterdam,Basel,https://www.thetrainline.com/en/train-times/amsterdam-to-basel,from €39.90
+Rimini,Rome,https://www.thetrainline.com/en/train-times/rimini-to-rome,from €9.90
+Rostock,Cologne,https://www.thetrainline.com/en/train-times/rostock-to-cologne,NA
+Rostock,Dortmund,https://www.thetrainline.com/en/train-times/rostock-to-dortmund,NA
+Dortmund,Liege,https://www.thetrainline.com/en/train-times/dortmund-to-liege,from €16
+Hannover,Zurich,https://www.thetrainline.com/en/train-times/hannover-to-zurich,from €19.90
+Florence,Munich,https://www.thetrainline.com/en/train-times/florence-to-munich,from €29.30
+Innsbruck,Bremen,https://www.thetrainline.com/en/train-times/innsbruck-to-bremen,NA
+Bratislava,Split,https://www.thetrainline.com/en/train-times/bratislava-to-split,NA
+Zaragoza,Alicante,https://www.thetrainline.com/en/train-times/zaragoza-to-alicante,from €14
+Klagenfurt,Dortmund,https://www.thetrainline.com/en/train-times/klagenfurt-to-dortmund,NA
+Antwerp,Liege,https://www.thetrainline.com/en/train-times/antwerp-to-liege,from €19.40
+Exeter,Glasgow,https://www.thetrainline.com/en/train-times/exeter-to-glasgow,from €151.67
+Graz,Wroclaw,https://www.thetrainline.com/en/train-times/graz-to-wroclaw,NA
+Marseille,Strasbourg,https://www.thetrainline.com/en/train-times/marseille-to-strasbourg,from €29.50
+Zurich,Mannheim,https://www.thetrainline.com/en/train-times/zurich-to-mannheim,from €19.90
+Zurich,Duesseldorf,https://www.thetrainline.com/en/train-times/zurich-to-duesseldorf,NA
+Lille,Bordeaux,https://www.thetrainline.com/en/train-times/lille-to-bordeaux,from €29
+Nice,Strasbourg,https://www.thetrainline.com/en/train-times/nice-to-strasbourg,from €58
+Graz,Katowice,https://www.thetrainline.com/en/train-times/graz-to-katowice,from €19.90
+Amsterdam,Innsbruck,https://www.thetrainline.com/en/train-times/amsterdam-to-innsbruck,NA
+Naples,Florence,https://www.thetrainline.com/en/train-times/naples-to-florence,from €8.90
+Graz,Warsaw,https://www.thetrainline.com/en/train-times/graz-to-warsaw,from €89
+Cologne,Westerland,https://www.thetrainline.com/en/train-times/cologne-to-westerland,NA
+Valencia,Sevilla,https://www.thetrainline.com/en/train-times/valencia-to-sevilla,from €12
+Graz,Pardubice,https://www.thetrainline.com/en/train-times/graz-to-pardubice,NA
+Pardubice,Warsaw,https://www.thetrainline.com/en/train-times/pardubice-to-warsaw,NA
+Naples,Bologna,https://www.thetrainline.com/en/train-times/naples-to-bologna,from €10.90
+Marseille,Nantes,https://www.thetrainline.com/en/train-times/marseille-to-nantes,from €29
+Zagreb,Innsbruck,https://www.thetrainline.com/en/train-times/zagreb-to-innsbruck,NA
+Amsterdam,Marseille,https://www.thetrainline.com/en/train-times/amsterdam-to-marseille,from €52.80
+Friedrichshafen,Cologne,https://www.thetrainline.com/en/train-times/friedrichshafen-to-cologne,NA
+Iasi,Constanta,https://www.thetrainline.com/en/train-times/iasi-to-constanta,NA
+Linz,Paris,https://www.thetrainline.com/en/train-times/linz-to-paris,from €29.40
+Augsburg,Zagreb,https://www.thetrainline.com/en/train-times/augsburg-to-zagreb,from €29.20
+Salzburg,Milan,https://www.thetrainline.com/en/train-times/salzburg-to-milan,NA
+Vienna,Milan,https://www.thetrainline.com/en/train-times/vienna-to-milan,from €7.70
+Valladolid,Alicante,https://www.thetrainline.com/en/train-times/valladolid-to-alicante,from €22.80
+Florence,Klagenfurt,https://www.thetrainline.com/en/train-times/florence-to-klagenfurt,NA
+Vienna,Liege,https://www.thetrainline.com/en/train-times/vienna-to-liege,from €29.20
+Innsbruck,Friedrichshafen,https://www.thetrainline.com/en/train-times/innsbruck-to-friedrichshafen,NA
+Catania,Pisa,https://www.thetrainline.com/en/train-times/catania-to-pisa,from €27.80
+Verona,Lugano,https://www.thetrainline.com/en/train-times/verona-to-lugano,NA
+Amsterdam,Maastricht,https://www.thetrainline.com/en/train-times/amsterdam-to-maastricht,from €29
+Salzburg,Hamburg,https://www.thetrainline.com/en/train-times/salzburg-to-hamburg,NA
+Hannover,Linz,https://www.thetrainline.com/en/train-times/hannover-to-linz,from €22.89
+Gdansk,Wroclaw,https://www.thetrainline.com/en/train-times/gdansk-to-wroclaw,NA
+Wroclaw,Bratislava,https://www.thetrainline.com/en/train-times/wroclaw-to-bratislava,NA
+Munich,Amsterdam,https://www.thetrainline.com/en/train-times/munich-to-amsterdam,from €29.90
+Cologne,Paderborn,https://www.thetrainline.com/en/train-times/cologne-to-paderborn,NA
+Mannheim,Zurich,https://www.thetrainline.com/en/train-times/mannheim-to-zurich,from €19.90
+Rimini,Pescara,https://www.thetrainline.com/en/train-times/rimini-to-pescara,from €10.90
+Basel,Bremen,https://www.thetrainline.com/en/train-times/basel-to-bremen,from €19.90
+Zagreb,Graz,https://www.thetrainline.com/en/train-times/zagreb-to-graz,from €19.30
+Plymouth,Manchester,https://www.thetrainline.com/en/train-times/plymouth-to-manchester,from €48.11
+Kosice,Prague,https://www.thetrainline.com/en/train-times/kosice-to-prague,NA
+Barcelona,Murcia,https://www.thetrainline.com/en/train-times/barcelona-to-murcia,from €17.95
+Katowice,Graz,https://www.thetrainline.com/en/train-times/katowice-to-graz,from €39.90
+Valencia,Valladolid,https://www.thetrainline.com/en/train-times/valencia-to-valladolid,from €12.80
+Sevilla,Valencia,https://www.thetrainline.com/en/train-times/sevilla-to-valencia,from €8
+Amsterdam,Mannheim,https://www.thetrainline.com/en/train-times/amsterdam-to-mannheim,from €27.90
+Cologne,Augsburg,https://www.thetrainline.com/en/train-times/cologne-to-augsburg,NA
+Glasgow,Leeds,https://www.thetrainline.com/en/train-times/glasgow-to-leeds,from €26.56
+Ostrava,Krakow,https://www.thetrainline.com/en/train-times/ostrava-to-krakow,NA
+Marseille,Brussels,https://www.thetrainline.com/en/train-times/marseille-to-brussels,from €32.60
+Budapest,Innsbruck,https://www.thetrainline.com/en/train-times/budapest-to-innsbruck,NA
+Munich,Bremen,https://www.thetrainline.com/en/train-times/munich-to-bremen,from €17.90
+Klagenfurt,Duesseldorf,https://www.thetrainline.com/en/train-times/klagenfurt-to-duesseldorf,NA
+Verona,Salzburg,https://www.thetrainline.com/en/train-times/verona-to-salzburg,NA
+Linz,Budapest,https://www.thetrainline.com/en/train-times/linz-to-budapest,from €18.90
+Gothenburg,Jonkoping,https://www.thetrainline.com/en/train-times/gothenburg-to-jonkoping,NA
+Zurich,Cologne,https://www.thetrainline.com/en/train-times/zurich-to-cologne,NA
+Dresden,Hamburg,https://www.thetrainline.com/en/train-times/dresden-to-hamburg,from €12.98
+Bratislava,Dresden,https://www.thetrainline.com/en/train-times/bratislava-to-dresden,from €25.80
+Innsbruck,Cologne,https://www.thetrainline.com/en/train-times/innsbruck-to-cologne,NA
+Strasbourg,Salzburg,https://www.thetrainline.com/en/train-times/strasbourg-to-salzburg,NA
+Palermo,Lamezia Terme,https://www.thetrainline.com/en/train-times/palermo-to-lamezia-terme,from €12.90
+Rimini,Venice,https://www.thetrainline.com/en/train-times/rimini-to-venice,from €8.90
+Salzburg,Frankfurt,https://www.thetrainline.com/en/train-times/salzburg-to-frankfurt,NA
+Pardubice,Hamburg,https://www.thetrainline.com/en/train-times/pardubice-to-hamburg,NA
+Bremen,Westerland,https://www.thetrainline.com/en/train-times/bremen-to-westerland,NA
+Marseille,Mannheim,https://www.thetrainline.com/en/train-times/marseille-to-mannheim,from €29.90
+Katowice,Prague,https://www.thetrainline.com/en/train-times/katowice-to-prague,from €11.20
+Liege,Duesseldorf,https://www.thetrainline.com/en/train-times/liege-to-duesseldorf,NA
+Rostock,Nuremberg,https://www.thetrainline.com/en/train-times/rostock-to-nuremberg,from €17.90
+Innsbruck,Berlin,https://www.thetrainline.com/en/train-times/innsbruck-to-berlin,NA
+Stuttgart,Westerland,https://www.thetrainline.com/en/train-times/stuttgart-to-westerland,NA
+Dortmund,Nuremberg,https://www.thetrainline.com/en/train-times/dortmund-to-nuremberg,from €17.90
+Munich,Verona,https://www.thetrainline.com/en/train-times/munich-to-verona,NA
+Bristol,Doncaster,https://www.thetrainline.com/en/train-times/bristol-to-doncaster,NA
+Burgas,Varna,https://www.thetrainline.com/en/train-times/burgas-to-varna,NA
+Nuremberg,Linz,https://www.thetrainline.com/en/train-times/nuremberg-to-linz,from €17.20
+Westerland,Frankfurt,https://www.thetrainline.com/en/train-times/westerland-to-frankfurt,NA
+Katowice,Ostrava,https://www.thetrainline.com/en/train-times/katowice-to-ostrava,NA
+Ostrava,Graz,https://www.thetrainline.com/en/train-times/ostrava-to-graz,NA
+Oviedo,Valencia,https://www.thetrainline.com/en/train-times/oviedo-to-valencia,from €14.75
+Krakow,Gdansk,https://www.thetrainline.com/en/train-times/krakow-to-gdansk,NA
+Mannheim,Bremen,https://www.thetrainline.com/en/train-times/mannheim-to-bremen,from €17.90
+Innsbruck,Frankfurt,https://www.thetrainline.com/en/train-times/innsbruck-to-frankfurt,NA
+Stuttgart,Dortmund,https://www.thetrainline.com/en/train-times/stuttgart-to-dortmund,from €12.90
+Stuttgart,Ljubljana,https://www.thetrainline.com/en/train-times/stuttgart-to-ljubljana,from €29.20
+Paris,Linz,https://www.thetrainline.com/en/train-times/paris-to-linz,from €29.40
+Cologne,Vienna,https://www.thetrainline.com/en/train-times/cologne-to-vienna,NA
+Klagenfurt,Augsburg,https://www.thetrainline.com/en/train-times/klagenfurt-to-augsburg,NA
+Metz,Lyon,https://www.thetrainline.com/en/train-times/metz-to-lyon,from €35
+Naples,Trieste,https://www.thetrainline.com/en/train-times/naples-to-trieste,from €13.55
+Alicante,Zaragoza,https://www.thetrainline.com/en/train-times/alicante-to-zaragoza,from €14
+Wroclaw,Graz,https://www.thetrainline.com/en/train-times/wroclaw-to-graz,NA
+Newcastle,Plymouth,https://www.thetrainline.com/en/train-times/newcastle-to-plymouth,from €98.06
+Vienna,Kosice,https://www.thetrainline.com/en/train-times/vienna-to-kosice,NA
+Verona,Klagenfurt,https://www.thetrainline.com/en/train-times/verona-to-klagenfurt,NA
+Augsburg,Bremen,https://www.thetrainline.com/en/train-times/augsburg-to-bremen,from €17.90
+Gothenburg,Vaxjo,https://www.thetrainline.com/en/train-times/gothenburg-to-vaxjo,NA
+Varna,Plovdiv,https://www.thetrainline.com/en/train-times/varna-to-plovdiv,NA
+Salamanca,Barcelona,https://www.thetrainline.com/en/train-times/salamanca-to-barcelona,from €18.05
+Budapest,Dresden,https://www.thetrainline.com/en/train-times/budapest-to-dresden,from €32.80
+Graz,Saarbruecken,https://www.thetrainline.com/en/train-times/graz-to-saarbruecken,NA
+Hamburg,Linz,https://www.thetrainline.com/en/train-times/hamburg-to-linz,from €22.89
+Linz,Rostock,https://www.thetrainline.com/en/train-times/linz-to-rostock,from €39.90
+Klagenfurt,Linz,https://www.thetrainline.com/en/train-times/klagenfurt-to-linz,NA
+Salzburg,Duesseldorf,https://www.thetrainline.com/en/train-times/salzburg-to-duesseldorf,NA
+Bologna,Klagenfurt,https://www.thetrainline.com/en/train-times/bologna-to-klagenfurt,NA
+Klagenfurt,Florence,https://www.thetrainline.com/en/train-times/klagenfurt-to-florence,NA
+Southampton,Birmingham,https://www.thetrainline.com/en/train-times/southampton-to-birmingham,from €45.29
+Liverpool,Norwich,https://www.thetrainline.com/en/train-times/liverpool-to-norwich,from €37.90
+Zurich,Ljubljana,https://www.thetrainline.com/en/train-times/zurich-to-ljubljana,from €28.20
+Genoa,Florence,https://www.thetrainline.com/en/train-times/genoa-to-florence,from €9.90
+Augsburg,Linz,https://www.thetrainline.com/en/train-times/augsburg-to-linz,from €17.20
+Ostrava,Katowice,https://www.thetrainline.com/en/train-times/ostrava-to-katowice,NA
+Basel,Stuttgart,https://www.thetrainline.com/en/train-times/basel-to-stuttgart,from €12.98
+Ostend,Liege,https://www.thetrainline.com/en/train-times/ostend-to-liege,from €23.80
+Nuremberg,Innsbruck,https://www.thetrainline.com/en/train-times/nuremberg-to-innsbruck,NA
+Pisa,Catania,https://www.thetrainline.com/en/train-times/pisa-to-catania,from €21.80
+Krakow,Pardubice,https://www.thetrainline.com/en/train-times/krakow-to-pardubice,NA
+Trieste,Verona,https://www.thetrainline.com/en/train-times/trieste-to-verona,NA
+Exeter,Leeds,https://www.thetrainline.com/en/train-times/exeter-to-leeds,from €81.77
+Pisa,Turin,https://www.thetrainline.com/en/train-times/pisa-to-turin,from €12.90
+Naples,Pisa,https://www.thetrainline.com/en/train-times/naples-to-pisa,from €8.90
+Florence,Genoa,https://www.thetrainline.com/en/train-times/florence-to-genoa,from €9.90
+Dortmund,Westerland,https://www.thetrainline.com/en/train-times/dortmund-to-westerland,NA
+Plymouth,Leeds,https://www.thetrainline.com/en/train-times/plymouth-to-leeds,from €88.02
+Liege,Antwerp,https://www.thetrainline.com/en/train-times/liege-to-antwerp,from €19.40
+Pardubice,Katowice,https://www.thetrainline.com/en/train-times/pardubice-to-katowice,NA
+Birmingham,Aberdeen,https://www.thetrainline.com/en/train-times/birmingham-to-aberdeen,from €62.19
+Doncaster,Aberdeen,https://www.thetrainline.com/en/train-times/doncaster-to-aberdeen,from €41.87
+Liege,Ostend,https://www.thetrainline.com/en/train-times/liege-to-ostend,from €23.80
+Vienna,Augsburg,https://www.thetrainline.com/en/train-times/vienna-to-augsburg,from €24.90
+Maastricht,Amsterdam,https://www.thetrainline.com/en/train-times/maastricht-to-amsterdam,from €29
+Amsterdam,Augsburg,https://www.thetrainline.com/en/train-times/amsterdam-to-augsburg,from €36.90
+Linz,Klagenfurt,https://www.thetrainline.com/en/train-times/linz-to-klagenfurt,NA
+Linz,Cologne,https://www.thetrainline.com/en/train-times/linz-to-cologne,NA
+Leeds,Plymouth,https://www.thetrainline.com/en/train-times/leeds-to-plymouth,from €88.02
+Bristol,Edinburgh,https://www.thetrainline.com/en/train-times/bristol-to-edinburgh,NA
+Newquay,Exeter,https://www.thetrainline.com/en/train-times/newquay-to-exeter,from €10.41
+Norwich,Liverpool,https://www.thetrainline.com/en/train-times/norwich-to-liverpool,from €37.90
+Nantes,Bordeaux,https://www.thetrainline.com/en/train-times/nantes-to-bordeaux,from €15
+Amsterdam,Nuremberg,https://www.thetrainline.com/en/train-times/amsterdam-to-nuremberg,from €29.90
+Reus,Madrid,https://www.thetrainline.com/en/train-times/reus-to-madrid,from €17.40
+Dortmund,Stuttgart,https://www.thetrainline.com/en/train-times/dortmund-to-stuttgart,from €12.90
+Plymouth,Edinburgh,https://www.thetrainline.com/en/train-times/plymouth-to-edinburgh,from €100.75
+Salzburg,Strasbourg,https://www.thetrainline.com/en/train-times/salzburg-to-strasbourg,NA
+Dresden,Mannheim,https://www.thetrainline.com/en/train-times/dresden-to-mannheim,from €17.90
+Westerland,Cologne,https://www.thetrainline.com/en/train-times/westerland-to-cologne,NA
+Klagenfurt,Milan,https://www.thetrainline.com/en/train-times/klagenfurt-to-milan,NA
+Mannheim,Dresden,https://www.thetrainline.com/en/train-times/mannheim-to-dresden,from €17.90
+Plovdiv,Varna,https://www.thetrainline.com/en/train-times/plovdiv-to-varna,NA
+Zaragoza,Valladolid,https://www.thetrainline.com/en/train-times/zaragoza-to-valladolid,from €13.75
+Westerland,Duesseldorf,https://www.thetrainline.com/en/train-times/westerland-to-duesseldorf,NA
+Doncaster,Bristol,https://www.thetrainline.com/en/train-times/doncaster-to-bristol,NA
+Memmingen,Cologne,https://www.thetrainline.com/en/train-times/memmingen-to-cologne,NA
+Innsbruck,Mannheim,https://www.thetrainline.com/en/train-times/innsbruck-to-mannheim,NA
+Klagenfurt,Genoa,https://www.thetrainline.com/en/train-times/klagenfurt-to-genoa,NA
+Valencia,Reus,https://www.thetrainline.com/en/train-times/valencia-to-reus,from €21
+Stuttgart,Bremen,https://www.thetrainline.com/en/train-times/stuttgart-to-bremen,from €17.90
+Linz,Strasbourg,https://www.thetrainline.com/en/train-times/linz-to-strasbourg,from €39.89
+Augsburg,Strasbourg,https://www.thetrainline.com/en/train-times/augsburg-to-strasbourg,from €25.90
+Nantes,Montpellier,https://www.thetrainline.com/en/train-times/nantes-to-montpellier,from €38
+Dresden,Prague,https://www.thetrainline.com/en/train-times/dresden-to-prague,from €13.90
+Hannover,Stuttgart,https://www.thetrainline.com/en/train-times/hannover-to-stuttgart,from €9.99
+Glasgow,Doncaster,https://www.thetrainline.com/en/train-times/glasgow-to-doncaster,from €28.65
+Stuttgart,Duesseldorf,https://www.thetrainline.com/en/train-times/stuttgart-to-duesseldorf,NA
+Hannover,Mannheim,https://www.thetrainline.com/en/train-times/hannover-to-mannheim,from €14.98
+Saarbruecken,Munich,https://www.thetrainline.com/en/train-times/saarbruecken-to-munich,NA
+Linz,Stuttgart,https://www.thetrainline.com/en/train-times/linz-to-stuttgart,from €20.89
+Augsburg,Cologne,https://www.thetrainline.com/en/train-times/augsburg-to-cologne,NA
+Zaragoza,Salamanca,https://www.thetrainline.com/en/train-times/zaragoza-to-salamanca,from €13
+Hamburg,Salzburg,https://www.thetrainline.com/en/train-times/hamburg-to-salzburg,NA
+Rome,Rimini,https://www.thetrainline.com/en/train-times/rome-to-rimini,from €9.90
+Catania,Florence,https://www.thetrainline.com/en/train-times/catania-to-florence,from €25.80
+Stuttgart,Linz,https://www.thetrainline.com/en/train-times/stuttgart-to-linz,from €22.89
+Bern,Cologne,https://www.thetrainline.com/en/train-times/bern-to-cologne,NA
+Graz,Innsbruck,https://www.thetrainline.com/en/train-times/graz-to-innsbruck,NA
+Exeter,Aberdeen,https://www.thetrainline.com/en/train-times/exeter-to-aberdeen,from €149.35
+Cologne,Innsbruck,https://www.thetrainline.com/en/train-times/cologne-to-innsbruck,NA
+Aberdeen,Leeds,https://www.thetrainline.com/en/train-times/aberdeen-to-leeds,from €38.07
+Duesseldorf,Amsterdam,https://www.thetrainline.com/en/train-times/duesseldorf-to-amsterdam,NA
+Trieste,Bologna,https://www.thetrainline.com/en/train-times/trieste-to-bologna,from €9.90
+Klagenfurt,Bologna,https://www.thetrainline.com/en/train-times/klagenfurt-to-bologna,NA
+Pescara,Rimini,https://www.thetrainline.com/en/train-times/pescara-to-rimini,from €9.90
+Metz,Marseille,https://www.thetrainline.com/en/train-times/metz-to-marseille,from €41
+Marseille,Luxembourg,https://www.thetrainline.com/en/train-times/marseille-to-luxembourg,from €57
+Zurich,Dortmund,https://www.thetrainline.com/en/train-times/zurich-to-dortmund,from €17.90
+Reus,Valencia,https://www.thetrainline.com/en/train-times/reus-to-valencia,from €23.60
+Bristol,Newcastle,https://www.thetrainline.com/en/train-times/bristol-to-newcastle,NA
+Poznan,Ostrava,https://www.thetrainline.com/en/train-times/poznan-to-ostrava,NA
+Nuremberg,Amsterdam,https://www.thetrainline.com/en/train-times/nuremberg-to-amsterdam,from €29.90
+Leeds,Aberdeen,https://www.thetrainline.com/en/train-times/leeds-to-aberdeen,from €30.36
+Aberdeen,Birmingham,https://www.thetrainline.com/en/train-times/aberdeen-to-birmingham,from €42.72
+Exeter,Newcastle,https://www.thetrainline.com/en/train-times/exeter-to-newcastle,from €92.18
+Varna,Burgas,https://www.thetrainline.com/en/train-times/varna-to-burgas,NA
+Pardubice,Karlovy Vary,https://www.thetrainline.com/en/train-times/pardubice-to-karlovy-vary,NA
+Genoa,Lugano,https://www.thetrainline.com/en/train-times/genoa-to-lugano,from €20
+Klagenfurt,Stuttgart,https://www.thetrainline.com/en/train-times/klagenfurt-to-stuttgart,NA
+Edinburgh,Exeter,https://www.thetrainline.com/en/train-times/edinburgh-to-exeter,from €96.10
+Rome,Klagenfurt,https://www.thetrainline.com/en/train-times/rome-to-klagenfurt,NA
+Bologna,Trieste,https://www.thetrainline.com/en/train-times/bologna-to-trieste,from €9.90
+Zurich,Frankfurt,https://www.thetrainline.com/en/train-times/zurich-to-frankfurt,NA
+Frankfurt,Zurich,https://www.thetrainline.com/en/train-times/frankfurt-to-zurich,NA
+Dortmund,Friedrichshafen,https://www.thetrainline.com/en/train-times/dortmund-to-friedrichshafen,NA
+Genoa,Naples,https://www.thetrainline.com/en/train-times/genoa-to-naples,from €13.45
+Alicante,Oviedo,https://www.thetrainline.com/en/train-times/alicante-to-oviedo,from €26.75
+Valencia,Oviedo,https://www.thetrainline.com/en/train-times/valencia-to-oviedo,from €14.75
+Liege,Linz,https://www.thetrainline.com/en/train-times/liege-to-linz,from €39.90
+Edinburgh,Bristol,https://www.thetrainline.com/en/train-times/edinburgh-to-bristol,NA
+Ostrava,Karlovy Vary,https://www.thetrainline.com/en/train-times/ostrava-to-karlovy-vary,NA
+Frankfurt,Linz,https://www.thetrainline.com/en/train-times/frankfurt-to-linz,NA
+Friedrichshafen,Duesseldorf,https://www.thetrainline.com/en/train-times/friedrichshafen-to-duesseldorf,NA
+Madrid,Reus,https://www.thetrainline.com/en/train-times/madrid-to-reus,from €18.45
+Bremen,Augsburg,https://www.thetrainline.com/en/train-times/bremen-to-augsburg,NA
+Catania,Lamezia Terme,https://www.thetrainline.com/en/train-times/catania-to-lamezia-terme,from €10.90
+Pisa,Lamezia Terme,https://www.thetrainline.com/en/train-times/pisa-to-lamezia-terme,from €8.90
+Bern,Mannheim,https://www.thetrainline.com/en/train-times/bern-to-mannheim,from €19.90
+Innsbruck,Stuttgart,https://www.thetrainline.com/en/train-times/innsbruck-to-stuttgart,NA
+Bern,Frankfurt,https://www.thetrainline.com/en/train-times/bern-to-frankfurt,NA
+Bern,Bremen,https://www.thetrainline.com/en/train-times/bern-to-bremen,from €19.90
+Nantes,Lyon,https://www.thetrainline.com/en/train-times/nantes-to-lyon,from €15
+Duesseldorf,Linz,https://www.thetrainline.com/en/train-times/duesseldorf-to-linz,NA
+Leeds,Glasgow,https://www.thetrainline.com/en/train-times/leeds-to-glasgow,from €26.56
+Aberdeen,Newcastle,https://www.thetrainline.com/en/train-times/aberdeen-to-newcastle,from €23.38
+Budapest,Augsburg,https://www.thetrainline.com/en/train-times/budapest-to-augsburg,from €29.90
+Cologne,Amsterdam,https://www.thetrainline.com/en/train-times/cologne-to-amsterdam,NA
+Birmingham,Doncaster,https://www.thetrainline.com/en/train-times/birmingham-to-doncaster,from €32.81
+Inverness,Doncaster,https://www.thetrainline.com/en/train-times/inverness-to-doncaster,from €71.37
+Poprad,Vienna,https://www.thetrainline.com/en/train-times/poprad-to-vienna,NA
+Aberdeen,Doncaster,https://www.thetrainline.com/en/train-times/aberdeen-to-doncaster,from €38.56
+Bratislava,Innsbruck,https://www.thetrainline.com/en/train-times/bratislava-to-innsbruck,NA
+Pardubice,Krakow,https://www.thetrainline.com/en/train-times/pardubice-to-krakow,NA
+Augsburg,Saarbruecken,https://www.thetrainline.com/en/train-times/augsburg-to-saarbruecken,NA
+Bremen,Innsbruck,https://www.thetrainline.com/en/train-times/bremen-to-innsbruck,NA
+Verona,Turin,https://www.thetrainline.com/en/train-times/verona-to-turin,NA
+Lille,Nantes,https://www.thetrainline.com/en/train-times/lille-to-nantes,from €25
+Rimini,Turin,https://www.thetrainline.com/en/train-times/rimini-to-turin,from €10.80
+Exeter,Doncaster,https://www.thetrainline.com/en/train-times/exeter-to-doncaster,from €41.62
+Doncaster,Glasgow,https://www.thetrainline.com/en/train-times/doncaster-to-glasgow,from €28.65
+Zaragoza,Santiago de Compostela,https://www.thetrainline.com/en/train-times/zaragoza-to-santiago-de-compostela,from €18.05
+Aberdeen,Exeter,https://www.thetrainline.com/en/train-times/aberdeen-to-exeter,from €103.32
+Bremen,Stuttgart,https://www.thetrainline.com/en/train-times/bremen-to-stuttgart,from €17.90
+Paderborn,Cologne,https://www.thetrainline.com/en/train-times/paderborn-to-cologne,NA
+Leeds,Exeter,https://www.thetrainline.com/en/train-times/leeds-to-exeter,from €81.77
+Duesseldorf,Innsbruck,https://www.thetrainline.com/en/train-times/duesseldorf-to-innsbruck,NA
+Santiago de Compostela,Zaragoza,https://www.thetrainline.com/en/train-times/santiago-de-compostela-to-zaragoza,from €15.05
+Florence,Catania,https://www.thetrainline.com/en/train-times/florence-to-catania,from €28.80
+Westerland,Berlin,https://www.thetrainline.com/en/train-times/westerland-to-berlin,NA
+Berlin,Westerland,https://www.thetrainline.com/en/train-times/berlin-to-westerland,NA
+Katowice,Pardubice,https://www.thetrainline.com/en/train-times/katowice-to-pardubice,NA
+Lugano,Bologna,https://www.thetrainline.com/en/train-times/lugano-to-bologna,from €26.90
+Linz,Duesseldorf,https://www.thetrainline.com/en/train-times/linz-to-duesseldorf,NA
+Linz,Amsterdam,https://www.thetrainline.com/en/train-times/linz-to-amsterdam,from €29.20
+Mannheim,Friedrichshafen,https://www.thetrainline.com/en/train-times/mannheim-to-friedrichshafen,NA
+Munich,Innsbruck,https://www.thetrainline.com/en/train-times/munich-to-innsbruck,NA
+Klagenfurt,Verona,https://www.thetrainline.com/en/train-times/klagenfurt-to-verona,NA
+Doncaster,Plymouth,https://www.thetrainline.com/en/train-times/doncaster-to-plymouth,from €47.74
+Cologne,Friedrichshafen,https://www.thetrainline.com/en/train-times/cologne-to-friedrichshafen,NA
+Klagenfurt,Mannheim,https://www.thetrainline.com/en/train-times/klagenfurt-to-mannheim,NA
+Nuremberg,Bremen,https://www.thetrainline.com/en/train-times/nuremberg-to-bremen,from €17.90
+Memmingen,Mannheim,https://www.thetrainline.com/en/train-times/memmingen-to-mannheim,from €12.90
+Duesseldorf,Salzburg,https://www.thetrainline.com/en/train-times/duesseldorf-to-salzburg,NA
+Exeter,Manchester,https://www.thetrainline.com/en/train-times/exeter-to-manchester,from €46.27
+Lugano,Verona,https://www.thetrainline.com/en/train-times/lugano-to-verona,NA
+Nantes,Chambery-Savoie,https://www.thetrainline.com/en/train-times/nantes-to-chambery-savoie,NA
+Bremen,Rostock,https://www.thetrainline.com/en/train-times/bremen-to-rostock,from €17.90
+Cologne,Salzburg,https://www.thetrainline.com/en/train-times/cologne-to-salzburg,NA
+Plovdiv,Burgas,https://www.thetrainline.com/en/train-times/plovdiv-to-burgas,NA
+Frankfurt,Paderborn,https://www.thetrainline.com/en/train-times/frankfurt-to-paderborn,NA
+Memmingen,Dortmund,https://www.thetrainline.com/en/train-times/memmingen-to-dortmund,from €23.90
+Innsbruck,Hannover,https://www.thetrainline.com/en/train-times/innsbruck-to-hannover,NA
+Pardubice,Poprad,https://www.thetrainline.com/en/train-times/pardubice-to-poprad,NA
+Salzburg,Cologne,https://www.thetrainline.com/en/train-times/salzburg-to-cologne,NA
+Friedrichshafen,Dortmund,https://www.thetrainline.com/en/train-times/friedrichshafen-to-dortmund,NA
+Plymouth,Newquay,https://www.thetrainline.com/en/train-times/plymouth-to-newquay,from €6.12
+Friedrichshafen,Frankfurt,https://www.thetrainline.com/en/train-times/friedrichshafen-to-frankfurt,NA
+Newquay,Plymouth,https://www.thetrainline.com/en/train-times/newquay-to-plymouth,from €6.12
+Memmingen,Stuttgart,https://www.thetrainline.com/en/train-times/memmingen-to-stuttgart,from €12.90
+Cologne,Linz,https://www.thetrainline.com/en/train-times/cologne-to-linz,NA
+Pardubice,Kosice,https://www.thetrainline.com/en/train-times/pardubice-to-kosice,NA
+Nantes,Lille,https://www.thetrainline.com/en/train-times/nantes-to-lille,from €20
+Exeter,Edinburgh,https://www.thetrainline.com/en/train-times/exeter-to-edinburgh,from €96.10
+Alicante,Valladolid,https://www.thetrainline.com/en/train-times/alicante-to-valladolid,NA
+Newcastle,Exeter,https://www.thetrainline.com/en/train-times/newcastle-to-exeter,from €92.18
+Glasgow,Newcastle,https://www.thetrainline.com/en/train-times/glasgow-to-newcastle,from €17.02
+Saarbruecken,Augsburg,https://www.thetrainline.com/en/train-times/saarbruecken-to-augsburg,NA
+Salzburg,Dortmund,https://www.thetrainline.com/en/train-times/salzburg-to-dortmund,NA
+Hannover,Innsbruck,https://www.thetrainline.com/en/train-times/hannover-to-innsbruck,NA
+Montpellier,Nantes,https://www.thetrainline.com/en/train-times/montpellier-to-nantes,from €35
+Verona,Geneva,https://www.thetrainline.com/en/train-times/verona-to-geneva,NA
+Doncaster,Inverness,https://www.thetrainline.com/en/train-times/doncaster-to-inverness,from €49.09
+Bratislava,Linz,https://www.thetrainline.com/en/train-times/bratislava-to-linz,from €18.40
+Plymouth,Doncaster,https://www.thetrainline.com/en/train-times/plymouth-to-doncaster,from €47.74
+Manchester,Exeter,https://www.thetrainline.com/en/train-times/manchester-to-exeter,from €46.27
+Doncaster,Birmingham,https://www.thetrainline.com/en/train-times/doncaster-to-birmingham,from €32.81
+Poprad,Kosice,https://www.thetrainline.com/en/train-times/poprad-to-kosice,NA
+Wroclaw,Poznan,https://www.thetrainline.com/en/train-times/wroclaw-to-poznan,NA
+Malmo,Ronneby,https://www.thetrainline.com/en/train-times/malmo-to-ronneby,NA
+Luxembourg,Metz,https://www.thetrainline.com/en/train-times/luxembourg-to-metz,NA
+Prague,Split,https://www.thetrainline.com/en/train-times/prague-to-split,NA
+Malmo,Gothenburg,https://www.thetrainline.com/en/train-times/malmo-to-gothenburg,NA
+Malmo,Vaxjo,https://www.thetrainline.com/en/train-times/malmo-to-vaxjo,NA
+Basel,Rostock,https://www.thetrainline.com/en/train-times/basel-to-rostock,NA
+Split,Brno,https://www.thetrainline.com/en/train-times/split-to-brno,NA
+Poznan,Wroclaw,https://www.thetrainline.com/en/train-times/poznan-to-wroclaw,NA
+Ronneby,Malmo,https://www.thetrainline.com/en/train-times/ronneby-to-malmo,NA
+Luxembourg,Cologne,https://www.thetrainline.com/en/train-times/luxembourg-to-cologne,NA
+Vaxjo,Malmo,https://www.thetrainline.com/en/train-times/vaxjo-to-malmo,NA
+Luxembourg,Duesseldorf,https://www.thetrainline.com/en/train-times/luxembourg-to-duesseldorf,NA
+Bordeaux,Chambery-Savoie,https://www.thetrainline.com/en/train-times/bordeaux-to-chambery-savoie,NA
+Split,Prague,https://www.thetrainline.com/en/train-times/split-to-prague,NA
+Budapest,Split,https://www.thetrainline.com/en/train-times/budapest-to-split,NA
+Brno,Split,https://www.thetrainline.com/en/train-times/brno-to-split,NA
+Exeter,Southampton,https://www.thetrainline.com/en/train-times/exeter-to-southampton,NA
+Westerland,Munich,https://www.thetrainline.com/en/train-times/westerland-to-munich,NA
+Split,Budapest,https://www.thetrainline.com/en/train-times/split-to-budapest,NA
+Mannheim,Rostock,https://www.thetrainline.com/en/train-times/mannheim-to-rostock,NA
+Southampton,Exeter,https://www.thetrainline.com/en/train-times/southampton-to-exeter,NA
+Rostock,Mannheim,https://www.thetrainline.com/en/train-times/rostock-to-mannheim,NA
+Liverpool,Glasgow,https://www.thetrainline.com/en/train-times/liverpool-to-glasgow,NA
+Kortrijk,Liege,https://www.thetrainline.com/en/train-times/kortrijk-to-liege,NA
+Edinburgh,Liverpool,https://www.thetrainline.com/en/train-times/edinburgh-to-liverpool,NA
+Westerland,Augsburg,https://www.thetrainline.com/en/train-times/westerland-to-augsburg,NA
+Dortmund,Rostock,https://www.thetrainline.com/en/train-times/dortmund-to-rostock,NA
+Liege,Kortrijk,https://www.thetrainline.com/en/train-times/liege-to-kortrijk,NA
+Glasgow,Liverpool,https://www.thetrainline.com/en/train-times/glasgow-to-liverpool,NA
