@@ -1,0 +1,94 @@
+library(tidyverse)
+library(httr)
+library(usethis)
+
+
+run2 <- read_csv("Datasets/all_direct_routes_2_run.csv") %>%
+  filter(transport_id == 1)
+run3 <- read_csv("Datasets/all_direct_routes_3_run.csv") %>%
+  filter(transport_id == 1)
+run4 <- read_csv("Datasets/all_direct_routes_for_validation_4run.csv") %>%
+  filter(transport_id == 1) %>%
+  select(from_id:duration_min)
+run <- rbind(run2, run3, run4) %>%
+  select(from_id,
+         to_id) %>%
+  distinct()
+locations <- readxl::read_excel("Datasets/locations_with_id.xlsx", col_names = FALSE) %>%
+  rename(id_city = ...1, 
+         city = ...2, 
+         id_country = ...3, 
+         country = ...8) %>%
+  select(id_city, city, id_country, country)
+locations_from <- locations %>%
+  rename(from_id = id_city, from_city = city,
+         from_country_id = id_country, from_country = country)
+locations_to <- locations %>%
+  rename(to_id = id_city, to_city = city,
+         to_country_id = id_country, to_country = country)
+connected_from <- left_join(run, locations_from, by = "from_id")
+connected_to <- left_join(connected_from, locations_to, by = "to_id")
+
+city_code <- GET("http://api.travelpayouts.com/data/en/cities.json")
+city_code_resp <- jsonlite::fromJSON(rawToChar(city_code$content))
+city_code_df <- city_code_resp %>%
+  select(code:name)
+city_from <- tibble(from_code = city_code_df$code,
+                    from_lat = city_code_df$coordinates$lat,
+                    from_lon = city_code_df$coordinates$lon,
+                    from_city = city_code_df$name)
+city_to <- tibble(to_code = city_code_df$code,
+                  to_lat = city_code_df$coordinates$lat,
+                  to_lon = city_code_df$coordinates$lon,
+                  to_city = city_code_df$name)
+from <- left_join(connected_to, city_from, by = "from_city")
+to <- left_join(from, city_to, by = "to_city")
+all_routes_with_codes <- to %>%
+  select(from_code,
+         to_code,
+         from_city,
+         to_city)
+query_link <- paste0("https://api.travelpayouts.com/aviasales/v3/prices_for_dates?currency=eur&origin=",
+                     all_routes_with_codes$from_code, "&destination=", 
+                     all_routes_with_codes$to_code, 
+                     "&unique=false&sorting=price&direct=false&limit=3&page=1&one_way=true&token=", Sys.getenv("aviasales_API_token"))
+query_sing <- paste0("https://api.travelpayouts.com/aviasales/v3/prices_for_dates?currency=eur&origin=",
+                     all_routes_with_codes[5,1], "&destination=", 
+                     all_routes_with_codes[5,2], 
+                     "&unique=false&sorting=price&direct=false&limit=5&page=1&one_way=true&token=", Sys.getenv("aviasales_API_token"))
+query1 <- GET(query_sing)
+resp1 <- jsonlite::fromJSON(rawToChar(query1$content))
+df1 <- resp1$data
+
+api_call <- function(link) {
+  query <- GET(link)
+  resp <- jsonlite::fromJSON(rawToChar(query$content))
+  resp$data
+}
+
+data_with_cheap_flights <- data_frame()
+for (i in 1:length(query_link)) {
+  data <- api_call(query_link[i])
+  data_with_cheap_flights <- rbind(data_with_cheap_flights, data)
+}
+
+
+run_02_06 <- data_with_cheap_flights
+run_01_06 <- read_csv("Datasets/run_01_06.csv")
+API_flights_run2 <- rbind(run_01_06, run_02_06)
+
+write_csv(API_flights_run2, "Datasets/API_flights_run2.csv")
+#------------------------------------------------------------------------------
+API_flights <- API_flights_run2 %>%
+  group_by(origin, destination) %>% 
+  slice(which.min(price))
+
+flights <- left_join(all_routes_with_codes, API_flights, by = c("from_code" = "origin",
+                                                                "to_code" = "destination"))
+sum(is.na(flights))
+flights <- flights %>%
+  arrange(price) %>%
+  filter(price != 2)
+write_csv(flights, "Datasets/API_flights.csv")
+
+

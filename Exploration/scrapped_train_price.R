@@ -1,6 +1,6 @@
 library(tidyverse)
 library(rvest)
-setwd("/Users/miss_viktoriia/Documents/CheapTrip/Git_project_validation/Trips-Validation")
+
 train_routes <- read_csv("Datasets/train_routes_all.csv") %>%
   select(from_city,
          to_city) %>%
