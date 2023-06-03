@@ -1,0 +1,296 @@
+library(shiny)
+library(shinyWidgets)
+library(tidyverse)
+library(bslib)
+library(openai)
+library(httr)
+library(leaflet)
+library(usethis)
+
+
+
+trips <- read_csv("routes_full.csv")
+trips$from_city <- as.factor(trips$from_city)
+trips$to_city <- as.factor(trips$to_city)
+trips$from_country <- as.factor(trips$from_country)
+trips$to_country <- as.factor(trips$to_country)
+trips <- trips %>%
+  arrange(from_city) %>%
+  distinct(.keep_all = FALSE)
+
+map_data <- read_csv("map_data.csv") %>%
+  select(long:subregion)
+map_data$region <- as.factor(map_data$region)
+map_data$subregion <- as.factor(map_data$subregion)
+
+country_name <- map_data %>%
+  group_by(region) %>%
+  summarise(long = mean(long), lat = mean(lat))
+
+
+
+ui <- fluidPage(
+  theme = bs_theme(version = 4, bootswatch = "sandstone", heading_font = "Fahkwang",
+                   bg = "#FBF9F5",
+                   fg = "#5D4A39"),
+  setBackgroundImage(src = "travel_6131.png", shinydashboard = FALSE),
+  fluidRow(
+    column(width = 5, 
+           absolutePanel(id = "loc", class = "panel",
+                         bottom = 180, left = 170, width = 230, 
+                         fixed = TRUE,
+                         draggable = FALSE, height = "auto",
+                         wellPanel(selectInput(inputId = "from",
+                                               label = "From city:",
+                                               choices = levels(trips$from_city),
+                                               selected = "Plovdiv"),
+                                   selectInput(inputId = "to",
+                                               label = "To city:",
+                                               choices = levels(trips$to_city),
+                                               selected = NULL)
+                         ))),
+    column(width = 7, position = "right",
+           absolutePanel(id = "res", class = "panel",
+                         top = 90, left = 550, width = 790, 
+                         fixed = TRUE,
+                         draggable = FALSE, height = "auto",
+                         wellPanel(width = 5, 
+                                   tabsetPanel(type = "pills",
+                                               tabPanel("Map", 
+                                                        #tableOutput(outputId = "tab")),
+                                                        plotOutput("plot", height = "490px")),
+                                               tabPanel("Expected Price",
+                                                        fluidRow(
+                                                          column(3, offset = 1,
+                                                                 tags$img(src = "bus_pic2.png", width = 100, shinydashboard = FALSE),
+                                                                 tags$img(src = "plane_pic2.png", width = 100, shinydashboard = FALSE),
+                                                                 tags$img(src = "train_pic2.png", width = 100, shinydashboard = FALSE)
+                                                          ),
+                                                          column(9,
+                                                                 absolutePanel(id = "bus", class = "panel",
+                                                                               top = 190, left = 780, width = 500, 
+                                                                               fixed = TRUE,
+                                                                               draggable = FALSE, height = "auto",(h5(htmlOutput("price_bus")))),
+                                                                 absolutePanel(id = "plane", class = "panel",
+                                                                               top = 300, left = 780, width = 500, 
+                                                                               fixed = TRUE,
+                                                                               draggable = FALSE, height = "auto",(h5(htmlOutput("price_flight")))),
+                                                                 absolutePanel(id = "train", class = "panel",
+                                                                               top = 410, left = 780, width = 500, 
+                                                                               fixed = TRUE,
+                                                                               draggable = FALSE, height = "auto",(h5(htmlOutput("price_train"))))
+                                                          )
+                                                        )
+                                               ),
+                                               tabPanel("Accomodation",
+                                                        h6("Recommendation regarding cheap places to stay (click the marker to see more)", align = "center"),
+                                                        leaflet::leafletOutput('destination',
+                                                                               width = "100%",
+                                                                               height = 450),
+                                                        tags$style(
+                                                          HTML(".shiny-notification {
+                                                                 position:fixed;
+                                                                 bottom: 60px;
+                                                                 right: 120px;
+                                                                }"
+                                                          )
+                                                        )),
+                                               tabPanel("Sightseeing", 
+                                                        h6("Recommendation regarding tourist attractions to visit in your destination city", align = "center"),
+                                                        shinycssloaders::withSpinner(tagAppendAttributes(textOutput("gpt_suggest"), style ="white-space:pre-wrap;"),
+                                                                                     size = 1, color = "#5D4A39")
+                                               )
+                                   )
+                         )
+           )
+    )
+  )
+  
+)
+
+server <- function(input, output, session){
+  thematic::thematic_shiny() 
+  
+  #Update input to
+  react_from <- reactive({
+    trips %>%
+      filter(from_city == input$from) %>%
+      arrange(to_city)
+  })
+  observe({
+    updateSelectInput(session, "to", choices = react_from()$to_city)
+  })
+  
+  
+  
+  # Map Tab
+  chosen_loc <- reactive({
+    trips %>%
+      filter(from_city %in% input$from & to_city %in% input$to) %>%
+      filter(price_min_EUR == min(price_min_EUR)) %>%
+      filter(duration_min == min(duration_min)) %>%
+      filter(distance_km == min(distance_km))
+  })
+  
+  chosen_country_name <- reactive({
+    country_name %>%
+      filter(region %in% c(chosen_loc()$from_country, chosen_loc()$to_country))
+  })
+  
+  chosen_country_color <- reactive({
+    map_data %>%
+      filter(region %in% c(chosen_loc()$from_country, chosen_loc()$to_country))
+  })
+  
+  
+  output$plot <- renderPlot({
+    ggplot(map_data) +
+      geom_map(aes(x = long, y = lat, map_id = region),
+               fill = "#e2c9c3", color = "#686461",
+               map = map_data) +
+      coord_map("ortho", orientation = c(39, 0, 0)) +
+      theme_minimal() +
+      theme(axis.title.x = element_blank(),
+            axis.title.y = element_blank()) +
+      ylim(30, 70) +
+      geom_polygon(data = chosen_country_color(), aes(x = long, y = lat, group = group, 
+                                                      alpha = 0.9), 
+                   fill = "#37745B", color = "black", show.legend = FALSE) +
+      geom_text(aes(x = long, y = lat, label = region), data = chosen_country_name(),  
+                size = 4, hjust = 0.6, color = "red") +
+      geom_text(aes(x = from_longitude, y = from_latitude, label = from_city), 
+                data = chosen_loc(),  
+                size = 6, hjust = -0.6, color = "red") +
+      geom_text(aes(x = to_longitude, y = to_latitude, label = to_city), 
+                data = chosen_loc(),  
+                size = 6, hjust = -0.6, color = "red") +
+      geom_point(data = chosen_loc(), aes(x = from_longitude, y = from_latitude), 
+                 color = "#f6f1b5", size = 2) +
+      geom_point(data = chosen_loc(), aes(x = to_longitude, y = to_latitude), 
+                 color = "#f6f1b5", size = 2) +
+      theme(panel.grid.major = element_line(colour = "#C2C3C5"))
+    
+  })
+  
+  # Price Tab
+  bus_react <- reactive({
+    trips %>%
+      filter(transport_id == 2) %>%
+      filter(from_city %in% input$from & to_city %in% input$to) %>%
+      filter(price_min_EUR == min(price_min_EUR)) %>%
+      filter(duration_min == min(duration_min)) %>%
+      filter(distance_km == min(distance_km))
+  })
+  
+  output$price_bus <- renderUI({
+    bus_dim <- nrow(as.data.frame(bus_react()))
+    if (bus_dim == 0) {
+      print("No routes found")
+    } else {
+      HTML(paste("The expected minimum price is", "<b>", bus_react()$price_min_EUR, "</b>", "euros for",
+                 "<b>", bus_react()$duration_min, "</b>", "min trip"))
+    }
+  })
+  
+  flight_react <- reactive({
+    trips %>%
+      filter(transport_id == 1) %>%
+      filter(from_city %in% input$from & to_city %in% input$to) %>%
+      filter(price_min_EUR == min(price_min_EUR)) %>%
+      filter(duration_min == min(duration_min)) %>%
+      filter(distance_km == min(distance_km))
+  })
+  
+  output$price_flight <- renderUI({
+    fl_dim <- nrow(as.data.frame(flight_react()))
+    if (fl_dim == 0) {
+      print("No routes found")
+    } else {
+      HTML(paste("The expected minimum price is", "<b>", flight_react()$price_min_EUR, "</b>", 
+                 "euros for", "<b>", flight_react()$duration_min, "</b>", "min trip"))
+    }
+  })
+  
+  train_react <- reactive({
+    trips %>%
+      filter(transport_id == 3) %>%
+      filter(from_city %in% input$from & to_city %in% input$to) %>%
+      filter(price_min_EUR == min(price_min_EUR)) %>%
+      filter(duration_min == min(duration_min)) %>%
+      filter(distance_km == min(distance_km))
+  })
+  
+  output$price_train <- renderUI({
+    tr_dim <- nrow(as.data.frame(train_react()))
+    if (tr_dim == 0) {
+      print("No routes found")
+    } else {
+      HTML(paste("The expected minimum price is", "<b>", train_react()$price_min_EUR, "</b>", 
+                 "euros for", "<b>", train_react()$duration_min, "</b>", "min trip"))
+    }
+  })
+  
+  
+  # Accommodation Tab
+  accomod_react <- reactive({
+    radius = 9000
+    url <- paste0("https://api.geoapify.com/v2/places?categories=accommodation.hostel&filter=circle:", 
+                  chosen_loc()$to_longitude, ",", chosen_loc()$to_latitude, ",", 
+                  radius, "&bias=proximity:", chosen_loc()$to_longitude, ",", 
+                  chosen_loc()$to_latitude, "&limit=35&apiKey=", Sys.getenv("geoapify_API_key"))
+    req <- GET(url)
+    resp <- jsonlite::fromJSON(rawToChar(req$content))
+    tibble(hostel_name = resp$features$properties$name,
+           country = resp$features$properties$country,
+           city = resp$features$properties$city,
+           lng = resp$features$properties$lon,
+           lat = resp$features$properties$lat,
+           website = resp$features$properties$datasource$raw$website,
+           phone = resp$features$properties$datasource$raw$phone) %>%
+      replace(is.na(.), "Not Available")
+    
+  })
+  
+  output$destination <- renderLeaflet({
+    accomod_dim <- nrow(as.data.frame(accomod_react()))
+    if (accomod_dim == 0) {
+      showNotification("Unfortunately, no hostels were found", type = "warning")
+      leaflet() %>% 
+        addTiles() %>% 
+        setView(lat = chosen_loc()$to_latitude, lng = chosen_loc()$to_longitude, zoom = 12)
+    } else {
+      leaflet() %>% 
+        addTiles() %>% 
+        setView(lat = chosen_loc()$to_latitude, lng = chosen_loc()$to_longitude, zoom = 12) %>%
+        addMarkers(lat = accomod_react()$lat, lng = accomod_react()$lng,
+                   label = accomod_react()$hostel_name,
+                   popup = paste("<b>", accomod_react()$hostel_name, "</b>",
+                                 "<br> WebSite:", accomod_react()$website,
+                                 "<br> Phone:", accomod_react()$phone),
+                   labelOptions = labelOptions(
+                     style = list("font-weight" = "normal", padding = "3px 8px"),
+                     textsize = "15px", direction = "auto"))
+    }
+    
+  })
+  
+  # Sightseeing Tab
+  output$gpt_suggest <- renderText({
+    api_key <- Sys.getenv("openai_API_key")
+    query <- paste("What places should I visit in", input$to, "as a tourist?")
+    answer <- create_completion(
+      model = "text-davinci-003",
+      prompt = query,
+      max_tokens = 400,
+      openai_api_key = api_key,
+      temperature = 0.2
+    )
+    isolate(gsub("\n\n", "\n", answer$choices$text))
+
+    
+  })
+}
+
+shinyApp(ui = ui, server = server)
+
+
