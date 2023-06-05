@@ -7,7 +7,7 @@ library(writexl)
 # MODELING
 #===============================================================================
 # Data merge
-bus <- read_excel("bus_for_labeling.xlsx") %>%
+bus <- read_excel("Datasets/bus_for_labeling.xlsx") %>%
   select(from_id,
          to_id,
          price_min_EUR,
@@ -16,7 +16,7 @@ bus <- read_excel("bus_for_labeling.xlsx") %>%
          frequency_tpw,
          Outcome) %>%
   filter(!is.na(Outcome))
-countries <- read_excel("locations_with_id.xlsx", 
+countries <- read_excel("Datasets/locations_with_id.xlsx", 
                         range = "A1:H775", 
                         col_names = FALSE) %>%
   rename(id_city = ...1, 
@@ -104,7 +104,7 @@ confusionMatrix(factor(cl), test$Outcome, positive = "1")$byClass
 #===============================================================================
 # PREDICTING
 #===============================================================================
-new_dataset <- read_excel("bus_without_labels.xlsx") %>%
+new_dataset <- read_excel("Datasets/bus_without_labels.xlsx") %>%
   select(from_id,
          to_id,
          price_min_EUR,
