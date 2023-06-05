@@ -11,7 +11,7 @@ library(isotree)
 
 
 #-----------------------------------------------------------------------------
-bus <- read_excel("bus_for_labeling.xlsx") %>%
+bus <- read_excel("Datasets/bus_for_labeling.xlsx") %>%
   select(from_id,
          to_id,
          price_min_EUR,
@@ -22,7 +22,7 @@ bus <- read_excel("bus_for_labeling.xlsx") %>%
   filter(!is.na(Outcome))
 summary(bus)
 #-----------------------------------------------------------------------------
-countries <- read_excel("locations_with_id.xlsx", 
+countries <- read_excel("Datasets/locations_with_id.xlsx", 
                         range = "A1:H775", 
                         col_names = FALSE) %>%
   rename(id_city = ...1, 

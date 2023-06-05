@@ -6,10 +6,10 @@ library(doParallel)
 library(DataExplorer)
 library(GGally)
 
-setwd("/Users/miss_viktoriia/Documents/CheapTrip")
+
 #-------------------------------------------------------------------------------
-bus_valid <- read_excel("buses_valid_trips.xlsx")
-bus_invalid <- read_excel("buses_invalid_trips.xlsx")
+bus_valid <- read_excel("Datasets/buses_valid_trips.xlsx")
+bus_invalid <- read_excel("Datasets/buses_invalid_trips.xlsx")
 #bus_min_price <- bus_valid %>%
 #  group_by(from_id, to_id) %>%
 #  summarise(price_min_EUR = min(price_min_EUR)) %>%
@@ -21,7 +21,7 @@ bus_invalid <- read_excel("buses_invalid_trips.xlsx")
 #  View()
 
 bus <- rbind(bus_valid, bus_invalid)
-countries <- read_excel("/Users/miss_viktoriia/Documents/CheapTrip/locations_with_id.xlsx", 
+countries <- read_excel("Datasets/locations_with_id.xlsx", 
                         range = "A1:H775", 
                         col_names = FALSE) %>%
   rename(id_city = ...1, 

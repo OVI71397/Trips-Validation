@@ -149,5 +149,5 @@ buses_valid_trips <- data_prediction %>%
 buses_invalid_trips <- data_prediction %>%
   filter(Predicted_Outcome == 1)
 
-write_xlsx(buses_valid_trips,"/Users/.../buses_valid_trips.xlsx")
-write_xlsx(buses_invalid_trips,"/Users/.../buses_invalid_trips.xlsx")
+write_xlsx(buses_valid_trips,"Datasets/buses_valid_trips.xlsx")
+write_xlsx(buses_invalid_trips,"Datasets/buses_invalid_trips.xlsx")
